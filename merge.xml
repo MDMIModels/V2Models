@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="project" default="default"
+	xmlns:qvto="http://www.eclipse.org/qvt/1.0.0/Operational">
+	<target name="default">
+
+
+
+	
+
+
+		<echo message="Start Merge" />
+	 
+		<mergeModel leftModel="platform:/resource/V2Models/testmerge/LeftMap.mdmi"
+			rightModel="platform:/resource/V2Models/testmerge/RightMap.mdmi"
+		 />
+
+		<echo message="End Merge" />
+
+	</target>
+
+
+
+</project>
