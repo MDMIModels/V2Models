@@ -3,7 +3,7 @@
     xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/Users/seanmuir/git/V2Models/models/./src/." modelPluginID="emf.lib.example"
     modelName="Lib" importerID="org.eclipse.xsd.ecore.importer" complianceLevel="5.0"
     copyrightFields="false">
-  <foreignModel>../v25/xsd/BAR_P01.xsd</foreignModel>
+  <foreignModel>../v25/xsd/BAR_P02.xsd</foreignModel>
   <genPackages prefix="V2xml" basePackage="org.hl7" resource="XML" disposableProviderFactory="true"
       loadInitialization="true" literalsInterface="false" ecorePackage="v2xml.ecore#/">
     <genDataTypes ecoreDataType="v2xml.ecore#//DT"/>
@@ -1123,41 +1123,17 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//AUTCONTENT/aUT10"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute v2xml.ecore#//AUTCONTENT/any"/>
     </genClasses>
-    <genClasses ecoreClass="v2xml.ecore#//BARP01CONTENT">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01CONTENT/mSH"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01CONTENT/sFT"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01CONTENT/eVN"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01CONTENT/pID"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01CONTENT/pD1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01CONTENT/rOL"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01CONTENT/bARP01VISIT"/>
+    <genClasses ecoreClass="v2xml.ecore#//BARP02CONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP02CONTENT/mSH"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP02CONTENT/sFT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP02CONTENT/eVN"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP02CONTENT/bARP02PATIENT"/>
     </genClasses>
-    <genClasses ecoreClass="v2xml.ecore#//BARP01INSURANCECONTENT">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01INSURANCECONTENT/iN1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01INSURANCECONTENT/iN2"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01INSURANCECONTENT/iN3"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01INSURANCECONTENT/rOL"/>
-    </genClasses>
-    <genClasses ecoreClass="v2xml.ecore#//BARP01PROCEDURECONTENT">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01PROCEDURECONTENT/pR1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01PROCEDURECONTENT/rOL"/>
-    </genClasses>
-    <genClasses ecoreClass="v2xml.ecore#//BARP01VISITCONTENT">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/pV1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/pV2"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/rOL"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/dB1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/oBX"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/aL1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/dG1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/dRG"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/bARP01PROCEDURE"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/gT1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/nK1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/bARP01INSURANCE"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/aCC"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/uB1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP01VISITCONTENT/uB2"/>
+    <genClasses ecoreClass="v2xml.ecore#//BARP02PATIENTCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP02PATIENTCONTENT/pID"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP02PATIENTCONTENT/pD1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP02PATIENTCONTENT/pV1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//BARP02PATIENTCONTENT/dB1"/>
     </genClasses>
     <genClasses ecoreClass="v2xml.ecore#//BHS10CONTENT">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute v2xml.ecore#//BHS10CONTENT/value"/>
@@ -3475,10 +3451,8 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aUT7"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aUT8"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aUT9"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/bARP01"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/bARP01INSURANCE"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/bARP01PROCEDURE"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/bARP01VISIT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/bARP02"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/bARP02PATIENT"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/bHS"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/bHS1"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/bHS10"/>
