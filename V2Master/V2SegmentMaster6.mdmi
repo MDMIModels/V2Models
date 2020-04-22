@@ -7018,8 +7018,8 @@
         </semanticElements>
         <semanticElements xmi:id="_08hRs9DWEemgUJCBpnW2Jw" name="Message Profile Identifier" datatype="_08k7i9DWEemgUJCBpnW2Jw" parent="_08hRntDWEemgUJCBpnW2Jw" syntaxNode="_08eNqtDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hRtNDWEemgUJCBpnW2Jw" name="Date/Time Of Message" description="aaa" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hRntDWEemgUJCBpnW2Jw" syntaxNode="_08eNpdDWEemgUJCBpnW2Jw">
-          <mapFromMdmi xmi:id="_jhC44VkUEeqMwMm3jR_IKg" name="MDMI2Message4Date/Time Of Message" businessElement="__jmQ5tVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapDateTimeToString"/>
-          <mapToMdmi xmi:id="_jhC44FkUEeqMwMm3jR_IKg" name="Message2MDMI4Date/Time Of Message" businessElement="__jmQ5tVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapStringToDateTime"/>
+          <mapFromMdmi xmi:id="_bqb2sYS-Eeq82Z1E9XXBCg" name="MDMI2Message4Date/Time Of Message" businessElement="__jmQ5tVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapDateTimeToString"/>
+          <mapToMdmi xmi:id="_bqb2sIS-Eeq82Z1E9XXBCg" name="Message2MDMI4Date/Time Of Message" businessElement="__jmQ5tVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapStringToDateTime"/>
         </semanticElements>
         <semanticElements xmi:id="_08hRtdDWEemgUJCBpnW2Jw" name="Processing ID" datatype="_08k7k9DWEemgUJCBpnW2Jw" parent="_08hRntDWEemgUJCBpnW2Jw" syntaxNode="_08eNp9DWEemgUJCBpnW2Jw">
           <mapFromMdmi xmi:id="_ZsSW8N4VEemIwKilxOhcnw" name="MDMI2Message4Processing ID" businessElement="__nfSQ9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToPT"/>
