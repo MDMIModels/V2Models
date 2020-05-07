@@ -7785,7 +7785,10 @@
         </semanticElements>
         <semanticElements xmi:id="_08h4CdDWEemgUJCBpnW2Jw" name="Value Type" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcatDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08h4CtDWEemgUJCBpnW2Jw" name="Probability" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcctDWEemgUJCBpnW2Jw"/>
-        <semanticElements xmi:id="_08h4C9DWEemgUJCBpnW2Jw" name="Observation Result Status" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fccNDWEemgUJCBpnW2Jw"/>
+        <semanticElements xmi:id="_08h4C9DWEemgUJCBpnW2Jw" name="Observation Result Status" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fccNDWEemgUJCBpnW2Jw">
+          <mapFromMdmi xmi:id="_3WI4cZCVEeq-W7uegK8QxA" name="MDMI2Message4Observation Result Status" businessElement="__nhugdVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToString"/>
+          <mapToMdmi xmi:id="_3WI4cJCVEeq-W7uegK8QxA" name="Message2MDMI4Observation Result Status" businessElement="__nhugdVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapStringToCodedElement"/>
+        </semanticElements>
         <semanticElements xmi:id="_08h4DNDWEemgUJCBpnW2Jw" name="Observation Sub-ID" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcbNDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08h4DdDWEemgUJCBpnW2Jw" name="Nature of Abnormal Test" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fca9DWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08h4DtDWEemgUJCBpnW2Jw" name="References Range" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcbtDWEemgUJCBpnW2Jw"/>
@@ -7798,13 +7801,23 @@
         <semanticElements xmi:id="_08h4EtDWEemgUJCBpnW2Jw" name="Producer's ID" description="a" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcdtDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08h4E9DWEemgUJCBpnW2Jw" name="Observation Identifier" description="a" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fc1dDWEemgUJCBpnW2Jw">
           <mapFromMdmi xmi:id="_zlyv0VdcEeqMwMm3jR_IKg" name="MDMI2Message4Observation Identifier" businessElement="__ok3Y9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapInstanceIdentifierToCWE"/>
+          <mapFromMdmi xmi:id="_uM54gZCUEeq-W7uegK8QxA" name="MDMI2Message4Observation Identifier2" businessElement="_HMKjkH6bEeq6rK6Ig4Z57A" rule="DATATYPEMAP:mapCodedElementToCWE"/>
+          <mapFromMdmi xmi:id="__KBg8ZCUEeq-W7uegK8QxA" name="MDMI2Message4Observation Identifier3" businessElement="__neEJNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToCWE"/>
           <mapToMdmi xmi:id="_zlyv0FdcEeqMwMm3jR_IKg" name="Message2MDMI4Observation Identifier" businessElement="__ok3Y9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCWEToInstanceIdentifier"/>
+          <mapToMdmi xmi:id="_uM54gJCUEeq-W7uegK8QxA" name="Message2MDMI4Observation Identifier1" businessElement="_HMKjkH6bEeq6rK6Ig4Z57A" rule="DATATYPEMAP:mapCWEToCodedElement"/>
+          <mapToMdmi xmi:id="__KBg8JCUEeq-W7uegK8QxA" name="Message2MDMI4Observation Identifier2" businessElement="__neEJNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCWEToCodedElement"/>
         </semanticElements>
         <semanticElements xmi:id="_08h4FNDWEemgUJCBpnW2Jw" name="Units" description="a" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcg9DWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08h4FdDWEemgUJCBpnW2Jw" name="Observation Value" datatype="_08k8I9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcj9DWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08h4FtDWEemgUJCBpnW2Jw" name="Date/Time of the Analysis" datatype="_08k7kNDWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcfdDWEemgUJCBpnW2Jw"/>
-        <semanticElements xmi:id="_08h4F9DWEemgUJCBpnW2Jw" name="Observation Method" description="a" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fc3NDWEemgUJCBpnW2Jw"/>
-        <semanticElements xmi:id="_08h4GNDWEemgUJCBpnW2Jw" name="Date/Time of the Observation" datatype="_08k7kNDWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcc9DWEemgUJCBpnW2Jw"/>
+        <semanticElements xmi:id="_08h4F9DWEemgUJCBpnW2Jw" name="Observation Method" description="a" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fc3NDWEemgUJCBpnW2Jw">
+          <mapFromMdmi xmi:id="_GTV-8ZCTEeq-W7uegK8QxA" name="MDMI2Message4Observation Method" businessElement="__nhugNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToCWE"/>
+          <mapToMdmi xmi:id="_GTV-8JCTEeq-W7uegK8QxA" name="Message2MDMI4Observation Method" businessElement="__nhugNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCWEToCodedElement"/>
+        </semanticElements>
+        <semanticElements xmi:id="_08h4GNDWEemgUJCBpnW2Jw" name="Date/Time of the Observation" datatype="_08k7kNDWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcc9DWEemgUJCBpnW2Jw">
+          <mapFromMdmi xmi:id="_CA380ZCWEeq-W7uegK8QxA" name="MDMI2Message4Date/Time of the Observation" businessElement="__omslNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapDateTimeToTS"/>
+          <mapToMdmi xmi:id="_CA380JCWEeq-W7uegK8QxA" name="Message2MDMI4Date/Time of the Observation" businessElement="__omslNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapTSToDateTime"/>
+        </semanticElements>
         <semanticElements xmi:id="_08h4GdDWEemgUJCBpnW2Jw" name="Effective Date of Reference Range" datatype="_08k7kNDWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcgNDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08h4GtDWEemgUJCBpnW2Jw" name="Equipment Instance Identifier" datatype="_08k7i9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcitDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08h4G9DWEemgUJCBpnW2Jw" name="Responsible Observer" datatype="_08k7t9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" children="_08h4HNDWEemgUJCBpnW2Jw _08h4HdDWEemgUJCBpnW2Jw _08h4HtDWEemgUJCBpnW2Jw _08h4H9DWEemgUJCBpnW2Jw _08h4INDWEemgUJCBpnW2Jw _08h4I9DWEemgUJCBpnW2Jw _08h4JNDWEemgUJCBpnW2Jw _08h4JdDWEemgUJCBpnW2Jw _08h4JtDWEemgUJCBpnW2Jw" syntaxNode="_08fckNDWEemgUJCBpnW2Jw"/>
