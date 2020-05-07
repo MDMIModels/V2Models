@@ -859,7 +859,7 @@
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e19tDWEemgUJCBpnW2Jw" name="Universal ID Type" description="99999999" location="HD.3" fieldName="HD3"/>
               </nodes>
             </nodes>
-            <nodes xsi:type="mdmi:Bag" xmi:id="_08e1F9DWEemgUJCBpnW2Jw" name="Attending Doctor" description="99999999" location="PV1.7" semanticElement="_WoBpIHQdEeqoZPe2GcF8Cg">
+            <nodes xsi:type="mdmi:Bag" xmi:id="_08e1F9DWEemgUJCBpnW2Jw" name="Attending Doctor" description="99999999" location="PV1.7" semanticElement="_08hTPtDWEemgUJCBpnW2Jw">
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1GNDWEemgUJCBpnW2Jw" name="ID Number" description="99999999" location="XCN.1" semanticElement="_voUoMPUFEemi79roZu9iVg" fieldName="XCN1"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1GdDWEemgUJCBpnW2Jw" name="Given Name" description="99999999" location="XCN.3" semanticElement="_yLSBgI5CEeqjdO7bND9tlw" fieldName="XCN3"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1GtDWEemgUJCBpnW2Jw" name="Second and Further Given Names or Initials Thereof" description="99999999" location="XCN.4" semanticElement="_W0i9gPP9Eemc_MzRTM27Ww" fieldName="XCN4"/>
@@ -1007,7 +1007,7 @@
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_iCqagCpdEeqTZ5QHD2W29g" name="AssigningAuthorityUniversalID" location="XCN.9/HD.2"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_igfmACpdEeqTZ5QHD2W29g" name="AssigningAuthorityUniversalIDType" location="XCN.9/HD.3"/>
             </nodes>
-            <nodes xsi:type="mdmi:Bag" xmi:id="_08e1nNDWEemgUJCBpnW2Jw" name="Consulting Doctor" description="99999999" location="PV1.9" semanticElement="_08hTLdDWEemgUJCBpnW2Jw">
+            <nodes xsi:type="mdmi:Bag" xmi:id="_08e1nNDWEemgUJCBpnW2Jw" name="Consulting Doctor" description="99999999" location="PV1.9" semanticElement="_Xci-YJBNEeq-W7uegK8QxA">
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1ndDWEemgUJCBpnW2Jw" name="ID Number" description="99999999" location="XCN.1" fieldName="XCN1"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1ntDWEemgUJCBpnW2Jw" name="Given Name" description="99999999" location="XCN.3" fieldName="XCN3"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1n9DWEemgUJCBpnW2Jw" name="Second and Further Given Names or Initials Thereof" description="99999999" location="XCN.4" fieldName="XCN4"/>
@@ -1269,7 +1269,7 @@
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1m9DWEemgUJCBpnW2Jw" name="Name of Alternate Coding System" description="99999999" location="CWE.6" fieldName="CWE6"/>
             </nodes>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1DdDWEemgUJCBpnW2Jw" name="Servicing Facility" description="99999999" location="PV1.39" semanticElement="_08hS0tDWEemgUJCBpnW2Jw" fieldName="PV139"/>
-            <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1DNDWEemgUJCBpnW2Jw" name="Bed Status" description="99999999" location="PV1.40" semanticElement="_08hSzdDWEemgUJCBpnW2Jw" fieldName="PV140"/>
+            <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1DNDWEemgUJCBpnW2Jw" name="Bed Status" description="99999999" location="PV1.40" semanticElement="_a-a3wJBPEeq-W7uegK8QxA" fieldName="PV140"/>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1A9DWEemgUJCBpnW2Jw" name="Account Status" description="99999999" location="PV1.41" semanticElement="_08hS2dDWEemgUJCBpnW2Jw" fieldName="PV141"/>
             <nodes xsi:type="mdmi:Bag" xmi:id="_08e1f9DWEemgUJCBpnW2Jw" name="Pending Location" description="99999999" location="PV1.42" semanticElement="_08hTIdDWEemgUJCBpnW2Jw">
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1gNDWEemgUJCBpnW2Jw" name="Point of Care" description="99999999" location="PL.1" fieldName="PL1"/>
@@ -7419,7 +7419,10 @@
           <mapFromMdmi xmi:id="_h2HEYdYrEemjLb7lqV8Sfg" name="MDMI2Message4Hospital Service" businessElement="__o61oNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToString"/>
           <mapToMdmi xmi:id="_h2HEYNYrEemjLb7lqV8Sfg" name="Message2MDMI4Hospital Service" businessElement="__o61oNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapStringToCodedElement"/>
         </semanticElements>
-        <semanticElements xmi:id="_08hSzdDWEemgUJCBpnW2Jw" name="Bed Status" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" syntaxNode="_08e1DNDWEemgUJCBpnW2Jw"/>
+        <semanticElements xmi:id="_08hSzdDWEemgUJCBpnW2Jw" name="Bed Status" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" children="_a-a3wJBPEeq-W7uegK8QxA">
+          <mapFromMdmi xmi:id="_AIKtYZBXEeq-W7uegK8QxA" name="MDMI2Message4Bed Status" businessElement="__mZGENVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToString"/>
+          <mapToMdmi xmi:id="_AIKtYJBXEeq-W7uegK8QxA" name="Message2MDMI4Bed Status" businessElement="__mZGENVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapStringToCodedElement"/>
+        </semanticElements>
         <semanticElements xmi:id="_08hSztDWEemgUJCBpnW2Jw" name="Visit Indicator" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" syntaxNode="_08e1AtDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hSz9DWEemgUJCBpnW2Jw" name="Interest Code" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" syntaxNode="_08e1C9DWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hS0NDWEemgUJCBpnW2Jw" name="Charge Price Indicator" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" syntaxNode="_08e0-dDWEemgUJCBpnW2Jw"/>
@@ -7550,7 +7553,10 @@
         <semanticElements xmi:id="_08hTCtDWEemgUJCBpnW2Jw" name="Expiration Date" datatype="_08k7kNDWEemgUJCBpnW2Jw" parent="_08hTAdDWEemgUJCBpnW2Jw" syntaxNode="_08e2KNDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hTC9DWEemgUJCBpnW2Jw" name="Assigning Jurisdiction" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08hTAdDWEemgUJCBpnW2Jw" syntaxNode="_08e2K9DWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hTDNDWEemgUJCBpnW2Jw" name="Assigning Agency or Department" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08hTAdDWEemgUJCBpnW2Jw" syntaxNode="_08e2NdDWEemgUJCBpnW2Jw"/>
-        <semanticElements xmi:id="_08hTDdDWEemgUJCBpnW2Jw" name="Admitting Doctor" description="a" datatype="_08kZOtDWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" children="_08hTDtDWEemgUJCBpnW2Jw _08hTD9DWEemgUJCBpnW2Jw _08hTENDWEemgUJCBpnW2Jw _08hTEdDWEemgUJCBpnW2Jw _08hTEtDWEemgUJCBpnW2Jw _08hTFdDWEemgUJCBpnW2Jw _08hTFtDWEemgUJCBpnW2Jw _08hTF9DWEemgUJCBpnW2Jw _08hTGNDWEemgUJCBpnW2Jw _U8j9oPP8Eemc_MzRTM27Ww _efwLIPP8Eemc_MzRTM27Ww _msvasPP8Eemc_MzRTM27Ww _qURBICpZEeqTZ5QHD2W29g _YcTEkCpaEeqTZ5QHD2W29g _VN6nkCpbEeqTZ5QHD2W29g _g4pJUCpbEeqTZ5QHD2W29g" syntaxNode="_08e3GdDWEemgUJCBpnW2Jw"/>
+        <semanticElements xmi:id="_08hTDdDWEemgUJCBpnW2Jw" name="Admitting Doctor" description="a" datatype="_08kZOtDWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" children="_08hTDtDWEemgUJCBpnW2Jw _08hTD9DWEemgUJCBpnW2Jw _08hTENDWEemgUJCBpnW2Jw _08hTEdDWEemgUJCBpnW2Jw _08hTEtDWEemgUJCBpnW2Jw _08hTFdDWEemgUJCBpnW2Jw _08hTFtDWEemgUJCBpnW2Jw _08hTF9DWEemgUJCBpnW2Jw _08hTGNDWEemgUJCBpnW2Jw _U8j9oPP8Eemc_MzRTM27Ww _efwLIPP8Eemc_MzRTM27Ww _msvasPP8Eemc_MzRTM27Ww _qURBICpZEeqTZ5QHD2W29g _YcTEkCpaEeqTZ5QHD2W29g _VN6nkCpbEeqTZ5QHD2W29g _g4pJUCpbEeqTZ5QHD2W29g" syntaxNode="_08e3GdDWEemgUJCBpnW2Jw">
+          <mapFromMdmi xmi:id="_rdPiAZBMEeq-W7uegK8QxA" name="MDMI2Message4Admitting Doctor" businessElement="__k9isdVWEemWHIQauk-MYg"/>
+          <mapToMdmi xmi:id="_rdPiAJBMEeq-W7uegK8QxA" name="Message2MDMI4Admitting Doctor" businessElement="__k9isdVWEemWHIQauk-MYg"/>
+        </semanticElements>
         <semanticElements xmi:id="_g4pJUCpbEeqTZ5QHD2W29g" name="Name Type" description="a" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hTDdDWEemgUJCBpnW2Jw" syntaxNode="_08e3IdDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_VN6nkCpbEeqTZ5QHD2W29g" name="Degree" description="a" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hTDdDWEemgUJCBpnW2Jw" syntaxNode="_08e3H9DWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_YcTEkCpaEeqTZ5QHD2W29g" name="Prefix" description="a" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hTDdDWEemgUJCBpnW2Jw" syntaxNode="_08e3HtDWEemgUJCBpnW2Jw"/>
@@ -7604,7 +7610,10 @@
         <semanticElements xmi:id="_08hTKtDWEemgUJCBpnW2Jw" name="Facility" datatype="_08k7h9DWEemgUJCBpnW2Jw" parent="_08hTKdDWEemgUJCBpnW2Jw" syntaxNode="_08e2mtDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hTK9DWEemgUJCBpnW2Jw" name="Comprehensive Location Identifier" datatype="_08k7i9DWEemgUJCBpnW2Jw" parent="_08hTKdDWEemgUJCBpnW2Jw" syntaxNode="_08e2ntDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hTLNDWEemgUJCBpnW2Jw" name="Assigning Authority for Location" datatype="_08k7h9DWEemgUJCBpnW2Jw" parent="_08hTKdDWEemgUJCBpnW2Jw" syntaxNode="_08e2o9DWEemgUJCBpnW2Jw"/>
-        <semanticElements xmi:id="_08hTLdDWEemgUJCBpnW2Jw" name="Consulting Doctor" datatype="_08k7t9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" children="_08hTLtDWEemgUJCBpnW2Jw _08hTL9DWEemgUJCBpnW2Jw _08hTMNDWEemgUJCBpnW2Jw _08hTMdDWEemgUJCBpnW2Jw _08hTMtDWEemgUJCBpnW2Jw _08hTNdDWEemgUJCBpnW2Jw _08hTNtDWEemgUJCBpnW2Jw _08hTN9DWEemgUJCBpnW2Jw _08hTONDWEemgUJCBpnW2Jw" syntaxNode="_08e1nNDWEemgUJCBpnW2Jw"/>
+        <semanticElements xmi:id="_08hTLdDWEemgUJCBpnW2Jw" name="Consulting Doctor" datatype="_08k7t9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" children="_08hTLtDWEemgUJCBpnW2Jw _08hTL9DWEemgUJCBpnW2Jw _08hTMNDWEemgUJCBpnW2Jw _08hTMdDWEemgUJCBpnW2Jw _08hTMtDWEemgUJCBpnW2Jw _08hTNdDWEemgUJCBpnW2Jw _08hTNtDWEemgUJCBpnW2Jw _08hTN9DWEemgUJCBpnW2Jw _08hTONDWEemgUJCBpnW2Jw _Xci-YJBNEeq-W7uegK8QxA">
+          <mapFromMdmi xmi:id="_PsIWEZBNEeq-W7uegK8QxA" name="MDMI2Message4Consulting Doctor" businessElement="__k9isdVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapContainerToXCN"/>
+          <mapToMdmi xmi:id="_PsIWEJBNEeq-W7uegK8QxA" name="Message2MDMI4Consulting Doctor" businessElement="__k9isdVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapXCNToContainer"/>
+        </semanticElements>
         <semanticElements xmi:id="_08hTLtDWEemgUJCBpnW2Jw" name="Family Name" datatype="_08k7pNDWEemgUJCBpnW2Jw" parent="_08hTLdDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hTL9DWEemgUJCBpnW2Jw" name="Assigning Authority" datatype="_08k7h9DWEemgUJCBpnW2Jw" parent="_08hTLdDWEemgUJCBpnW2Jw" syntaxNode="_08e1sdDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hTMNDWEemgUJCBpnW2Jw" name="Assigning Facility" datatype="_08k7h9DWEemgUJCBpnW2Jw" parent="_08hTLdDWEemgUJCBpnW2Jw" syntaxNode="_08e1tdDWEemgUJCBpnW2Jw"/>
@@ -7624,9 +7633,9 @@
         <semanticElements xmi:id="_08hTO9DWEemgUJCBpnW2Jw" name="Assigning Facility" datatype="_08k7h9DWEemgUJCBpnW2Jw" parent="_08hTOdDWEemgUJCBpnW2Jw" syntaxNode="_08e299DWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hTPNDWEemgUJCBpnW2Jw" name="Assigning Jurisdiction" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08hTOdDWEemgUJCBpnW2Jw" syntaxNode="_08e2-9DWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hTPdDWEemgUJCBpnW2Jw" name="Assigning Agency or Department" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08hTOdDWEemgUJCBpnW2Jw" syntaxNode="_08e3BdDWEemgUJCBpnW2Jw"/>
-        <semanticElements xmi:id="_08hTPtDWEemgUJCBpnW2Jw" name="Attending Doctor" description="a" datatype="_08kZOtDWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" children="_08hTP9DWEemgUJCBpnW2Jw _08hTQNDWEemgUJCBpnW2Jw _08hTQdDWEemgUJCBpnW2Jw _08hTQtDWEemgUJCBpnW2Jw _08hTQ9DWEemgUJCBpnW2Jw _08hTRtDWEemgUJCBpnW2Jw _08hTR9DWEemgUJCBpnW2Jw _08hTSNDWEemgUJCBpnW2Jw _08hTSdDWEemgUJCBpnW2Jw _y2Xe8PP8Eemc_MzRTM27Ww _W0i9gPP9Eemc_MzRTM27Ww _fW-RkPP9Eemc_MzRTM27Ww _mMmsoPP9Eemc_MzRTM27Ww _w4IbMPP9Eemc_MzRTM27Ww _dS99APP-Eemc_MzRTM27Ww _oqbjgPQJEemc_MzRTM27Ww _vMNl4PUDEemi79roZu9iVg _voUoMPUFEemi79roZu9iVg _4wbmQAAIEeqkgogBBH03yA _WoBpIHQdEeqoZPe2GcF8Cg _yLSBgI5CEeqjdO7bND9tlw">
-          <mapFromMdmi xmi:id="_o0YaEXKXEeqcR7f337lYzA" name="MDMI2Message4Attending Doctor2" businessElement="__nvJ5dVWEemWHIQauk-MYg"/>
-          <mapToMdmi xmi:id="_o0YaEHKXEeqcR7f337lYzA" name="Message2MDMI4Attending Doctor1" businessElement="__nvJ5dVWEemWHIQauk-MYg"/>
+        <semanticElements xmi:id="_08hTPtDWEemgUJCBpnW2Jw" name="Attending Doctor" description="a" datatype="_08kZOtDWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" children="_08hTP9DWEemgUJCBpnW2Jw _08hTQNDWEemgUJCBpnW2Jw _08hTQdDWEemgUJCBpnW2Jw _08hTQtDWEemgUJCBpnW2Jw _08hTQ9DWEemgUJCBpnW2Jw _08hTRtDWEemgUJCBpnW2Jw _08hTR9DWEemgUJCBpnW2Jw _08hTSNDWEemgUJCBpnW2Jw _08hTSdDWEemgUJCBpnW2Jw _y2Xe8PP8Eemc_MzRTM27Ww _W0i9gPP9Eemc_MzRTM27Ww _fW-RkPP9Eemc_MzRTM27Ww _mMmsoPP9Eemc_MzRTM27Ww _w4IbMPP9Eemc_MzRTM27Ww _dS99APP-Eemc_MzRTM27Ww _oqbjgPQJEemc_MzRTM27Ww _voUoMPUFEemi79roZu9iVg _4wbmQAAIEeqkgogBBH03yA _WoBpIHQdEeqoZPe2GcF8Cg _yLSBgI5CEeqjdO7bND9tlw" syntaxNode="_08e1F9DWEemgUJCBpnW2Jw">
+          <mapFromMdmi xmi:id="_NID-MZBKEeq-W7uegK8QxA" name="MDMI2Message4Attending Doctor2" businessElement="__k9isdVWEemWHIQauk-MYg"/>
+          <mapToMdmi xmi:id="_NID-MJBKEeq-W7uegK8QxA" name="Message2MDMI4Attending Doctor1" businessElement="__k9isdVWEemWHIQauk-MYg"/>
         </semanticElements>
         <semanticElements xmi:id="_4wbmQAAIEeqkgogBBH03yA" name="IDRollUP" datatype="_08k7NNDWEemgUJCBpnW2Jw" parent="_08hTPtDWEemgUJCBpnW2Jw">
           <relationships xmi:id="_Az3RMAAJEeqkgogBBH03yA" name="IDstringRollup" rule="value.getXValue().addValue('extension',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_4wbmQAAIEeqkgogBBH03yA" relatedSemanticElement="_voUoMPUFEemi79roZu9iVg"/>
@@ -7636,13 +7645,6 @@
           <mapToMdmi xmi:id="_CA0-IAAKEeqkgogBBH03yA" name="Message2MDMI4IDRollUP" businessElement="__lGFl9VWEemWHIQauk-MYg"/>
         </semanticElements>
         <semanticElements xmi:id="_voUoMPUFEemi79roZu9iVg" name="ID Number" description="a" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hTPtDWEemgUJCBpnW2Jw" syntaxNode="_08e1GNDWEemgUJCBpnW2Jw"/>
-        <semanticElements xmi:id="_vMNl4PUDEemi79roZu9iVg" name="DoctorNameRollUp" description="a" datatype="_08k7SNDWEemgUJCBpnW2Jw" parent="_08hTPtDWEemgUJCBpnW2Jw">
-          <relationships xmi:id="_QuQZMPUEEemi79roZu9iVg" name="Firstname" rule="value.getXValue().addValue('given',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_vMNl4PUDEemi79roZu9iVg" relatedSemanticElement="_y2Xe8PP8Eemc_MzRTM27Ww"/>
-          <relationships xmi:id="_el-W8PUEEemi79roZu9iVg" name="FAmilyName" rule="value.getXValue('FamilyName.FN1').addValue('family',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_vMNl4PUDEemi79roZu9iVg" relatedSemanticElement="_08hTP9DWEemgUJCBpnW2Jw"/>
-          <relationships xmi:id="_2x36QPUEEemi79roZu9iVg" name="Prefix" rule="value.getXValue().addValue('prefix',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_vMNl4PUDEemi79roZu9iVg" relatedSemanticElement="_mMmsoPP9Eemc_MzRTM27Ww"/>
-          <relationships xmi:id="_Ku9aIPUNEemi79roZu9iVg" name="SecondandFurtherGiven" rule="value.getXValue().addValue('middle',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_vMNl4PUDEemi79roZu9iVg" relatedSemanticElement="_W0i9gPP9Eemc_MzRTM27Ww"/>
-          <computedValue xmi:id="_S2q3MPUEEemi79roZu9iVg" expression="SEMANTICROLLUP" language="JavaScript"/>
-        </semanticElements>
         <semanticElements xmi:id="_oqbjgPQJEemc_MzRTM27Ww" name="DoctorRoleType" datatype="_08k7WtDWEemgUJCBpnW2Jw" multipleInstances="false" parent="_08hTPtDWEemgUJCBpnW2Jw" children="_-Uv74PP-Eemc_MzRTM27Ww" syntaxNode="_08e1H9DWEemgUJCBpnW2Jw">
           <mapFromMdmi xmi:id="_ukQpAQAPEeqkgogBBH03yA" name="MDMI2Message4DoctorRoleType" businessElement="__k87oNVWEemWHIQauk-MYg"/>
           <computedInValue xmi:id="_TbsTIASXEeqkgogBBH03yA" expression="value.getXValue().addValue('code', 'ATND');value.getXValue().addValue('displayName', 'attender');value.getXValue().addValue('codeSystem', 'http://terminology.hl7.org/CodeSystem/v3-ParticipationType');" language="JavaScript"/>
@@ -7790,7 +7792,10 @@
         <semanticElements xmi:id="_08h4DNDWEemgUJCBpnW2Jw" name="Observation Sub-ID" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcbNDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08h4DdDWEemgUJCBpnW2Jw" name="Nature of Abnormal Test" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fca9DWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08h4DtDWEemgUJCBpnW2Jw" name="References Range" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcbtDWEemgUJCBpnW2Jw"/>
-        <semanticElements xmi:id="_08h4D9DWEemgUJCBpnW2Jw" name="Abnormal Flags" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fccdDWEemgUJCBpnW2Jw"/>
+        <semanticElements xmi:id="_08h4D9DWEemgUJCBpnW2Jw" name="Abnormal Flags" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fccdDWEemgUJCBpnW2Jw">
+          <mapFromMdmi xmi:id="_7D52YZBjEeq-W7uegK8QxA" name="MDMI2Message4Abnormal Flags" businessElement="__nhHcdVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToString"/>
+          <mapToMdmi xmi:id="_7D52YJBjEeq-W7uegK8QxA" name="Message2MDMI4Abnormal Flags" businessElement="__nhHcdVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapStringToCodedElement"/>
+        </semanticElements>
         <semanticElements xmi:id="_08h4ENDWEemgUJCBpnW2Jw" name="Set ID - OBX" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcb9DWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08h4EdDWEemgUJCBpnW2Jw" name="User Defined Access Checks" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcbdDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08h4EtDWEemgUJCBpnW2Jw" name="Producer's ID" description="a" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08h4CNDWEemgUJCBpnW2Jw" syntaxNode="_08fcdtDWEemgUJCBpnW2Jw"/>
@@ -8693,14 +8698,23 @@
           <mapFromMdmi xmi:id="_qTeGofHUEemHzNmYhjm0xg" name="MDMI2Message4Allergy Reaction Code" businessElement="__jlpuNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToString"/>
           <mapToMdmi xmi:id="_qTeGoPHUEemHzNmYhjm0xg" name="Message2MDMI4Allergy Reaction Code" businessElement="__jlpuNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapStringToCodedElement"/>
         </semanticElements>
-        <semanticElements xmi:id="_WoBpIHQdEeqoZPe2GcF8Cg" name="AttendingProviderName" description="AttendingProviderName" datatype="_08k7SNDWEemgUJCBpnW2Jw" parent="_08hTPtDWEemgUJCBpnW2Jw" syntaxNode="_08e1F9DWEemgUJCBpnW2Jw">
+        <semanticElements xmi:id="_WoBpIHQdEeqoZPe2GcF8Cg" name="AttendingParticipantNameRollup" description="AttendingProviderName" datatype="_08k7SNDWEemgUJCBpnW2Jw" parent="_08hTPtDWEemgUJCBpnW2Jw">
           <relationships xmi:id="_7qxjEHQdEeqoZPe2GcF8Cg" name="GivenNameRollup" rule="value.getXValue().addValue('given',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_WoBpIHQdEeqoZPe2GcF8Cg" relatedSemanticElement="_y2Xe8PP8Eemc_MzRTM27Ww"/>
-          <relationships xmi:id="__C4R4HQeEeqoZPe2GcF8Cg" name="FamilyNameRollup" context="_WoBpIHQdEeqoZPe2GcF8Cg" relatedSemanticElement="_08hTP9DWEemgUJCBpnW2Jw"/>
-          <mapFromMdmi xmi:id="_wJsskXQdEeqoZPe2GcF8Cg" name="MDMI2Message4AttendingProviderName" businessElement="__nui0dVWEemWHIQauk-MYg" rule=""/>
+          <relationships xmi:id="__C4R4HQeEeqoZPe2GcF8Cg" name="FamilyNameRollup" rule="value.getXValue('FamilyName.FN1').addValue('family',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_WoBpIHQdEeqoZPe2GcF8Cg" relatedSemanticElement="_08hTP9DWEemgUJCBpnW2Jw"/>
+          <relationships xmi:id="_NTF0kJBtEeq-W7uegK8QxA" name="Prefix" rule="value.getXValue().addValue('prefix',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_WoBpIHQdEeqoZPe2GcF8Cg" relatedSemanticElement="_mMmsoPP9Eemc_MzRTM27Ww"/>
+          <mapFromMdmi xmi:id="_RFrYYZBMEeq-W7uegK8QxA" name="MDMI2Message4AttendingProviderName2" businessElement="__lGspNVWEemWHIQauk-MYg"/>
           <computedValue xmi:id="_p5xp0HQhEeqoZPe2GcF8Cg" expression="SEMANTICROLLUP" language="JavaScript"/>
-          <mapToMdmi xmi:id="_wJsskHQdEeqoZPe2GcF8Cg" name="Message2MDMI4AttendingProviderName" businessElement="__nui0dVWEemWHIQauk-MYg" rule=""/>
+          <mapToMdmi xmi:id="_RFrYYJBMEeq-W7uegK8QxA" name="Message2MDMI4AttendingProviderName1" businessElement="__lGspNVWEemWHIQauk-MYg"/>
         </semanticElements>
         <semanticElements xmi:id="_yLSBgI5CEeqjdO7bND9tlw" name="AttendingDoctorPersonName" elementType="NORMAL" parent="_08hTPtDWEemgUJCBpnW2Jw" syntaxNode="_08e1GdDWEemgUJCBpnW2Jw"/>
+        <semanticElements xmi:id="_Xci-YJBNEeq-W7uegK8QxA" name="ConsultingDoctorNameRollup" datatype="_08k7SNDWEemgUJCBpnW2Jw" parent="_08hTLdDWEemgUJCBpnW2Jw" syntaxNode="_08e1nNDWEemgUJCBpnW2Jw">
+          <relationships xmi:id="_wTx9sJBNEeq-W7uegK8QxA" name="Family" rule="value.getXValue('FamilyName.FN1').addValue('family',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_Xci-YJBNEeq-W7uegK8QxA" relatedSemanticElement="_08hTLtDWEemgUJCBpnW2Jw"/>
+          <computedValue xmi:id="_AmYpgJBOEeq-W7uegK8QxA" expression="SEMANTICROLLUP" language="JavaScript"/>
+        </semanticElements>
+        <semanticElements xmi:id="_a-a3wJBPEeq-W7uegK8QxA" name="BedStatusRollup" datatype="_08k7WtDWEemgUJCBpnW2Jw" parent="_08hSzdDWEemgUJCBpnW2Jw" syntaxNode="_08e1DNDWEemgUJCBpnW2Jw">
+          <relationships xmi:id="_is_F8JBPEeq-W7uegK8QxA" name="bed" rule="value.getXValue().addValue('code',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_a-a3wJBPEeq-W7uegK8QxA" relatedSemanticElement="_08hSzdDWEemgUJCBpnW2Jw"/>
+          <computedValue xmi:id="_5aUZgJBPEeq-W7uegK8QxA" expression="SEMANTICROLLUP" language="JavaScript"/>
+        </semanticElements>
       </elementSet>
     </models>
     <domainDictionary xmi:id="_08h7I9DWEemgUJCBpnW2Jw">
