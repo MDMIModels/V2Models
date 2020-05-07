@@ -861,7 +861,7 @@
             </nodes>
             <nodes xsi:type="mdmi:Bag" xmi:id="_08e1F9DWEemgUJCBpnW2Jw" name="Attending Doctor" description="99999999" location="PV1.7" semanticElement="_08hTPtDWEemgUJCBpnW2Jw">
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1GNDWEemgUJCBpnW2Jw" name="ID Number" description="99999999" location="XCN.1" semanticElement="_voUoMPUFEemi79roZu9iVg" fieldName="XCN1"/>
-              <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1GdDWEemgUJCBpnW2Jw" name="Given Name" description="99999999" location="XCN.3" semanticElement="_yLSBgI5CEeqjdO7bND9tlw" fieldName="XCN3"/>
+              <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1GdDWEemgUJCBpnW2Jw" name="Given Name" description="99999999" location="XCN.3" semanticElement="_y2Xe8PP8Eemc_MzRTM27Ww" fieldName="XCN3"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1GtDWEemgUJCBpnW2Jw" name="Second and Further Given Names or Initials Thereof" description="99999999" location="XCN.4" semanticElement="_W0i9gPP9Eemc_MzRTM27Ww" fieldName="XCN4"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1G9DWEemgUJCBpnW2Jw" name="Suffix (e.g., JR or III)" description="99999999" location="XCN.5" semanticElement="_fW-RkPP9Eemc_MzRTM27Ww" fieldName="XCN5"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1HNDWEemgUJCBpnW2Jw" name="Prefix (e.g., DR)" description="99999999" location="XCN.6" semanticElement="_mMmsoPP9Eemc_MzRTM27Ww" fieldName="XCN6"/>
@@ -5471,10 +5471,6 @@
           </nodes>
           <nodes xsi:type="mdmi:Bag" xmi:id="_08eN4NDWEemgUJCBpnW2Jw" name="EVN" description="99999999" location="EVN" semanticElement="_08hRwNDWEemgUJCBpnW2Jw">
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eN4tDWEemgUJCBpnW2Jw" name="Event Type Code" description="99999999" location="EVN.1" semanticElement="_08hRwtDWEemgUJCBpnW2Jw" fieldName="EVN1"/>
-            <nodes xsi:type="mdmi:Bag" xmi:id="_08eN7dDWEemgUJCBpnW2Jw" name="Recorded Date/Time" description="99999999" location="EVN.2" semanticElement="_08hR0dDWEemgUJCBpnW2Jw">
-              <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eN7tDWEemgUJCBpnW2Jw" name="Time" description="99999999" location="TS.1" fieldName="TS1"/>
-              <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eN79DWEemgUJCBpnW2Jw" name="Degree of Precision" description="99999999" location="TS.2" fieldName="TS2"/>
-            </nodes>
             <nodes xsi:type="mdmi:Bag" xmi:id="_08eN6tDWEemgUJCBpnW2Jw" name="Date/Time Planned Event" description="99999999" location="EVN.3" semanticElement="_08hRw9DWEemgUJCBpnW2Jw">
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eN69DWEemgUJCBpnW2Jw" name="Time" description="99999999" location="TS.1" fieldName="TS1"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eN7NDWEemgUJCBpnW2Jw" name="Degree of Precision" description="99999999" location="TS.2" fieldName="TS2"/>
@@ -5570,6 +5566,7 @@
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eN5dDWEemgUJCBpnW2Jw" name="Universal ID" description="99999999" location="HD.2" fieldName="HD2"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eN5tDWEemgUJCBpnW2Jw" name="Universal ID Type" description="99999999" location="HD.3" fieldName="HD3"/>
             </nodes>
+            <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_6bCP0JB0EeqJoNixqvdMWQ" name="Recorded Date/Time" description="99999999" location="EVN.2" semanticElement="_08hR0dDWEemgUJCBpnW2Jw" fieldName="EVN4"/>
           </nodes>
           <nodes xsi:type="mdmi:Bag" xmi:id="_08eONdDWEemgUJCBpnW2Jw" name="PID" description="99999999" maxOccurs="1" location="PID" semanticElement="_08hR09DWEemgUJCBpnW2Jw">
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eOQNDWEemgUJCBpnW2Jw" name="Set ID - PID" description="99999999" location="PID.1" semanticElement="_08hR3dDWEemgUJCBpnW2Jw" fieldName="PID1"/>
@@ -7057,9 +7054,9 @@
         <semanticElements xmi:id="_08hRztDWEemgUJCBpnW2Jw" name="Expiration Date" datatype="_08k7kNDWEemgUJCBpnW2Jw" parent="_08hRxdDWEemgUJCBpnW2Jw" syntaxNode="_08eOHtDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hRz9DWEemgUJCBpnW2Jw" name="Assigning Jurisdiction" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08hRxdDWEemgUJCBpnW2Jw" syntaxNode="_08eOIdDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hR0NDWEemgUJCBpnW2Jw" name="Assigning Agency or Department" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08hRxdDWEemgUJCBpnW2Jw" syntaxNode="_08eOK9DWEemgUJCBpnW2Jw"/>
-        <semanticElements xmi:id="_08hR0dDWEemgUJCBpnW2Jw" name="Recorded Date/Time" datatype="_08k7kNDWEemgUJCBpnW2Jw" parent="_08hRwNDWEemgUJCBpnW2Jw" syntaxNode="_08eN7dDWEemgUJCBpnW2Jw">
-          <mapFromMdmi xmi:id="_e14WIXKCEeqRup7wgQ9-sg" name="MDMI2Message4Recorded Date/Time" businessElement="__jmQ5tVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapDateTimeToTS"/>
-          <mapToMdmi xmi:id="_e14WIHKCEeqRup7wgQ9-sg" name="Message2MDMI4Recorded Date/Time" businessElement="__jmQ5tVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapTSToDateTime"/>
+        <semanticElements xmi:id="_08hR0dDWEemgUJCBpnW2Jw" name="Recorded Date/Time" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hRwNDWEemgUJCBpnW2Jw" syntaxNode="_6bCP0JB0EeqJoNixqvdMWQ">
+          <mapFromMdmi xmi:id="_O_WBYZB1EeqJoNixqvdMWQ" name="MDMI2Message4Recorded Date/Time" businessElement="__jmQ5tVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapDateTimeToString"/>
+          <mapToMdmi xmi:id="_O_WBYJB1EeqJoNixqvdMWQ" name="Message2MDMI4Recorded Date/Time" businessElement="__jmQ5tVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapStringToDateTime"/>
         </semanticElements>
         <semanticElements xmi:id="_08hR0tDWEemgUJCBpnW2Jw" name="Event Occurred" datatype="_08k7kNDWEemgUJCBpnW2Jw" parent="_08hRwNDWEemgUJCBpnW2Jw" syntaxNode="_08eN59DWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hR09DWEemgUJCBpnW2Jw" name="PID" datatype="_08kZOtDWEemgUJCBpnW2Jw" children="_08hR1NDWEemgUJCBpnW2Jw _08hR1dDWEemgUJCBpnW2Jw _08hR1tDWEemgUJCBpnW2Jw _08hR19DWEemgUJCBpnW2Jw _08hR2NDWEemgUJCBpnW2Jw _08hR2dDWEemgUJCBpnW2Jw _08hR2tDWEemgUJCBpnW2Jw _08hR29DWEemgUJCBpnW2Jw _08hR3NDWEemgUJCBpnW2Jw _08hR3dDWEemgUJCBpnW2Jw _08hR3tDWEemgUJCBpnW2Jw _08hR39DWEemgUJCBpnW2Jw _08hR4NDWEemgUJCBpnW2Jw _08hR5dDWEemgUJCBpnW2Jw _08hR5tDWEemgUJCBpnW2Jw _08hR59DWEemgUJCBpnW2Jw _08hR6NDWEemgUJCBpnW2Jw _08hR6dDWEemgUJCBpnW2Jw _08hR6tDWEemgUJCBpnW2Jw _08hR8tDWEemgUJCBpnW2Jw _08hR89DWEemgUJCBpnW2Jw _08hR9NDWEemgUJCBpnW2Jw _08hR9dDWEemgUJCBpnW2Jw _08hR_dDWEemgUJCBpnW2Jw _08hR_tDWEemgUJCBpnW2Jw _08hSA9DWEemgUJCBpnW2Jw _08hSBNDWEemgUJCBpnW2Jw _08hSCdDWEemgUJCBpnW2Jw _08hSENDWEemgUJCBpnW2Jw _08hSEdDWEemgUJCBpnW2Jw _08hSEtDWEemgUJCBpnW2Jw _08hSF9DWEemgUJCBpnW2Jw _08hSGNDWEemgUJCBpnW2Jw _08hSHdDWEemgUJCBpnW2Jw _08hSJdDWEemgUJCBpnW2Jw _08hSJtDWEemgUJCBpnW2Jw _08hSJ9DWEemgUJCBpnW2Jw _08hSKNDWEemgUJCBpnW2Jw _08hSKdDWEemgUJCBpnW2Jw _GClA4N4fEemIwKilxOhcnw" syntaxNode="_08eONdDWEemgUJCBpnW2Jw">
@@ -7654,7 +7651,7 @@
         <semanticElements xmi:id="_dS99APP-Eemc_MzRTM27Ww" name="IdentifierType" description="a" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hTPtDWEemgUJCBpnW2Jw" syntaxNode="_08e1ItDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_fW-RkPP9Eemc_MzRTM27Ww" name="Suffix" description="a" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hTPtDWEemgUJCBpnW2Jw" syntaxNode="_08e1G9DWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_W0i9gPP9Eemc_MzRTM27Ww" name="SecondGiven" description="a" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hTPtDWEemgUJCBpnW2Jw" syntaxNode="_08e1GtDWEemgUJCBpnW2Jw"/>
-        <semanticElements xmi:id="_y2Xe8PP8Eemc_MzRTM27Ww" name="GivenName" description="a" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hTPtDWEemgUJCBpnW2Jw"/>
+        <semanticElements xmi:id="_y2Xe8PP8Eemc_MzRTM27Ww" name="GivenName" description="a" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hTPtDWEemgUJCBpnW2Jw" syntaxNode="_08e1GdDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_mMmsoPP9Eemc_MzRTM27Ww" name="Prefix" description="a" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hTPtDWEemgUJCBpnW2Jw" syntaxNode="_08e1HNDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_w4IbMPP9Eemc_MzRTM27Ww" name="NameType" description="a" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hTPtDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hTP9DWEemgUJCBpnW2Jw" name="FamilyName" datatype="_08k7pNDWEemgUJCBpnW2Jw" parent="_08hTPtDWEemgUJCBpnW2Jw"/>
@@ -8706,7 +8703,7 @@
           <computedValue xmi:id="_p5xp0HQhEeqoZPe2GcF8Cg" expression="SEMANTICROLLUP" language="JavaScript"/>
           <mapToMdmi xmi:id="_RFrYYJBMEeq-W7uegK8QxA" name="Message2MDMI4AttendingProviderName1" businessElement="__lGspNVWEemWHIQauk-MYg"/>
         </semanticElements>
-        <semanticElements xmi:id="_yLSBgI5CEeqjdO7bND9tlw" name="AttendingDoctorPersonName" elementType="NORMAL" parent="_08hTPtDWEemgUJCBpnW2Jw" syntaxNode="_08e1GdDWEemgUJCBpnW2Jw"/>
+        <semanticElements xmi:id="_yLSBgI5CEeqjdO7bND9tlw" name="AttendingDoctorPersonName" elementType="NORMAL" parent="_08hTPtDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_Xci-YJBNEeq-W7uegK8QxA" name="ConsultingDoctorNameRollup" datatype="_08k7SNDWEemgUJCBpnW2Jw" parent="_08hTLdDWEemgUJCBpnW2Jw" syntaxNode="_08e1nNDWEemgUJCBpnW2Jw">
           <relationships xmi:id="_wTx9sJBNEeq-W7uegK8QxA" name="Family" rule="value.getXValue('FamilyName.FN1').addValue('family',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_Xci-YJBNEeq-W7uegK8QxA" relatedSemanticElement="_08hTLtDWEemgUJCBpnW2Jw"/>
           <computedValue xmi:id="_AmYpgJBOEeq-W7uegK8QxA" expression="SEMANTICROLLUP" language="JavaScript"/>
@@ -13870,6 +13867,7 @@
       <businessElements xmi:id="_XHlvUIudEeq8lIgjLXTcrw" name="MessageRecipientSoftwareId" description="The identifier for the software application that will process the message" reference="MessageRecipientSoftwareId" uniqueIdentifier="f033dc99-a919-4a2b-a6d1-48473119a397" referenceDatatype="_08k7NNDWEemgUJCBpnW2Jw" readonly="true"/>
       <businessElements xmi:id="_5Q7WoIxiEeqJZ_-flBPxLQ" name="ProblemPerformerName" description="The name of the healthcare professional who diagnosed the particular instance of the problem" reference="ProblemPerformerName" uniqueIdentifier="106e9842-e1ed-4c88-bfc9-121058d16555" referenceDatatype="_08k7SNDWEemgUJCBpnW2Jw" readonly="true"/>
       <businessElements xmi:id="_5gubQIxkEeqjdO7bND9tlw" name="ProblemVerificationStatusCode" description="This is a further detail of the action or status of the clinical status" reference="ProblemVerificationStatusCode" uniqueIdentifier="0b9f1737-0ca7-4b30-8aec-a4d184c3d4ef" referenceDatatype="_08k7WtDWEemgUJCBpnW2Jw" enumValueDescrField="FHIR" enumValueSet="http://hl7.org/fhir/ValueSet/condition-category" readonly="true"/>
+      <businessElements xmi:id="_dY_ZwJBwEeqJoNixqvdMWQ" name="EncounterParticipantSpecialityCode" description="The clinical practice of the clinician or provider who interacted with, treated, or provided a service." reference="EncounterParticipantSpecialityCode" uniqueIdentifier="67a0a89c-1eba-4fc2-b481-6858127b9fcc" referenceDatatype="_08k7WtDWEemgUJCBpnW2Jw" enumValueSet="http://hl7.org/fhir/ValueSet/c80-practice-codes" readonly="true"/>
     </domainDictionary>
     <datatypes xsi:type="mdmi:DTSEnumerated" xmi:id="_08kZL9DWEemgUJCBpnW2Jw" typeName="NullFlavor" isReadonly="true">
       <literals xmi:id="_08kZMNDWEemgUJCBpnW2Jw" name="NA" description="not available" code="String"/>
