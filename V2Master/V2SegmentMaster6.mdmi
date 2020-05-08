@@ -112,7 +112,7 @@
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eN39DWEemgUJCBpnW2Jw" name="Degree of Precision" description="99999999" location="TS.2" fieldName="TS2"/>
             </nodes>
           </nodes>
-          <nodes xsi:type="mdmi:Bag" xmi:id="_08eP-tDWEemgUJCBpnW2Jw" name="PD1" description="99999999" maxOccurs="1" location="PD.1" semanticElement="_08hSKtDWEemgUJCBpnW2Jw">
+          <nodes xsi:type="mdmi:Bag" xmi:id="_08eP-tDWEemgUJCBpnW2Jw" name="PD1" description="99999999" maxOccurs="1" location="PD1" semanticElement="_08hSKtDWEemgUJCBpnW2Jw">
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eQB9DWEemgUJCBpnW2Jw" name="Living Dependency" description="99999999" location="PD.11" semanticElement="_08hSLtDWEemgUJCBpnW2Jw" fieldName="PD11"/>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eQA9DWEemgUJCBpnW2Jw" name="Living Arrangement" description="99999999" location="PD.12" semanticElement="_08hSMNDWEemgUJCBpnW2Jw" fieldName="PD12"/>
             <nodes xsi:type="mdmi:Bag" xmi:id="_08eQXdDWEemgUJCBpnW2Jw" name="Patient Primary Facility" description="99999999" location="PD.13" semanticElement="_08hSOtDWEemgUJCBpnW2Jw">
@@ -1452,7 +1452,7 @@
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_hJKlwIP5Eeq82Z1E9XXBCg" name="Discharge Date/Time" description="99999999" maxOccurs="1" location="PV1.45" semanticElement="_08hS9dDWEemgUJCBpnW2Jw" fieldName="PV135"/>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_46OnMIP5Eeq82Z1E9XXBCg" name="Admit Date/Time" description="99999999" maxOccurs="1" location="PV1.44" semanticElement="_08hS_9DWEemgUJCBpnW2Jw" fieldName="PV135"/>
           </nodes>
-          <nodes xsi:type="mdmi:Bag" xmi:id="_08fboNDWEemgUJCBpnW2Jw" name="ROL1" description="99999999" location="ROL.1" semanticElement="_08hTkdDWEemgUJCBpnW2Jw">
+          <nodes xsi:type="mdmi:Bag" xmi:id="_08fboNDWEemgUJCBpnW2Jw" name="ROL1" description="99999999" location="ROL1" semanticElement="_08hTkdDWEemgUJCBpnW2Jw">
             <nodes xsi:type="mdmi:Bag" xmi:id="_08fbqdDWEemgUJCBpnW2Jw" name="Role Instance ID" description="99999999" location="ROL.1" semanticElement="_08h399DWEemgUJCBpnW2Jw">
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08fbqtDWEemgUJCBpnW2Jw" name="Entity Identifier" description="99999999" location="EI.1" fieldName="EI1"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08fbq9DWEemgUJCBpnW2Jw" name="Namespace ID" description="99999999" location="EI.2" fieldName="EI2"/>
@@ -1639,7 +1639,7 @@
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08fbztDWEemgUJCBpnW2Jw" name="Unformatted Telephone number" description="99999999" location="XTN.12" fieldName="XTN12"/>
             </nodes>
           </nodes>
-          <nodes xsi:type="mdmi:Bag" xmi:id="_08fcPtDWEemgUJCBpnW2Jw" name="DB1" description="99999999" location="DB.1" semanticElement="_08h3-9DWEemgUJCBpnW2Jw">
+          <nodes xsi:type="mdmi:Bag" xmi:id="_08fcPtDWEemgUJCBpnW2Jw" name="DB1" description="99999999" location="DB1" semanticElement="_08h3-9DWEemgUJCBpnW2Jw">
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08fcQNDWEemgUJCBpnW2Jw" name="Set ID - DB1" description="99999999" location="DB.11" semanticElement="_08h3_9DWEemgUJCBpnW2Jw" fieldName="DB11"/>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08fcRNDWEemgUJCBpnW2Jw" name="Disabled Person Code" description="99999999" location="DB.12" semanticElement="_08h4AtDWEemgUJCBpnW2Jw" fieldName="DB12"/>
             <nodes xsi:type="mdmi:Bag" xmi:id="_08fcRtDWEemgUJCBpnW2Jw" name="Disabled Person Identifier" description="99999999" location="DB.13" semanticElement="_08h4A9DWEemgUJCBpnW2Jw">
