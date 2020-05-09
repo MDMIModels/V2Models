@@ -2478,7 +2478,7 @@
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_lm5uhZFJEeq0vMJZvVurzA" name="Name Representation Code" description="99999999" location="XON.9" fieldName="XON9"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_lm5uhpFJEeq0vMJZvVurzA" name="Organization Identifier" description="99999999" location="XON.10" fieldName="XON10"/>
             </nodes>
-            <nodes xsi:type="mdmi:Bag" xmi:id="_lm5uj5FJEeq0vMJZvVurzA" name="Referral Source Code" description="99999999" location="PV2.13" semanticElement="_lm8t7JFJEeq0vMJZvVurzA">
+            <nodes xsi:type="mdmi:Bag" xmi:id="_lm5uj5FJEeq0vMJZvVurzA" name="Referral Source Code" description="99999999" location="PV2.13">
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_lm5ukJFJEeq0vMJZvVurzA" name="ID Number" description="99999999" location="XCN.1" fieldName="XCN1"/>
               <nodes xsi:type="mdmi:Bag" xmi:id="_lm5unpFJEeq0vMJZvVurzA" name="Family Name" description="99999999" location="XCN.2" semanticElement="_lm8t7ZFJEeq0vMJZvVurzA">
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_lm5un5FJEeq0vMJZvVurzA" name="Surname" description="99999999" location="FN1" fieldName="FN1"/>
@@ -7760,7 +7760,10 @@
         <semanticElements xmi:id="_lm8tvpFJEeq0vMJZvVurzA" name="Estimated Length of Inpatient Stay" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uCpFJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8tv5FJEeq0vMJZvVurzA" name="Visit User Code" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uC5FJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8twJFJEeq0vMJZvVurzA" name="Previous Treatment Date" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5t_5FJEeq0vMJZvVurzA"/>
-        <semanticElements xmi:id="_lm8twZFJEeq0vMJZvVurzA" name="Visit Description" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uA5FJEeq0vMJZvVurzA"/>
+        <semanticElements xmi:id="_lm8twZFJEeq0vMJZvVurzA" name="Visit Description" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uA5FJEeq0vMJZvVurzA">
+          <mapFromMdmi xmi:id="_Cyi7MJFjEeq-W7uegK8QxA" name="MDMI2Message4Visit Description" businessElement="_lnAaO5FJEeq0vMJZvVurzA" rule="DATATYPEMAP:mapCodedElementToString"/>
+          <mapToMdmi xmi:id="_CyiUIJFjEeq-W7uegK8QxA" name="Message2MDMI4Visit Description" businessElement="_lnAaO5FJEeq0vMJZvVurzA" rule="DATATYPEMAP:mapStringToCodedElement"/>
+        </semanticElements>
         <semanticElements xmi:id="_lm8twpFJEeq0vMJZvVurzA" name="Newborn Baby Indicator" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uEpFJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8tw5FJEeq0vMJZvVurzA" name="Patient Status Effective Date" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uDpFJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8txJFJEeq0vMJZvVurzA" name="Patient Valuables" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uFpFJEeq0vMJZvVurzA"/>
@@ -7775,7 +7778,10 @@
         <semanticElements xmi:id="_lm8tzZFJEeq0vMJZvVurzA" name="Special Program Code" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uBJFJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8tzpFJEeq0vMJZvVurzA" name="Recurring Service Code" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uEJFJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8tz5FJEeq0vMJZvVurzA" name="Visit Publicity Code" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uDJFJEeq0vMJZvVurzA"/>
-        <semanticElements xmi:id="_lm8t0JFJEeq0vMJZvVurzA" name="Visit Priority Code" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uDZFJEeq0vMJZvVurzA"/>
+        <semanticElements xmi:id="_lm8t0JFJEeq0vMJZvVurzA" name="Visit Priority Code" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uDZFJEeq0vMJZvVurzA">
+          <mapFromMdmi xmi:id="_PaSpYZFkEeq-W7uegK8QxA" name="MDMI2Message4Visit Priority Code" businessElement="_nflCo5FJEeq0vMJZvVurzA" rule="DATATYPEMAP:mapCodedElementToString"/>
+          <mapToMdmi xmi:id="_PaSpYJFkEeq-W7uegK8QxA" name="Message2MDMI4Visit Priority Code" businessElement="_nflCo5FJEeq0vMJZvVurzA" rule="DATATYPEMAP:mapStringToCodedElement"/>
+        </semanticElements>
         <semanticElements xmi:id="_lm8t0ZFJEeq0vMJZvVurzA" name="Patient Valuables Location" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5t_pFJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8t0pFJEeq0vMJZvVurzA" name="Baby Detained Indicator" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uCZFJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8t05FJEeq0vMJZvVurzA" name="Military Non-Availability Code" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uFJFJEeq0vMJZvVurzA"/>
@@ -7786,7 +7792,10 @@
         <semanticElements xmi:id="_lm8t2JFJEeq0vMJZvVurzA" name="Living Will Code" datatype="_lnBmI5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uAJFJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8t2ZFJEeq0vMJZvVurzA" name="Mode of Arrival Code" datatype="_lnBmKJFJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uVpFJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8t2pFJEeq0vMJZvVurzA" name="Patient Condition Code" datatype="_lnBmKJFJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5ud5FJEeq0vMJZvVurzA"/>
-        <semanticElements xmi:id="_lm8t25FJEeq0vMJZvVurzA" name="Admit Reason" datatype="_lnBmKJFJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uQZFJEeq0vMJZvVurzA"/>
+        <semanticElements xmi:id="_lm8t25FJEeq0vMJZvVurzA" name="Admit Reason" datatype="_lnBmKJFJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uQZFJEeq0vMJZvVurzA">
+          <mapFromMdmi xmi:id="_rCHoYZFhEeq-W7uegK8QxA" name="MDMI2Message4Admit Reason" businessElement="_nceEf5FJEeq0vMJZvVurzA" rule="DATATYPEMAP:mapCodedElementToCE"/>
+          <mapToMdmi xmi:id="_rCHoYJFhEeq-W7uegK8QxA" name="Message2MDMI4Admit Reason" businessElement="_nceEf5FJEeq0vMJZvVurzA" rule="DATATYPEMAP:mapCEToCodedElement"/>
+        </semanticElements>
         <semanticElements xmi:id="_lm8t3JFJEeq0vMJZvVurzA" name="Transfer Reason" datatype="_lnBmKJFJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uGpFJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8t3ZFJEeq0vMJZvVurzA" name="Prior Pending Location" datatype="_lnBmvZFJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" children="_lm8t3pFJEeq0vMJZvVurzA _lm8t35FJEeq0vMJZvVurzA _lm8t4JFJEeq0vMJZvVurzA" syntaxNode="_lm5uKJFJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8t3pFJEeq0vMJZvVurzA" name="Facility" datatype="_lnBmJJFJEeq0vMJZvVurzA" parent="_lm8t3ZFJEeq0vMJZvVurzA" syntaxNode="_lm5uMZFJEeq0vMJZvVurzA"/>
@@ -7803,7 +7812,7 @@
         <semanticElements xmi:id="_lm8t6ZFJEeq0vMJZvVurzA" name="Advance Directive Code" datatype="_lnBmKJFJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uZ5FJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8t6pFJEeq0vMJZvVurzA" name="Precaution Code" datatype="_lnBmKJFJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5uT5FJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8t65FJEeq0vMJZvVurzA" name="Expected Discharge Date/Time" datatype="_lnBmOpFJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" syntaxNode="_lm5ucZFJEeq0vMJZvVurzA"/>
-        <semanticElements xmi:id="_lm8t7JFJEeq0vMJZvVurzA" name="Referral Source Code" datatype="_lnBmY5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" children="_lm8t7ZFJEeq0vMJZvVurzA _lm8t7pFJEeq0vMJZvVurzA _lm8t75FJEeq0vMJZvVurzA _lm8t8JFJEeq0vMJZvVurzA _lm8t8ZFJEeq0vMJZvVurzA _lm8t9JFJEeq0vMJZvVurzA _lm8t9ZFJEeq0vMJZvVurzA _lm8t9pFJEeq0vMJZvVurzA _lm8t95FJEeq0vMJZvVurzA" syntaxNode="_lm5uj5FJEeq0vMJZvVurzA"/>
+        <semanticElements xmi:id="_lm8t7JFJEeq0vMJZvVurzA" name="Referral Source Code" datatype="_lnBmY5FJEeq0vMJZvVurzA" parent="_lm8tuZFJEeq0vMJZvVurzA" children="_lm8t7ZFJEeq0vMJZvVurzA _lm8t7pFJEeq0vMJZvVurzA _lm8t75FJEeq0vMJZvVurzA _lm8t8JFJEeq0vMJZvVurzA _lm8t8ZFJEeq0vMJZvVurzA _lm8t9JFJEeq0vMJZvVurzA _lm8t9ZFJEeq0vMJZvVurzA _lm8t9pFJEeq0vMJZvVurzA _lm8t95FJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8t7ZFJEeq0vMJZvVurzA" name="Family Name" datatype="_lnBmUJFJEeq0vMJZvVurzA" parent="_lm8t7JFJEeq0vMJZvVurzA" syntaxNode="_lm5unpFJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8t7pFJEeq0vMJZvVurzA" name="Assigning Authority" datatype="_lnBmJJFJEeq0vMJZvVurzA" parent="_lm8t7JFJEeq0vMJZvVurzA" syntaxNode="_lm5upJFJEeq0vMJZvVurzA"/>
         <semanticElements xmi:id="_lm8t75FJEeq0vMJZvVurzA" name="Assigning Facility" datatype="_lnBmJJFJEeq0vMJZvVurzA" parent="_lm8t7JFJEeq0vMJZvVurzA" syntaxNode="_lm5uqJFJEeq0vMJZvVurzA"/>
@@ -14010,6 +14019,9 @@
       <businessElements xmi:id="_nfvasJFJEeq0vMJZvVurzA" name="MessageRecipientSoftwareId" description="The identifier for the software application that will process the message" reference="MessageRecipientSoftwareId" uniqueIdentifier="f033dc99-a919-4a2b-a6d1-48473119a397" referenceDatatype="_lnBl4JFJEeq0vMJZvVurzA" readonly="true"/>
       <businessElements xmi:id="_nfvasZFJEeq0vMJZvVurzA" name="ProblemPerformerName" description="The name of the healthcare professional who diagnosed the particular instance of the problem" reference="ProblemPerformerName" uniqueIdentifier="106e9842-e1ed-4c88-bfc9-121058d16555" referenceDatatype="_lnBl9JFJEeq0vMJZvVurzA" readonly="true"/>
       <businessElements xmi:id="_nfvaspFJEeq0vMJZvVurzA" name="EncounterParticipantSpecialityCode" description="The clinical practice of the clinician or provider who interacted with, treated, or provided a service." reference="EncounterParticipantSpecialityCode" uniqueIdentifier="67a0a89c-1eba-4fc2-b481-6858127b9fcc" referenceDatatype="_lnBmBpFJEeq0vMJZvVurzA" enumValueSet="http://hl7.org/fhir/ValueSet/c80-practice-codes" readonly="true"/>
+      <businessElements xmi:id="_cA-DwJFpEeqsYNwrlPQmlg" name="AccountGuarantorEndDate" description="The end date during which the guarantor accepts responsibility for the account." reference="AccountGuarantorEndDate" uniqueIdentifier="fb8d68a2-4dcf-49db-8090-869d02f2d277" referenceDatatype="_lnBmIJFJEeq0vMJZvVurzA" readonly="true"/>
+      <businessElements xmi:id="_cA-q0JFpEeqsYNwrlPQmlg" name="EncounterLengthofTime" description="Quantity of time the encounter lasted less time absen" reference="EncounterLengthofTime" uniqueIdentifier="7cb70c8d-6673-4881-9b35-ce017ce36944" referenceDatatype="_lnBlzpFJEeq0vMJZvVurzA" readonly="true"/>
+      <businessElements xmi:id="_cA_R4JFpEeqsYNwrlPQmlg" name="AccountGuarantorStartDate" description="The start date during which the guarantor accepts responsibility for the account." reference="AccountGuarantorStartDate" uniqueIdentifier="437338bf-14a0-44dc-8c4c-6921bab051aa" referenceDatatype="_lnBmIJFJEeq0vMJZvVurzA" readonly="true"/>
     </domainDictionary>
     <datatypes xsi:type="mdmi:DTSEnumerated" xmi:id="_lnBlypFJEeq0vMJZvVurzA" typeName="NullFlavor" isReadonly="true">
       <literals xmi:id="_lnBly5FJEeq0vMJZvVurzA" name="NA" description="not available" code="String"/>
@@ -14403,5 +14415,6 @@
     <datatypeMaps xmi:id="_nf2IYJFJEeq0vMJZvVurzA" name="StringAndDateTimeMapping" fromMDMI=" function mapDateTimeToString(source,target) {&#xA;target.setValue(source.getValue());&#xA;}&#xA;" toMDMI="function mapStringToDateTime(source,target) {&#xA;&#x9;target.setValue(org.mdmi.core.engine.javascript.Utils.FormatDate(&quot;yyyyMMddHHmmssZ&quot;,&quot;yyyy-MM-dd'T'hh:mm:ss&quot;,source));&#xA;}&#xA;" mdmiDatatype="_lnBmIJFJEeq0vMJZvVurzA" messageDatatype="_lnBmI5FJEeq0vMJZvVurzA"/>
     <datatypeMaps xmi:id="_nf2IYZFJEeq0vMJZvVurzA" name="StringAndDecimalMapping" fromMDMI="" toMDMI="" mdmiDatatype="_lnBmIZFJEeq0vMJZvVurzA" messageDatatype="_lnBmI5FJEeq0vMJZvVurzA"/>
     <datatypeMaps xmi:id="_nf2vcJFJEeq0vMJZvVurzA" name="StringAndIntegerMapping" fromMDMI="function mapIntegerToString(source,target) { &#xA;&#x9;target.setValue(source.getValue());&#xA;}&#xA; &#xA;" toMDMI="function mapStringToInteger(source,target) { &#xA;&#x9;target.setValue(source);&#xA;}&#xA; &#xA;" mdmiDatatype="_lnBmIpFJEeq0vMJZvVurzA" messageDatatype="_lnBmI5FJEeq0vMJZvVurzA"/>
+    <datatypeMaps xmi:id="_rCIPcJFhEeq-W7uegK8QxA" name="MapCEToCodedElement" description="MapCEToCodedElement" fromMDMI="function mapCEToCodedElement(source,target) {}" toMDMI="function mapCodedElementToCE(source,target) {}" mdmiDatatype="_lnBmBpFJEeq0vMJZvVurzA" messageDatatype="_lnBmKJFJEeq0vMJZvVurzA"/>
   </mdmi:MessageGroup>
 </xmi:XMI>
