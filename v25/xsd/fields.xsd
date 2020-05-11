@@ -25779,6 +25779,273 @@
     </xsd:complexContent>
   </xsd:complexType>
   <xsd:element name="OBX.19" type="OBX.19.CONTENT"/>
+  
+  
+  	<xsd:attributeGroup name="OBX.20.ATTRIBUTES">
+		<xsd:attribute name="Item" type="xsd:string" fixed="2179" />
+		<xsd:attribute name="Type" type="xsd:string" fixed="CWE" />
+		<xsd:attribute name="Table" type="xsd:string" fixed="HL70163" />
+		<xsd:attribute name="LongName" type="xsd:string" fixed="Observation Site" />
+	</xsd:attributeGroup>
+	<xsd:complexType name="OBX.20.CONTENT">
+		<xsd:annotation>
+			<xsd:documentation xml:lang="en">Observation Site</xsd:documentation>
+			<xsd:documentation xml:lang="de">Beobachtungsort/Messpunkt</xsd:documentation>
+			<xsd:appinfo>
+				<hl7:Item>2179</hl7:Item>
+				<hl7:Type>CWE</hl7:Type>
+				<hl7:Table>HL70163</hl7:Table>
+				<hl7:LongName>HL7Observation Site</hl7:LongName>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="CWE">
+				<xsd:attributeGroup ref="OBX.20.ATTRIBUTES" />
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="OBX.20" type="OBX.20.CONTENT" />
+	<!-- FIELD OBX.21-->
+	<xsd:attributeGroup name="OBX.21.ATTRIBUTES">
+		<xsd:attribute name="Item" type="xsd:string" fixed="2180" />
+		<xsd:attribute name="Type" type="xsd:string" fixed="EI" />
+		<xsd:attribute name="LongName" type="xsd:string" fixed="Observation Instance Identifier" />
+	</xsd:attributeGroup>
+	<xsd:complexType name="OBX.21.CONTENT">
+		<xsd:annotation>
+			<xsd:documentation xml:lang="en">Observation Instance Identifier</xsd:documentation>
+			<xsd:documentation xml:lang="de">ID der Beobachtung</xsd:documentation>
+			<xsd:appinfo>
+				<hl7:Item>2180</hl7:Item>
+				<hl7:Type>EI</hl7:Type>
+				<hl7:LongName>HL7Observation Instance Identifier</hl7:LongName>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="EI">
+				<xsd:attributeGroup ref="OBX.21.ATTRIBUTES" />
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="OBX.21" type="OBX.21.CONTENT" />
+	<!-- FIELD OBX.22-->
+	<xsd:attributeGroup name="OBX.22.ATTRIBUTES">
+		<xsd:attribute name="Item" type="xsd:string" fixed="2182" />
+		<xsd:attribute name="Type" type="xsd:string" fixed="CNE" />
+		<xsd:attribute name="Table" type="xsd:string" fixed="HL70725" />
+		<xsd:attribute name="LongName" type="xsd:string" fixed="Mood Code" />
+	</xsd:attributeGroup>
+	<xsd:complexType name="OBX.22.CONTENT">
+		<xsd:annotation>
+			<xsd:documentation xml:lang="en">Mood Code</xsd:documentation>
+			<xsd:documentation xml:lang="de">Mood-Code</xsd:documentation>
+			<xsd:appinfo>
+				<hl7:Item>2182</hl7:Item>
+				<hl7:Type>CNE</hl7:Type>
+				<hl7:Table>HL70725</hl7:Table>
+				<hl7:LongName>HL7Mood Code</hl7:LongName>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="CNE">
+				<xsd:attributeGroup ref="OBX.22.ATTRIBUTES" />
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="OBX.22" type="OBX.22.CONTENT" />
+	<!-- FIELD OBX.23-->
+	<xsd:attributeGroup name="OBX.23.ATTRIBUTES">
+		<xsd:attribute name="Item" type="xsd:string" fixed="2283" />
+		<xsd:attribute name="Type" type="xsd:string" fixed="XON" />
+		<xsd:attribute name="LongName" type="xsd:string" fixed="Performing Organization Name" />
+	</xsd:attributeGroup>
+	<xsd:complexType name="OBX.23.CONTENT">
+		<xsd:annotation>
+			<xsd:documentation xml:lang="en">Performing Organization Name</xsd:documentation>
+			<xsd:documentation xml:lang="de">Ausführende Organisation - Name</xsd:documentation>
+			<xsd:appinfo>
+				<hl7:Item>2283</hl7:Item>
+				<hl7:Type>XON</hl7:Type>
+				<hl7:LongName>HL7Performing Organization Name</hl7:LongName>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="XON">
+				<xsd:attributeGroup ref="OBX.23.ATTRIBUTES" />
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="OBX.23" type="OBX.23.CONTENT" />
+	<!-- FIELD OBX.24-->
+	<xsd:attributeGroup name="OBX.24.ATTRIBUTES">
+		<xsd:attribute name="Item" type="xsd:string" fixed="2284" />
+		<xsd:attribute name="Type" type="xsd:string" fixed="XAD" />
+		<xsd:attribute name="LongName" type="xsd:string" fixed="Performing Organization Address" />
+	</xsd:attributeGroup>
+	<xsd:complexType name="OBX.24.CONTENT">
+		<xsd:annotation>
+			<xsd:documentation xml:lang="en">Performing Organization Address</xsd:documentation>
+			<xsd:documentation xml:lang="de">Ausführende Organisation - Adresse</xsd:documentation>
+			<xsd:appinfo>
+				<hl7:Item>2284</hl7:Item>
+				<hl7:Type>XAD</hl7:Type>
+				<hl7:LongName>HL7Performing Organization Address</hl7:LongName>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="XAD">
+				<xsd:attributeGroup ref="OBX.24.ATTRIBUTES" />
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="OBX.24" type="OBX.24.CONTENT" />
+	<!-- FIELD OBX.25-->
+	<xsd:attributeGroup name="OBX.25.ATTRIBUTES">
+		<xsd:attribute name="Item" type="xsd:string" fixed="2285" />
+		<xsd:attribute name="Type" type="xsd:string" fixed="XCN" />
+		<xsd:attribute name="LongName" type="xsd:string" fixed="Performing Organization Medical Director" />
+	</xsd:attributeGroup>
+	<xsd:complexType name="OBX.25.CONTENT">
+		<xsd:annotation>
+			<xsd:documentation xml:lang="en">Performing Organization Medical Director</xsd:documentation>
+			<xsd:documentation xml:lang="de">Ausführende Organisation - med. Leitung</xsd:documentation>
+			<xsd:appinfo>
+				<hl7:Item>2285</hl7:Item>
+				<hl7:Type>XCN</hl7:Type>
+				<hl7:LongName>HL7Performing Organization Medical Director</hl7:LongName>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="XCN">
+				<xsd:attributeGroup ref="OBX.25.ATTRIBUTES" />
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="OBX.25" type="OBX.25.CONTENT" />
+	<!-- FIELD OBX.26-->
+	<xsd:attributeGroup name="OBX.26.ATTRIBUTES">
+		<xsd:attribute name="Item" type="xsd:string" fixed="2313" />
+		<xsd:attribute name="Type" type="xsd:string" fixed="ID" />
+		<xsd:attribute name="Table" type="xsd:string" fixed="HL70909" />
+		<xsd:attribute name="LongName" type="xsd:string" fixed="Patient Results Release Category" />
+		<xsd:attribute name="minLength" type="xsd:integer" fixed="1" />
+		<xsd:attribute name="maxLength" type="xsd:integer" fixed="10" />
+	</xsd:attributeGroup>
+	<xsd:complexType name="OBX.26.CONTENT">
+		<xsd:annotation>
+			<xsd:documentation xml:lang="en">Patient Results Release Category</xsd:documentation>
+			<xsd:appinfo>
+				<hl7:Item>2313</hl7:Item>
+				<hl7:Type>ID</hl7:Type>
+				<hl7:Table>HL70909</hl7:Table>
+				<hl7:LongName>HL7Patient Results Release Category</hl7:LongName>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="ID">
+				<xsd:attributeGroup ref="OBX.26.ATTRIBUTES" />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:element name="OBX.26" type="OBX.26.CONTENT" />
+	<!-- FIELD OBX.27-->
+	<xsd:attributeGroup name="OBX.27.ATTRIBUTES">
+		<xsd:attribute name="Item" type="xsd:string" fixed="3308" />
+		<xsd:attribute name="Type" type="xsd:string" fixed="CWE" />
+		<xsd:attribute name="Table" type="xsd:string" fixed="HL70914" />
+		<xsd:attribute name="LongName" type="xsd:string" fixed="Root Cause" />
+	</xsd:attributeGroup>
+	<xsd:complexType name="OBX.27.CONTENT">
+		<xsd:annotation>
+			<xsd:documentation xml:lang="en">Root Cause</xsd:documentation>
+			<xsd:appinfo>
+				<hl7:Item>3308</hl7:Item>
+				<hl7:Type>CWE</hl7:Type>
+				<hl7:Table>HL70914</hl7:Table>
+				<hl7:LongName>HL7Root Cause</hl7:LongName>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="CWE">
+				<xsd:attributeGroup ref="OBX.27.ATTRIBUTES" />
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="OBX.27" type="OBX.27.CONTENT" />
+	<!-- FIELD OBX.28-->
+	<xsd:attributeGroup name="OBX.28.ATTRIBUTES">
+		<xsd:attribute name="Item" type="xsd:string" fixed="3309" />
+		<xsd:attribute name="Type" type="xsd:string" fixed="CWE" />
+		<xsd:attribute name="Table" type="xsd:string" fixed="HL70915" />
+		<xsd:attribute name="LongName" type="xsd:string" fixed="Local Process Control" />
+	</xsd:attributeGroup>
+	<xsd:complexType name="OBX.28.CONTENT">
+		<xsd:annotation>
+			<xsd:documentation xml:lang="en">Local Process Control</xsd:documentation>
+			<xsd:appinfo>
+				<hl7:Item>3309</hl7:Item>
+				<hl7:Type>CWE</hl7:Type>
+				<hl7:Table>HL70915</hl7:Table>
+				<hl7:LongName>HL7Local Process Control</hl7:LongName>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="CWE">
+				<xsd:attributeGroup ref="OBX.28.ATTRIBUTES" />
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:element name="OBX.28" type="OBX.28.CONTENT" />
+	<!-- FIELD OBX.29-->
+	<xsd:attributeGroup name="OBX.29.ATTRIBUTES">
+		<xsd:attribute name="Item" type="xsd:string" fixed="3432" />
+		<xsd:attribute name="Type" type="xsd:string" fixed="ID" />
+		<xsd:attribute name="Table" type="xsd:string" fixed="HL70936" />
+		<xsd:attribute name="LongName" type="xsd:string" fixed="Observation Type" />
+	</xsd:attributeGroup>
+	<xsd:complexType name="OBX.29.CONTENT">
+		<xsd:annotation>
+			<xsd:documentation xml:lang="en">Observation Type</xsd:documentation>
+			<xsd:appinfo>
+				<hl7:Item>3432</hl7:Item>
+				<hl7:Type>ID</hl7:Type>
+				<hl7:Table>HL70936</hl7:Table>
+				<hl7:LongName>HL7Observation Type</hl7:LongName>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="ID">
+				<xsd:attributeGroup ref="OBX.29.ATTRIBUTES" />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:element name="OBX.29" type="OBX.29.CONTENT" />
+	<!-- FIELD OBX.30-->
+	<xsd:attributeGroup name="OBX.30.ATTRIBUTES">
+		<xsd:attribute name="Item" type="xsd:string" fixed="3475" />
+		<xsd:attribute name="Type" type="xsd:string" fixed="ID" />
+		<xsd:attribute name="Table" type="xsd:string" fixed="HL70937" />
+		<xsd:attribute name="LongName" type="xsd:string" fixed="Observation Sub-Type" />
+	</xsd:attributeGroup>
+	<xsd:complexType name="OBX.30.CONTENT">
+		<xsd:annotation>
+			<xsd:documentation xml:lang="en">Observation Sub-Type</xsd:documentation>
+			<xsd:appinfo>
+				<hl7:Item>3475</hl7:Item>
+				<hl7:Type>ID</hl7:Type>
+				<hl7:Table>HL70937</hl7:Table>
+				<hl7:LongName>HL7Observation Sub-Type</hl7:LongName>
+			</xsd:appinfo>
+		</xsd:annotation>
+		<xsd:simpleContent>
+			<xsd:extension base="ID">
+				<xsd:attributeGroup ref="OBX.30.ATTRIBUTES" />
+			</xsd:extension>
+		</xsd:simpleContent>
+	</xsd:complexType>
+	<xsd:element name="OBX.30" type="OBX.30.CONTENT" />
+	 
+  
 <!--
     FIELD ODS.1
 -->
