@@ -8483,13 +8483,22 @@
           <mapFromMdmi xmi:id="_KLfB0JOLEeqV08fM_TRhBQ" name="MDMI2Message4OBX" businessElement="_IzG56pOLEeqV08fM_TRhBQ"/>
           <mapFromMdmi xmi:id="_KLfB0ZOLEeqV08fM_TRhBQ" name="Message2MDMI4OBX" businessElement="_IzG56pOLEeqV08fM_TRhBQ"/>
         </semanticElements>
-        <semanticElements xmi:id="_IzD4NZOLEeqV08fM_TRhBQ" name="Observation DT Value" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdQ5OLEeqV08fM_TRhBQ"/>
-        <semanticElements xmi:id="_IzD4NpOLEeqV08fM_TRhBQ" name="Observation DTM Value" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdSZOLEeqV08fM_TRhBQ"/>
+        <semanticElements xmi:id="_IzD4NZOLEeqV08fM_TRhBQ" name="Observation DT Value" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdQ5OLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_bOtYoJOTEeq-VvWInrT61Q" name="MDMI2Message4Observation DT Value" businessElement="_IU9EYJOTEeq-VvWInrT61Q" rule="DATATYPEMAP:mapDateTimeToString"/>
+          <mapToMdmi xmi:id="_bOq8YJOTEeq-VvWInrT61Q" name="Message2MDMI4Observation DT Value" businessElement="_IU9EYJOTEeq-VvWInrT61Q" rule="DATATYPEMAP:mapStringToDateTime"/>
+        </semanticElements>
+        <semanticElements xmi:id="_IzD4NpOLEeqV08fM_TRhBQ" name="Observation DTM Value" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdSZOLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_flCfsZOTEeq-VvWInrT61Q" name="MDMI2Message4Observation DTM Value" businessElement="_NAsUZJOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapIntegerToString"/>
+          <mapToMdmi xmi:id="_flCfsJOTEeq-VvWInrT61Q" name="Message2MDMI4Observation DTM Value" businessElement="_NAsUZJOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapStringToInteger"/>
+        </semanticElements>
         <semanticElements xmi:id="_IzD4N5OLEeqV08fM_TRhBQ" name="Value Type" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdPJOLEeqV08fM_TRhBQ"/>
         <semanticElements xmi:id="_IzD4OJOLEeqV08fM_TRhBQ" name="User Defined Access Checks" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdQZOLEeqV08fM_TRhBQ"/>
         <semanticElements xmi:id="_IzD4OZOLEeqV08fM_TRhBQ" name="Observation TM Value" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdRpOLEeqV08fM_TRhBQ"/>
         <semanticElements xmi:id="_IzD4OpOLEeqV08fM_TRhBQ" name="Nature of Abnormal Test" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdRZOLEeqV08fM_TRhBQ"/>
-        <semanticElements xmi:id="_IzD4O5OLEeqV08fM_TRhBQ" name="Observation NM Value" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdQJOLEeqV08fM_TRhBQ"/>
+        <semanticElements xmi:id="_IzD4O5OLEeqV08fM_TRhBQ" name="Observation NM Value" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdQJOLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_j78OgJOTEeq-VvWInrT61Q" name="MDMI2Message4Observation NM Value" businessElement="_NAsUZJOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapIntegerToString"/>
+          <mapToMdmi xmi:id="_j77ncJOTEeq-VvWInrT61Q" name="Message2MDMI4Observation NM Value" businessElement="_NAsUZJOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapStringToInteger"/>
+        </semanticElements>
         <semanticElements xmi:id="_IzD4PJOLEeqV08fM_TRhBQ" name="Set ID - OBX" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdPpOLEeqV08fM_TRhBQ"/>
         <semanticElements xmi:id="_IzD4PZOLEeqV08fM_TRhBQ" name="Probability" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdPZOLEeqV08fM_TRhBQ"/>
         <semanticElements xmi:id="_IzD4PpOLEeqV08fM_TRhBQ" name="Observation Result Status" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdP5OLEeqV08fM_TRhBQ">
@@ -8509,9 +8518,18 @@
           <mapFromMdmi xmi:id="_KLmWkJOLEeqV08fM_TRhBQ" name="MDMI2Message4Abnormal Flags" businessElement="_IzGWbZOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCodedElementToString"/>
           <mapFromMdmi xmi:id="_KLmWkZOLEeqV08fM_TRhBQ" name="Message2MDMI4Abnormal Flags" businessElement="_IzGWbZOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapStringToCodedElement"/>
         </semanticElements>
-        <semanticElements xmi:id="_IzD4QpOLEeqV08fM_TRhBQ" name="Observation IS Value" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdO5OLEeqV08fM_TRhBQ"/>
-        <semanticElements xmi:id="_IzD4Q5OLEeqV08fM_TRhBQ" name="Observation ST Value" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdSJOLEeqV08fM_TRhBQ"/>
-        <semanticElements xmi:id="_IzD4RJOLEeqV08fM_TRhBQ" name="Observation NR Value" datatype="_IzHia5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdc5OLEeqV08fM_TRhBQ"/>
+        <semanticElements xmi:id="_IzD4QpOLEeqV08fM_TRhBQ" name="Observation IS Value" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdO5OLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_qlJXIZOTEeq-VvWInrT61Q" name="MDMI2Message4Observation IS Value" businessElement="_M_9UkpOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCodedElementToString"/>
+          <mapToMdmi xmi:id="_qlJXIJOTEeq-VvWInrT61Q" name="Message2MDMI4Observation IS Value" businessElement="_M_9UkpOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapStringToCodedElement"/>
+        </semanticElements>
+        <semanticElements xmi:id="_IzD4Q5OLEeqV08fM_TRhBQ" name="Observation ST Value" datatype="_IzHhv5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdSJOLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_sw3n0ZOTEeq-VvWInrT61Q" name="MDMI2Message4Observation ST Value" businessElement="_M_9UkZOLEeqV08fM_TRhBQ"/>
+          <mapToMdmi xmi:id="_sw3n0JOTEeq-VvWInrT61Q" name="Message2MDMI4Observation ST Value" businessElement="_M_9UkZOLEeqV08fM_TRhBQ"/>
+        </semanticElements>
+        <semanticElements xmi:id="_IzD4RJOLEeqV08fM_TRhBQ" name="Observation NR Value" datatype="_IzHia5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdc5OLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_zbg64ZOTEeq-VvWInrT61Q" name="MDMI2Message4Observation NR Value" businessElement="_NAsUZJOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapIntegerToNR"/>
+          <mapToMdmi xmi:id="_zbg64JOTEeq-VvWInrT61Q" name="Message2MDMI4Observation NR Value" businessElement="_NAsUZJOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapNRToInteger"/>
+        </semanticElements>
         <semanticElements xmi:id="_IzD4RZOLEeqV08fM_TRhBQ" name="Date/Time of the Analysis" datatype="_IzHhwJOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdmpOLEeqV08fM_TRhBQ">
           <mapFromMdmi xmi:id="_JQ1-gJOLEeqV08fM_TRhBQ" name="MDMI2Message4Date/Time of the Analysis" businessElement="_IzG7nJOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapDateTimeToTS"/>
           <mapFromMdmi xmi:id="_JQ1-gZOLEeqV08fM_TRhBQ" name="Message2MDMI4Date/Time of the Analysis" businessElement="_IzG7nJOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapTSToDateTime"/>
@@ -8546,11 +8564,20 @@
           <mapFromMdmi xmi:id="_KNS_tJOLEeqV08fM_TRhBQ" name="MDMI2Message4Observation Method" businessElement="_IzGWcJOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCodedElementToCWE"/>
           <mapFromMdmi xmi:id="_KNS_tZOLEeqV08fM_TRhBQ" name="Message2MDMI4Observation Method" businessElement="_IzGWcJOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCWEToCodedElement"/>
         </semanticElements>
-        <semanticElements xmi:id="_IzD4R5OLEeqV08fM_TRhBQ" name="Observation TX Value" datatype="_IzHh3pOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" children="_IzD4SJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdfZOLEeqV08fM_TRhBQ"/>
+        <semanticElements xmi:id="_IzD4R5OLEeqV08fM_TRhBQ" name="Observation TX Value" datatype="_IzHh3pOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" children="_IzD4SJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdfZOLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_2dVGEZOTEeq-VvWInrT61Q" name="MDMI2Message4Observation TX Value" businessElement="_M_9UkZOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapStringToTX"/>
+          <mapToMdmi xmi:id="_2dVGEJOTEeq-VvWInrT61Q" name="Message2MDMI4Observation TX Value" businessElement="_M_9UkZOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapTXToString"/>
+        </semanticElements>
         <semanticElements xmi:id="_IzD4SJOLEeqV08fM_TRhBQ" name="ESCAPE" datatype="_IzHhcZOLEeqV08fM_TRhBQ" parent="_IzD4R5OLEeqV08fM_TRhBQ" syntaxNode="_IzBdfpOLEeqV08fM_TRhBQ"/>
-        <semanticElements xmi:id="_IzD4SZOLEeqV08fM_TRhBQ" name="Observation FT Value" datatype="_IzHibpOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" children="_IzD4SpOLEeqV08fM_TRhBQ" syntaxNode="_IzBddpOLEeqV08fM_TRhBQ"/>
+        <semanticElements xmi:id="_IzD4SZOLEeqV08fM_TRhBQ" name="Observation FT Value" datatype="_IzHibpOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" children="_IzD4SpOLEeqV08fM_TRhBQ" syntaxNode="_IzBddpOLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_BH39MJOUEeq-VvWInrT61Q" name="MDMI2Message4Observation FT Value" businessElement="_M_9UkZOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapStringToFT"/>
+          <mapToMdmi xmi:id="_BH3WIJOUEeq-VvWInrT61Q" name="Message2MDMI4Observation FT Value" businessElement="_M_9UkZOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapFTToString"/>
+        </semanticElements>
         <semanticElements xmi:id="_IzD4SpOLEeqV08fM_TRhBQ" name="ESCAPE" datatype="_IzHhcZOLEeqV08fM_TRhBQ" parent="_IzD4SZOLEeqV08fM_TRhBQ" syntaxNode="_IzBdd5OLEeqV08fM_TRhBQ"/>
-        <semanticElements xmi:id="_IzD4S5OLEeqV08fM_TRhBQ" name="Observation SN Value" datatype="_IzHicZOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdeJOLEeqV08fM_TRhBQ"/>
+        <semanticElements xmi:id="_IzD4S5OLEeqV08fM_TRhBQ" name="Observation SN Value" datatype="_IzHicZOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdeJOLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_EaYPwJOUEeq-VvWInrT61Q" name="MDMI2Message4Observation SN Value" businessElement="_M_9UkZOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapStringToSN"/>
+          <mapToMdmi xmi:id="_EaXosJOUEeq-VvWInrT61Q" name="Message2MDMI4Observation SN Value" businessElement="_M_9UkZOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapSNToString"/>
+        </semanticElements>
         <semanticElements xmi:id="_IzD4TJOLEeqV08fM_TRhBQ" name="Units" datatype="_IzHhw5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdf5OLEeqV08fM_TRhBQ">
           <mapFromMdmi xmi:id="_JPnPcJOLEeqV08fM_TRhBQ" name="MDMI2Message4Units" businessElement="_IzGWapOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCodedElementToCWE"/>
           <mapFromMdmi xmi:id="_JPnPcZOLEeqV08fM_TRhBQ" name="Message2MDMI4Units" businessElement="_IzGWapOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCWEToCodedElement"/>
@@ -8559,12 +8586,24 @@
           <mapFromMdmi xmi:id="_JQ3Mo5OLEeqV08fM_TRhBQ" name="MDMI2Message4Units" businessElement="_IzGWapOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCodedElementToCWE"/>
           <mapFromMdmi xmi:id="_JQ3MpJOLEeqV08fM_TRhBQ" name="Message2MDMI4Units" businessElement="_IzGWapOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCWEToCodedElement"/>
         </semanticElements>
-        <semanticElements xmi:id="_IzD4TZOLEeqV08fM_TRhBQ" name="Observation CWE Value" datatype="_IzHh9ZOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdhpOLEeqV08fM_TRhBQ"/>
+        <semanticElements xmi:id="_IzD4TZOLEeqV08fM_TRhBQ" name="Observation CWE Value" datatype="_IzHh9ZOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdhpOLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_GxuhoJOUEeq-VvWInrT61Q" name="MDMI2Message4Observation CWE Value" businessElement="_M_9UkpOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCodedElementToCWE"/>
+          <mapToMdmi xmi:id="_Gxt6kJOUEeq-VvWInrT61Q" name="Message2MDMI4Observation CWE Value" businessElement="_M_9UkpOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCWEToCodedElement"/>
+        </semanticElements>
         <semanticElements xmi:id="_IzD4TpOLEeqV08fM_TRhBQ" name="Observation CNN Value" datatype="_IzHidpOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdSpOLEeqV08fM_TRhBQ"/>
         <semanticElements xmi:id="_IzD4T5OLEeqV08fM_TRhBQ" name="Effective Date of Reference Range" datatype="_IzHhwJOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBd75OLEeqV08fM_TRhBQ"/>
-        <semanticElements xmi:id="_IzD4UJOLEeqV08fM_TRhBQ" name="Observation CNE Value" datatype="_IzHidpOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdkJOLEeqV08fM_TRhBQ"/>
-        <semanticElements xmi:id="_IzD4UZOLEeqV08fM_TRhBQ" name="Observation CF Value" datatype="_IzHidpOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdW5OLEeqV08fM_TRhBQ"/>
-        <semanticElements xmi:id="_IzD4UpOLEeqV08fM_TRhBQ" name="Observation VR Value" datatype="_IzHigJOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBd7JOLEeqV08fM_TRhBQ"/>
+        <semanticElements xmi:id="_IzD4UJOLEeqV08fM_TRhBQ" name="Observation CNE Value" datatype="_IzHidpOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdkJOLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_OqGzIJOUEeq-VvWInrT61Q" name="MDMI2Message4Observation CNE Value" businessElement="_M_9UkpOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCodedElementToCNE"/>
+          <mapToMdmi xmi:id="_OqGMEJOUEeq-VvWInrT61Q" name="Message2MDMI4Observation CNE Value" businessElement="_M_9UkpOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCNEToCodedElement"/>
+        </semanticElements>
+        <semanticElements xmi:id="_IzD4UZOLEeqV08fM_TRhBQ" name="Observation CF Value" datatype="_IzHidpOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdW5OLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_RYJtwZOUEeq-VvWInrT61Q" name="MDMI2Message4Observation CF Value" businessElement="_M_9UkpOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCodedElementToCNE"/>
+          <mapToMdmi xmi:id="_RYJtwJOUEeq-VvWInrT61Q" name="Message2MDMI4Observation CF Value" businessElement="_M_9UkpOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCNEToCodedElement"/>
+        </semanticElements>
+        <semanticElements xmi:id="_IzD4UpOLEeqV08fM_TRhBQ" name="Observation VR Value" datatype="_IzHigJOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBd7JOLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_WqrXUZOUEeq-VvWInrT61Q" name="MDMI2Message4Observation VR Value" businessElement="_NAuwo5OLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapRangeToVR"/>
+          <mapToMdmi xmi:id="_WqrXUJOUEeq-VvWInrT61Q" name="Message2MDMI4Observation VR Value" businessElement="_NAuwo5OLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapVRToRange"/>
+        </semanticElements>
         <semanticElements xmi:id="_IzD4U5OLEeqV08fM_TRhBQ" name="Producer's ID" datatype="_IzHhw5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdbJOLEeqV08fM_TRhBQ"/>
         <semanticElements xmi:id="_IzD4VJOLEeqV08fM_TRhBQ" name="Observation Identifier" datatype="_IzHhw5OLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdZZOLEeqV08fM_TRhBQ">
           <mapFromMdmi xmi:id="_JPlaQZOLEeqV08fM_TRhBQ" name="MDMI2Message4Observation Identifier" businessElement="_IzG7jJOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapInstanceIdentifierToCWE"/>
@@ -8640,7 +8679,10 @@
           <mapFromMdmi xmi:id="_KNRKgpOLEeqV08fM_TRhBQ" name="Message2MDMI4Observation Identifier1" businessElement="_IzHhOZOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCWEToCodedElement"/>
           <mapFromMdmi xmi:id="_KNRKg5OLEeqV08fM_TRhBQ" name="Message2MDMI4Observation Identifier2" businessElement="_IzGWSZOLEeqV08fM_TRhBQ" rule="DATATYPEMAP:mapCWEToCodedElement"/>
         </semanticElements>
-        <semanticElements xmi:id="_IzD4VZOLEeqV08fM_TRhBQ" name="Observation DR Value" datatype="_IzHh8pOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" children="_IzD4VpOLEeqV08fM_TRhBQ _IzD4V5OLEeqV08fM_TRhBQ" syntaxNode="_IzBdVJOLEeqV08fM_TRhBQ"/>
+        <semanticElements xmi:id="_IzD4VZOLEeqV08fM_TRhBQ" name="Observation DR Value" datatype="_IzHh8pOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" children="_IzD4VpOLEeqV08fM_TRhBQ _IzD4V5OLEeqV08fM_TRhBQ" syntaxNode="_IzBdVJOLEeqV08fM_TRhBQ">
+          <mapFromMdmi xmi:id="_cJKZQZOUEeq-VvWInrT61Q" name="MDMI2Message4Observation DR Value" businessElement="_IU9EYJOTEeq-VvWInrT61Q" rule="DATATYPEMAP:mapDateTimeToDR"/>
+          <mapToMdmi xmi:id="_cJKZQJOUEeq-VvWInrT61Q" name="Message2MDMI4Observation DR Value" businessElement="_IU9EYJOTEeq-VvWInrT61Q" rule="DATATYPEMAP:mapDRToDateTime"/>
+        </semanticElements>
         <semanticElements xmi:id="_IzD4VpOLEeqV08fM_TRhBQ" name="Range Start Date/Time" datatype="_IzHhwJOLEeqV08fM_TRhBQ" parent="_IzD4VZOLEeqV08fM_TRhBQ" syntaxNode="_IzBdVZOLEeqV08fM_TRhBQ"/>
         <semanticElements xmi:id="_IzD4V5OLEeqV08fM_TRhBQ" name="Range End Date/Time" datatype="_IzHhwJOLEeqV08fM_TRhBQ" parent="_IzD4VZOLEeqV08fM_TRhBQ" syntaxNode="_IzBdWJOLEeqV08fM_TRhBQ"/>
         <semanticElements xmi:id="_IzD4WJOLEeqV08fM_TRhBQ" name="Date/Time of the Observation" datatype="_IzHhwJOLEeqV08fM_TRhBQ" parent="_IzD4NJOLEeqV08fM_TRhBQ" syntaxNode="_IzBdnZOLEeqV08fM_TRhBQ">
@@ -15021,6 +15063,7 @@
       <businessElements xmi:id="_NBKOc5OLEeqV08fM_TRhBQ" name="ServiceRequestBodySite" description="The location on the body the service is to be performed" reference="ServiceRequestBodySite" uniqueIdentifier="a7d99669-5396-4340-862f-b9477159b96c" referenceDatatype="_IzHhopOLEeqV08fM_TRhBQ" readonly="true"/>
       <businessElements xmi:id="_NBKOdJOLEeqV08fM_TRhBQ" name="ServiceRequestCategory" description="A healthcare classification of the service requested" reference="ServiceRequestCategory" uniqueIdentifier="2abcadc8-536f-4d63-afdc-8148a9cfb058" referenceDatatype="_IzHhopOLEeqV08fM_TRhBQ" readonly="true"/>
       <businessElements xmi:id="_NBKOdZOLEeqV08fM_TRhBQ" name="ServiceRequestStatus" description="A reference to the healthcare provider who created the request" reference="ServiceRequestStatus" uniqueIdentifier="93e6052d-bf94-47e0-8c42-3b4b0d957089" referenceDatatype="_IzHhopOLEeqV08fM_TRhBQ" readonly="true"/>
+      <businessElements xmi:id="_IU9EYJOTEeq-VvWInrT61Q" name="ObservationValueDateTime" description="A result of an observation with datatype of datetime" reference="ObservationValueDateTime" uniqueIdentifier="3f7afeb7-c62a-472a-adf4-657f101b9f57" referenceDatatype="_IzHhvJOLEeqV08fM_TRhBQ" readonly="true"/>
     </domainDictionary>
     <datatypes xsi:type="mdmi:DTSEnumerated" xmi:id="_IzHhZpOLEeqV08fM_TRhBQ" typeName="NullFlavor" isReadonly="true">
       <literals xmi:id="_IzHhZ5OLEeqV08fM_TRhBQ" name="NA" description="not available" code="String"/>
@@ -15431,5 +15474,13 @@
     <datatypeMaps xmi:id="_NBQVEJOLEeqV08fM_TRhBQ" name="StringAndDateTimeMapping" fromMDMI=" function mapDateTimeToString(source,target) {&#xA;target.setValue(source.getValue());&#xA;}&#xA;" toMDMI="function mapStringToDateTime(source,target) {&#xA;&#x9;target.setValue(org.mdmi.core.engine.javascript.Utils.FormatDate(&quot;yyyyMMddHHmmssZ&quot;,&quot;yyyy-MM-dd'T'hh:mm:ss&quot;,source));&#xA;}&#xA;" mdmiDatatype="_IzHhvJOLEeqV08fM_TRhBQ" messageDatatype="_IzHhv5OLEeqV08fM_TRhBQ"/>
     <datatypeMaps xmi:id="_NBQVEZOLEeqV08fM_TRhBQ" name="StringAndDecimalMapping" fromMDMI="" toMDMI="" mdmiDatatype="_IzHhvZOLEeqV08fM_TRhBQ" messageDatatype="_IzHhv5OLEeqV08fM_TRhBQ"/>
     <datatypeMaps xmi:id="_NBQVEpOLEeqV08fM_TRhBQ" name="StringAndIntegerMapping" fromMDMI="function mapIntegerToString(source,target) { &#xA;&#x9;target.setValue(source.getValue());&#xA;}&#xA; &#xA;" toMDMI="function mapStringToInteger(source,target) { &#xA;&#x9;target.setValue(source);&#xA;}&#xA; &#xA;" mdmiDatatype="_IzHhvpOLEeqV08fM_TRhBQ" messageDatatype="_IzHhv5OLEeqV08fM_TRhBQ"/>
+    <datatypeMaps xmi:id="_zbhh8JOTEeq-VvWInrT61Q" name="MapNRToInteger" description="MapNRToInteger" fromMDMI="function mapNRToInteger(source,target) {}" toMDMI="function mapIntegerToNR(source,target) {}" mdmiDatatype="_IzHhvpOLEeqV08fM_TRhBQ" messageDatatype="_IzHia5OLEeqV08fM_TRhBQ"/>
+    <datatypeMaps xmi:id="_2dWUMJOTEeq-VvWInrT61Q" name="MapTXToString" description="MapTXToString" fromMDMI="function mapTXToString(source,target) {}" toMDMI="function mapStringToTX(source,target) {}" mdmiDatatype="_IzHhv5OLEeqV08fM_TRhBQ" messageDatatype="_IzHh3pOLEeqV08fM_TRhBQ"/>
+    <datatypeMaps xmi:id="_BH5LUJOUEeq-VvWInrT61Q" name="MapFTToString" description="MapFTToString" fromMDMI="function mapFTToString(source,target) {}" toMDMI="function mapStringToFT(source,target) {}" mdmiDatatype="_IzHhv5OLEeqV08fM_TRhBQ" messageDatatype="_IzHibpOLEeqV08fM_TRhBQ"/>
+    <datatypeMaps xmi:id="_EaYPwZOUEeq-VvWInrT61Q" name="MapSNToString" description="MapSNToString" fromMDMI="function mapSNToString(source,target) {}" toMDMI="function mapStringToSN(source,target) {}" mdmiDatatype="_IzHhv5OLEeqV08fM_TRhBQ" messageDatatype="_IzHicZOLEeqV08fM_TRhBQ"/>
+    <datatypeMaps xmi:id="_GxvIsJOUEeq-VvWInrT61Q" name="MapCWEToCodedElement" description="MapCWEToCodedElement" fromMDMI="function mapCWEToCodedElement(source,target) {}" toMDMI="function mapCodedElementToCWE(source,target) {}" mdmiDatatype="_IzHhopOLEeqV08fM_TRhBQ" messageDatatype="_IzHh9ZOLEeqV08fM_TRhBQ"/>
+    <datatypeMaps xmi:id="_OqIBQJOUEeq-VvWInrT61Q" name="MapCNEToCodedElement" description="MapCNEToCodedElement" fromMDMI="function mapCNEToCodedElement(source,target) {}" toMDMI="function mapCodedElementToCNE(source,target) {}" mdmiDatatype="_IzHhopOLEeqV08fM_TRhBQ" messageDatatype="_IzHidpOLEeqV08fM_TRhBQ"/>
+    <datatypeMaps xmi:id="_WqslcJOUEeq-VvWInrT61Q" name="MapVRToRange" description="MapVRToRange" fromMDMI="function mapVRToRange(source,target) {}" toMDMI="function mapRangeToVR(source,target) {}" mdmiDatatype="_IzHhqpOLEeqV08fM_TRhBQ" messageDatatype="_IzHigJOLEeqV08fM_TRhBQ"/>
+    <datatypeMaps xmi:id="_cJLnYJOUEeq-VvWInrT61Q" name="MapDRToDateTime" description="MapDRToDateTime" fromMDMI="function mapDRToDateTime(source,target) {}" toMDMI="function mapDateTimeToDR(source,target) {}" mdmiDatatype="_IzHhvJOLEeqV08fM_TRhBQ" messageDatatype="_IzHh8pOLEeqV08fM_TRhBQ"/>
   </mdmi:MessageGroup>
 </xmi:XMI>
