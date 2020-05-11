@@ -32,8 +32,8 @@
 -->
 
 
-	<property name="syntaxfocal" value="ADTA01CONTENT" />
-	<property name="syntaxRootLocation" value="ADT_A01" />
+	<property name="syntaxfocal" value="ORMO01CONTENT" />
+	<property name="syntaxRootLocation" value="ORM_O01" />
 
 
 		<qvto:transformation
@@ -59,6 +59,7 @@
 
 	<echo message="Start Merge" />
 	<mergeModel leftModel="platform:/resource/V2Models/V2Master/V2SegmentMaster6.mdmi" rightModel="platform:/resource/V2Models/maps/${syntaxfocal}.mdmi"/>
+	<mergeModel leftModel="platform:/resource/V2Models/V2Master/v2segOBRSPM.mdmi" rightModel="platform:/resource/V2Models/maps/${syntaxfocal}.mdmi"/>
 	<echo message="End Merge" />
 
 		<echo message="Start Sort" />
