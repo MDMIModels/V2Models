@@ -5867,7 +5867,7 @@
               </nodes>
             </nodes>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eONtDWEemgUJCBpnW2Jw" name="County Code" description="99999999" maxOccurs="1" location="PID.12" semanticElement="_08hR19DWEemgUJCBpnW2Jw" fieldName="PID12"/>
-            <nodes xsi:type="mdmi:Bag" xmi:id="_08ePTtDWEemgUJCBpnW2Jw" name="Phone Number - Home" description="99999999" maxOccurs="1" location="PID.13" semanticElement="_08hSJdDWEemgUJCBpnW2Jw">
+            <nodes xsi:type="mdmi:Bag" xmi:id="_08ePTtDWEemgUJCBpnW2Jw" name="Phone Number - Home" description="99999999" maxOccurs="2147483647" location="PID.13" semanticElement="_08hSJdDWEemgUJCBpnW2Jw">
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08ePT9DWEemgUJCBpnW2Jw" name="Telephone Number" description="99999999" location="XTN.1" fieldName="XTN1"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08ePUNDWEemgUJCBpnW2Jw" name="Telecommunication Use Code" description="99999999" location="XTN.2" fieldName="XTN2"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08ePUdDWEemgUJCBpnW2Jw" name="Telecommunication Equipment Type" description="99999999" location="XTN.3" fieldName="XTN3"/>
@@ -7176,7 +7176,10 @@
           <mapFromMdmi xmi:id="_vmGLsWU0EeqRnNP31sW04g" name="MDMI2Message4Patient Identifier List" businessElement="__jmQx9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapInstanceIdentifierToCX"/>
           <mapToMdmi xmi:id="_vmGLsGU0EeqRnNP31sW04g" name="Message2MDMI4Patient Identifier List" businessElement="__jmQx9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCXToInstanceIdentifier"/>
         </semanticElements>
-        <semanticElements xmi:id="_08hSHdDWEemgUJCBpnW2Jw" name="Patient Alias" datatype="_08k759DWEemgUJCBpnW2Jw" parent="_08hR09DWEemgUJCBpnW2Jw" children="_08hSHtDWEemgUJCBpnW2Jw _08hSH9DWEemgUJCBpnW2Jw _08hSINDWEemgUJCBpnW2Jw _08hSI9DWEemgUJCBpnW2Jw _08hSJNDWEemgUJCBpnW2Jw" syntaxNode="_08eOzNDWEemgUJCBpnW2Jw"/>
+        <semanticElements xmi:id="_08hSHdDWEemgUJCBpnW2Jw" name="Patient Alias" datatype="_08k759DWEemgUJCBpnW2Jw" parent="_08hR09DWEemgUJCBpnW2Jw" children="_08hSHtDWEemgUJCBpnW2Jw _08hSH9DWEemgUJCBpnW2Jw _08hSINDWEemgUJCBpnW2Jw _08hSI9DWEemgUJCBpnW2Jw _08hSJNDWEemgUJCBpnW2Jw" syntaxNode="_08eOzNDWEemgUJCBpnW2Jw">
+          <mapFromMdmi xmi:id="_yiwdEZU3Eeq-VvWInrT61Q" name="MDMI2Message4Patient Alias" businessElement="__jotE9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapPersonNameToXPN"/>
+          <mapToMdmi xmi:id="_yiwdEJU3Eeq-VvWInrT61Q" name="Message2MDMI4Patient Alias" businessElement="__jotE9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapXPNToPersonName"/>
+        </semanticElements>
         <semanticElements xmi:id="_08hSHtDWEemgUJCBpnW2Jw" name="Family Name" datatype="_08k7pNDWEemgUJCBpnW2Jw" parent="_08hSHdDWEemgUJCBpnW2Jw" syntaxNode="_08eO1tDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hSH9DWEemgUJCBpnW2Jw" name="Name Context" datatype="_08k7fNDWEemgUJCBpnW2Jw" parent="_08hSHdDWEemgUJCBpnW2Jw" syntaxNode="_08eO3NDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hSINDWEemgUJCBpnW2Jw" name="Name Validity Range" datatype="_08k7qtDWEemgUJCBpnW2Jw" parent="_08hSHdDWEemgUJCBpnW2Jw" children="_08hSIdDWEemgUJCBpnW2Jw _08hSItDWEemgUJCBpnW2Jw" syntaxNode="_08eO49DWEemgUJCBpnW2Jw"/>
@@ -7185,8 +7188,8 @@
         <semanticElements xmi:id="_08hSI9DWEemgUJCBpnW2Jw" name="Effective Date" datatype="_08k7kNDWEemgUJCBpnW2Jw" parent="_08hSHdDWEemgUJCBpnW2Jw" syntaxNode="_08eO6tDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hSJNDWEemgUJCBpnW2Jw" name="Expiration Date" datatype="_08k7kNDWEemgUJCBpnW2Jw" parent="_08hSHdDWEemgUJCBpnW2Jw" syntaxNode="_08eO7dDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hSJdDWEemgUJCBpnW2Jw" name="Phone Number - Home" datatype="_08k72tDWEemgUJCBpnW2Jw" parent="_08hR09DWEemgUJCBpnW2Jw" syntaxNode="_08ePTtDWEemgUJCBpnW2Jw">
-          <mapFromMdmi xmi:id="_ldUBkdWcEemtJ5NAI2EYYw" name="MDMI2Message4Phone Number - Home" businessElement="__jmQxtVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapTelecomToXTN"/>
-          <mapToMdmi xmi:id="_ldUBkNWcEemtJ5NAI2EYYw" name="Message2MDMI4Phone Number - Home" businessElement="__jmQxtVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapXTNToHomePhone"/>
+          <mapFromMdmi xmi:id="_n3IEAJU7Eeq-VvWInrT61Q" name="MDMI2Message4Phone Number - Home2" businessElement="__jpUEdVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapTelecomToXTN"/>
+          <mapToMdmi xmi:id="_n3Hc8JU7Eeq-VvWInrT61Q" name="Message2MDMI4Phone Number - Home1" businessElement="__jpUEdVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapXTNToTelecom"/>
         </semanticElements>
         <semanticElements xmi:id="_08hSJtDWEemgUJCBpnW2Jw" name="Religion" description="A" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08hR09DWEemgUJCBpnW2Jw" syntaxNode="_08eOctDWEemgUJCBpnW2Jw">
           <mapFromMdmi xmi:id="_ogZYEdWcEemtJ5NAI2EYYw" name="MDMI2Message4Religion" businessElement="__jmQztVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToCWE"/>
