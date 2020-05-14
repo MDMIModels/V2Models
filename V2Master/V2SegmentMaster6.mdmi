@@ -7389,8 +7389,8 @@
           <mapToMdmi xmi:id="_Yd0OYNYiEemxD7cQhvk-Cg" name="Message2MDMI4Phone Number" businessElement="__l1FZ9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapXTNToTelecom"/>
         </semanticElements>
         <semanticElements xmi:id="_08hSvNDWEemgUJCBpnW2Jw" name="Relationship" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08hScdDWEemgUJCBpnW2Jw" syntaxNode="_08eRr9DWEemgUJCBpnW2Jw">
-          <mapFromMdmi xmi:id="_xNx1UHKUEeqcR7f337lYzA" name="MDMI2Message4Relationship" businessElement="_harwAHKUEeqcR7f337lYzA" rule="DATATYPEMAP:mapCodedElementToCWE"/>
-          <mapToMdmi xmi:id="_xNwAIHKUEeqcR7f337lYzA" name="Message2MDMI4Relationship" businessElement="_harwAHKUEeqcR7f337lYzA" rule="DATATYPEMAP:mapCWEToCodedElement"/>
+          <mapFromMdmi xmi:id="_CGiBAZYJEeq5Sbe9z87k3w" name="MDMI2Message4Relationship" businessElement="__lDCQ9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToCWE"/>
+          <mapToMdmi xmi:id="_CGiBAJYJEeq5Sbe9z87k3w" name="Message2MDMI4Relationship" businessElement="__lDCQ9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCWEToCodedElement"/>
         </semanticElements>
         <semanticElements xmi:id="_08hSvdDWEemgUJCBpnW2Jw" name="Contact Role" description="A" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08hScdDWEemgUJCBpnW2Jw" syntaxNode="_08eSF9DWEemgUJCBpnW2Jw">
           <mapFromMdmi xmi:id="_FnZ5Ed4lEemqtOKCxin-nA" name="MDMI2Message4Contact Role" businessElement="__lDCQ9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToCWE"/>
