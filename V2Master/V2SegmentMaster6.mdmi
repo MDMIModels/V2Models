@@ -5831,7 +5831,7 @@
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eP1dDWEemgUJCBpnW2Jw" name="Alternate Text" description="99999999" location="CWE.5" fieldName="CWE5"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eP1tDWEemgUJCBpnW2Jw" name="Name of Alternate Coding System" description="99999999" location="CWE.6" fieldName="CWE6"/>
             </nodes>
-            <nodes xsi:type="mdmi:Bag" xmi:id="_08ePo9DWEemgUJCBpnW2Jw" name="Patient Address" description="99999999" maxOccurs="1" location="PID.12" semanticElement="_08hSCdDWEemgUJCBpnW2Jw">
+            <nodes xsi:type="mdmi:Bag" xmi:id="_08ePo9DWEemgUJCBpnW2Jw" name="Patient Address" description="99999999" maxOccurs="1" location="PID.11" semanticElement="_08hSCdDWEemgUJCBpnW2Jw">
               <nodes xsi:type="mdmi:Bag" xmi:id="_08ePrtDWEemgUJCBpnW2Jw" name="Street Address" description="99999999" maxOccurs="1" location="XAD.1" fieldName="XAD1">
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08ePr9DWEemgUJCBpnW2Jw" name="Street or Mailing Address" description="99999999" maxOccurs="1" location="SAD.1" fieldName="SAD1"/>
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08ePsNDWEemgUJCBpnW2Jw" name="Street Name" description="99999999" maxOccurs="1" location="SAD.2" fieldName="SAD2"/>
@@ -5866,7 +5866,7 @@
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08ePvtDWEemgUJCBpnW2Jw" name="Degree of Precision" description="99999999" location="TS.2" fieldName="TS2"/>
               </nodes>
             </nodes>
-            <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eONtDWEemgUJCBpnW2Jw" name="County Code" description="99999999" maxOccurs="1" location="PID.12" semanticElement="_uqohoJYLEeqtxc_V_kwntg" fieldName="PID12"/>
+            <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08eONtDWEemgUJCBpnW2Jw" name="County Code" description="99999999" maxOccurs="1" location="PID.12" semanticElement="_08hR19DWEemgUJCBpnW2Jw" fieldName="PID12"/>
             <nodes xsi:type="mdmi:Bag" xmi:id="_08ePTtDWEemgUJCBpnW2Jw" name="Phone Number - Home" description="99999999" maxOccurs="2147483647" location="PID.13" semanticElement="_08hSJdDWEemgUJCBpnW2Jw">
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08ePT9DWEemgUJCBpnW2Jw" name="Telephone Number" description="99999999" location="XTN.1" fieldName="XTN1"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08ePUNDWEemgUJCBpnW2Jw" name="Telecommunication Use Code" description="99999999" location="XTN.2" fieldName="XTN2"/>
@@ -7057,7 +7057,7 @@
           <mapToMdmi xmi:id="_O_WBYJB1EeqJoNixqvdMWQ" name="Message2MDMI4Recorded Date/Time" businessElement="__jmQ5tVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapStringToDateTime"/>
         </semanticElements>
         <semanticElements xmi:id="_08hR0tDWEemgUJCBpnW2Jw" name="Event Occurred" datatype="_08k7kNDWEemgUJCBpnW2Jw" parent="_08hRwNDWEemgUJCBpnW2Jw" syntaxNode="_08eN59DWEemgUJCBpnW2Jw"/>
-        <semanticElements xmi:id="_08hR09DWEemgUJCBpnW2Jw" name="PID" datatype="_08kZOtDWEemgUJCBpnW2Jw" children="_08hR1NDWEemgUJCBpnW2Jw _08hR1dDWEemgUJCBpnW2Jw _08hR1tDWEemgUJCBpnW2Jw _08hR19DWEemgUJCBpnW2Jw _08hR2NDWEemgUJCBpnW2Jw _08hR2dDWEemgUJCBpnW2Jw _08hR2tDWEemgUJCBpnW2Jw _08hR29DWEemgUJCBpnW2Jw _08hR3NDWEemgUJCBpnW2Jw _08hR3dDWEemgUJCBpnW2Jw _08hR3tDWEemgUJCBpnW2Jw _08hR39DWEemgUJCBpnW2Jw _08hR4NDWEemgUJCBpnW2Jw _08hR5dDWEemgUJCBpnW2Jw _08hR5tDWEemgUJCBpnW2Jw _08hR59DWEemgUJCBpnW2Jw _08hR6NDWEemgUJCBpnW2Jw _08hR6dDWEemgUJCBpnW2Jw _08hR6tDWEemgUJCBpnW2Jw _08hR8tDWEemgUJCBpnW2Jw _08hR89DWEemgUJCBpnW2Jw _08hR9NDWEemgUJCBpnW2Jw _08hR9dDWEemgUJCBpnW2Jw _08hR_dDWEemgUJCBpnW2Jw _08hR_tDWEemgUJCBpnW2Jw _08hSA9DWEemgUJCBpnW2Jw _08hSBNDWEemgUJCBpnW2Jw _08hSCdDWEemgUJCBpnW2Jw _08hSENDWEemgUJCBpnW2Jw _08hSEdDWEemgUJCBpnW2Jw _08hSEtDWEemgUJCBpnW2Jw _08hSF9DWEemgUJCBpnW2Jw _08hSGNDWEemgUJCBpnW2Jw _08hSHdDWEemgUJCBpnW2Jw _08hSJdDWEemgUJCBpnW2Jw _08hSJtDWEemgUJCBpnW2Jw _08hSJ9DWEemgUJCBpnW2Jw _08hSKNDWEemgUJCBpnW2Jw _08hSKdDWEemgUJCBpnW2Jw _GClA4N4fEemIwKilxOhcnw _uqohoJYLEeqtxc_V_kwntg" syntaxNode="_08eONdDWEemgUJCBpnW2Jw">
+        <semanticElements xmi:id="_08hR09DWEemgUJCBpnW2Jw" name="PID" datatype="_08kZOtDWEemgUJCBpnW2Jw" children="_08hR1NDWEemgUJCBpnW2Jw _08hR1dDWEemgUJCBpnW2Jw _08hR1tDWEemgUJCBpnW2Jw _08hR19DWEemgUJCBpnW2Jw _08hR2NDWEemgUJCBpnW2Jw _08hR2dDWEemgUJCBpnW2Jw _08hR2tDWEemgUJCBpnW2Jw _08hR29DWEemgUJCBpnW2Jw _08hR3NDWEemgUJCBpnW2Jw _08hR3dDWEemgUJCBpnW2Jw _08hR3tDWEemgUJCBpnW2Jw _08hR39DWEemgUJCBpnW2Jw _08hR4NDWEemgUJCBpnW2Jw _08hR5dDWEemgUJCBpnW2Jw _08hR5tDWEemgUJCBpnW2Jw _08hR59DWEemgUJCBpnW2Jw _08hR6NDWEemgUJCBpnW2Jw _08hR6dDWEemgUJCBpnW2Jw _08hR6tDWEemgUJCBpnW2Jw _08hR8tDWEemgUJCBpnW2Jw _08hR89DWEemgUJCBpnW2Jw _08hR9NDWEemgUJCBpnW2Jw _08hR9dDWEemgUJCBpnW2Jw _08hR_dDWEemgUJCBpnW2Jw _08hR_tDWEemgUJCBpnW2Jw _08hSA9DWEemgUJCBpnW2Jw _08hSBNDWEemgUJCBpnW2Jw _08hSCdDWEemgUJCBpnW2Jw _08hSENDWEemgUJCBpnW2Jw _08hSEdDWEemgUJCBpnW2Jw _08hSEtDWEemgUJCBpnW2Jw _08hSF9DWEemgUJCBpnW2Jw _08hSGNDWEemgUJCBpnW2Jw _08hSHdDWEemgUJCBpnW2Jw _08hSJdDWEemgUJCBpnW2Jw _08hSJtDWEemgUJCBpnW2Jw _08hSJ9DWEemgUJCBpnW2Jw _08hSKNDWEemgUJCBpnW2Jw _08hSKdDWEemgUJCBpnW2Jw _GClA4N4fEemIwKilxOhcnw" syntaxNode="_08eONdDWEemgUJCBpnW2Jw">
           <mapFromMdmi xmi:id="_fiFEIdWaEemtJ5NAI2EYYw" name="MDMI2Message4PID" businessElement="__jotC9VWEemWHIQauk-MYg"/>
           <mapToMdmi xmi:id="_fiFEINWaEemtJ5NAI2EYYw" name="Message2MDMI4PID" businessElement="__jotC9VWEemWHIQauk-MYg"/>
         </semanticElements>
@@ -7070,7 +7070,7 @@
           <mapFromMdmi xmi:id="_zHgyodWaEemtJ5NAI2EYYw" name="MDMI2Message4Administrative Sex" businessElement="__jmQwtVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToString"/>
           <mapToMdmi xmi:id="_zHgyoNWaEemtJ5NAI2EYYw" name="Message2MDMI4Administrative Sex" businessElement="__jmQwtVWEemWHIQauk-MYg" rule="DATATYPEMAP:stringToAdministrativeGender"/>
         </semanticElements>
-        <semanticElements xmi:id="_08hR19DWEemgUJCBpnW2Jw" name="County Code" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hR09DWEemgUJCBpnW2Jw"/>
+        <semanticElements xmi:id="_08hR19DWEemgUJCBpnW2Jw" name="County Code" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hR09DWEemgUJCBpnW2Jw" syntaxNode="_08eONtDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hR2NDWEemgUJCBpnW2Jw" name="Birth Place" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hR09DWEemgUJCBpnW2Jw" syntaxNode="_08eON9DWEemgUJCBpnW2Jw">
           <mapFromMdmi xmi:id="_1NoKkdWaEemtJ5NAI2EYYw" name="MDMI2Message4Birth Place" businessElement="__jmQw9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapAddressToString"/>
           <mapToMdmi xmi:id="_1NoKkNWaEemtJ5NAI2EYYw" name="Message2MDMI4Birth Place" businessElement="__jmQw9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapStringToAddress"/>
@@ -7158,7 +7158,7 @@
         <semanticElements xmi:id="_08hSB9DWEemgUJCBpnW2Jw" name="Assigning Jurisdiction" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08hSBNDWEemgUJCBpnW2Jw" syntaxNode="_08ePOtDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hSCNDWEemgUJCBpnW2Jw" name="Assigning Agency or Department" datatype="_08k7rdDWEemgUJCBpnW2Jw" parent="_08hSBNDWEemgUJCBpnW2Jw" syntaxNode="_08ePRNDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hSCdDWEemgUJCBpnW2Jw" name="Patient Address" datatype="_08k7-tDWEemgUJCBpnW2Jw" parent="_08hR09DWEemgUJCBpnW2Jw" syntaxNode="_08ePo9DWEemgUJCBpnW2Jw">
-          <relationships xmi:id="_0_lcEJYMEeqtxc_V_kwntg" name="countycode" rule="value.getXValue().addValue('county',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  ); " context="_uqohoJYLEeqtxc_V_kwntg" relatedSemanticElement="_uqohoJYLEeqtxc_V_kwntg"/>
+          <relationships xmi:id="_0_lcEJYMEeqtxc_V_kwntg" name="countycode" rule="value.getXValue().addValue('county',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  ); " context="_08hSCdDWEemgUJCBpnW2Jw" relatedSemanticElement="_08hR19DWEemgUJCBpnW2Jw"/>
           <mapFromMdmi xmi:id="_T6fEAdWcEemtJ5NAI2EYYw" name="MDMI2Message4Patient Address" businessElement="__l26mNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapAddressToXAD"/>
           <mapToMdmi xmi:id="_T6fEANWcEemtJ5NAI2EYYw" name="Message2MDMI4Patient Address" businessElement="__l26mNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapXADToAddress"/>
         </semanticElements>
@@ -8801,7 +8801,6 @@
           <relationships xmi:id="_is_F8JBPEeq-W7uegK8QxA" name="bed" rule="value.getXValue().addValue('code',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_a-a3wJBPEeq-W7uegK8QxA" relatedSemanticElement="_08hSzdDWEemgUJCBpnW2Jw"/>
           <computedValue xmi:id="_5aUZgJBPEeq-W7uegK8QxA" expression="SEMANTICROLLUP" language="JavaScript"/>
         </semanticElements>
-        <semanticElements xmi:id="_uqohoJYLEeqtxc_V_kwntg" name="CountyRollup" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hR09DWEemgUJCBpnW2Jw" syntaxNode="_08eONtDWEemgUJCBpnW2Jw"/>
       </elementSet>
     </models>
     <domainDictionary xmi:id="_08h7I9DWEemgUJCBpnW2Jw">
