@@ -7633,9 +7633,9 @@
         <semanticElements xmi:id="_08hTKtDWEemgUJCBpnW2Jw" name="Facility" datatype="_08k7h9DWEemgUJCBpnW2Jw" parent="_08hTKdDWEemgUJCBpnW2Jw" syntaxNode="_08e2mtDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hTK9DWEemgUJCBpnW2Jw" name="Comprehensive Location Identifier" datatype="_08k7i9DWEemgUJCBpnW2Jw" parent="_08hTKdDWEemgUJCBpnW2Jw" syntaxNode="_08e2ntDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hTLNDWEemgUJCBpnW2Jw" name="Assigning Authority for Location" datatype="_08k7h9DWEemgUJCBpnW2Jw" parent="_08hTKdDWEemgUJCBpnW2Jw" syntaxNode="_08e2o9DWEemgUJCBpnW2Jw"/>
-        <semanticElements xmi:id="_08hTLdDWEemgUJCBpnW2Jw" name="Consulting Doctor" datatype="_08k7t9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" children="_08hTLtDWEemgUJCBpnW2Jw _08hTL9DWEemgUJCBpnW2Jw _08hTMNDWEemgUJCBpnW2Jw _08hTMdDWEemgUJCBpnW2Jw _08hTMtDWEemgUJCBpnW2Jw _08hTNdDWEemgUJCBpnW2Jw _08hTNtDWEemgUJCBpnW2Jw _08hTN9DWEemgUJCBpnW2Jw _08hTONDWEemgUJCBpnW2Jw _Xci-YJBNEeq-W7uegK8QxA" syntaxNode="_08e1nNDWEemgUJCBpnW2Jw">
-          <mapFromMdmi xmi:id="_PsIWEZBNEeq-W7uegK8QxA" name="MDMI2Message4Consulting Doctor" businessElement="__k9isdVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapContainerToXCN"/>
-          <mapToMdmi xmi:id="_PsIWEJBNEeq-W7uegK8QxA" name="Message2MDMI4Consulting Doctor" businessElement="__k9isdVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapXCNToContainer"/>
+        <semanticElements xmi:id="_08hTLdDWEemgUJCBpnW2Jw" name="Consulting Doctor" datatype="_08kZOtDWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" children="_08hTLtDWEemgUJCBpnW2Jw _08hTL9DWEemgUJCBpnW2Jw _08hTMNDWEemgUJCBpnW2Jw _08hTMdDWEemgUJCBpnW2Jw _08hTMtDWEemgUJCBpnW2Jw _08hTNdDWEemgUJCBpnW2Jw _08hTNtDWEemgUJCBpnW2Jw _08hTN9DWEemgUJCBpnW2Jw _08hTONDWEemgUJCBpnW2Jw _Xci-YJBNEeq-W7uegK8QxA" syntaxNode="_08e1nNDWEemgUJCBpnW2Jw">
+          <mapFromMdmi xmi:id="_PsIWEZBNEeq-W7uegK8QxA" name="MDMI2Message4Consulting Doctor" businessElement="__k9isdVWEemWHIQauk-MYg" rule=""/>
+          <mapToMdmi xmi:id="_PsIWEJBNEeq-W7uegK8QxA" name="Message2MDMI4Consulting Doctor" businessElement="__k9isdVWEemWHIQauk-MYg" rule=""/>
         </semanticElements>
         <semanticElements xmi:id="_08hTLtDWEemgUJCBpnW2Jw" name="Family Name" datatype="_08k7pNDWEemgUJCBpnW2Jw" parent="_08hTLdDWEemgUJCBpnW2Jw"/>
         <semanticElements xmi:id="_08hTL9DWEemgUJCBpnW2Jw" name="Assigning Authority" datatype="_08k7h9DWEemgUJCBpnW2Jw" parent="_08hTLdDWEemgUJCBpnW2Jw" syntaxNode="_08e1sdDWEemgUJCBpnW2Jw"/>
