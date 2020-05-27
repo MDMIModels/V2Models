@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdmi="http://schema.omg.org/spec/MDMI/1.0">
-  <mdmi:MessageGroup xmi:id="_52gzIJFIEeq0vMJZvVurzA" name="HL7V2XML" description="SKIPCONTAINMENT" defaultLocationExprLang="XPath" defaultConstraintExprLang="JavaScript" defaultRuleExprLang="JavaScript">
+  <mdmi:MessageGroup xmi:id="_52gzIJFIEeq0vMJZvVurzA" name="HL7V2" description="SKIPCONTAINMENT" defaultLocationExprLang="XPath" defaultConstraintExprLang="JavaScript" defaultRuleExprLang="JavaScript">
     <models xmi:id="_52gzIZFIEeq0vMJZvVurzA">
       <syntaxModel xmi:id="_52gzIpFIEeq0vMJZvVurzA">
         <root xsi:type="mdmi:Bag" xmi:id="_52gzI5FIEeq0vMJZvVurzA" name="VXUV04CONTENT" location="VXUV04CONTENT">
