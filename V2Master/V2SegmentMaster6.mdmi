@@ -14110,6 +14110,7 @@
       <businessElements xmi:id="_tbps0J9dEeqYDrJ-3IZ4oA" name="ObservationSpecimenRecievedTime" description="The time the specimen was recieved for processing" reference="ObservationSpecimenRecievedTime" uniqueIdentifier="ea90f902-f57e-46e4-bccf-65c0df246d4b" referenceDatatype="_08k7dNDWEemgUJCBpnW2Jw" readonly="true"/>
       <businessElements xmi:id="_x65tAKAmEeq32aX0aUawIA" name="ServiceRequestRequestedDateTime" description="The date and time requested for the service event" reference="ServiceRequestRequestedDateTime" uniqueIdentifier="2514da54-599e-4ef7-9d13-7c81df490d64" referenceDatatype="_08k7dNDWEemgUJCBpnW2Jw" readonly="true"/>
       <businessElements xmi:id="_InkPwKWZEeqgd_IuBWsL4A" name="EncounterNotes" description="Healthcare provider description and additional information for the encounter" reference="EncounterNotes" uniqueIdentifier="0be6a605-f097-43f5-b6b8-a400bd28f20b" referenceDatatype="_08k7d9DWEemgUJCBpnW2Jw" readonly="true"/>
+      <businessElements xmi:id="_fgs6EKaeEeqRJYAxEmVh1Q" name="ObservationStatementDateTime" description="The time for the statement was made about the result, finding, or analyis of the observation" reference="ObservationStatementDateTime" uniqueIdentifier="74a63505-7275-4878-b7e2-664796acd840" referenceDatatype="_08k7dNDWEemgUJCBpnW2Jw" readonly="true"/>
     </domainDictionary>
     <datatypes xsi:type="mdmi:DTSEnumerated" xmi:id="_08kZL9DWEemgUJCBpnW2Jw" typeName="NullFlavor" isReadonly="true">
       <literals xmi:id="_08kZMNDWEemgUJCBpnW2Jw" name="NA" description="not available" code="String"/>
