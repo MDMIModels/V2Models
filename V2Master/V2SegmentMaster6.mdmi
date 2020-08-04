@@ -14618,5 +14618,7 @@
     <datatypeMaps xmi:id="_RFvU8NGWEeq-tsyqIqdvig" name="MapVARIESToPhysicalQuantity" description="MapVARIESToPhysicalQuantity" fromMDMI="function mapVARIESToPhysicalQuantity(source,target) {}" toMDMI="function mapPhysicalQuantityToVARIES(source,target) {}" mdmiDatatype="_08k7bNDWEemgUJCBpnW2Jw" messageDatatype="_08k8I9DWEemgUJCBpnW2Jw"/>
     <datatypeMaps xmi:id="_ea1GwNGWEeq-tsyqIqdvig" name="MapVARIESToCodedElement" description="MapVARIESToCodedElement" fromMDMI="function mapVARIESToCodedElement(source,target) {&#xD;&#xA;&#x9;target.setValue('code' , source.getValue());&#xD;&#xA;}" toMDMI="function mapCodedElementToVARIES(source,target) {}" mdmiDatatype="_08k7WtDWEemgUJCBpnW2Jw" messageDatatype="_08k8I9DWEemgUJCBpnW2Jw"/>
     <datatypeMaps xmi:id="_g7CHwNGYEeq-tsyqIqdvig" name="MapStringToRange" description="MapStringToRange" fromMDMI="function mapStringToRange(source,target) {}" toMDMI="function mapRangeToString(source,target) {}" mdmiDatatype="_08k7YtDWEemgUJCBpnW2Jw" messageDatatype="_08k7d9DWEemgUJCBpnW2Jw"/>
+    <datatypeMaps xmi:id="_aBqfMNZZEeq02vILxBlVXg" name="StringAndTimePeriodMapping" fromMDMI="" toMDMI="" mdmiDatatype="_XN6_UK8UEeq5VZrEixdeVw" messageDatatype="_08k7d9DWEemgUJCBpnW2Jw"/>
+    <datatypeMaps xmi:id="_aBqfMdZZEeq02vILxBlVXg" name="StringAndTimeDurationMapping" fromMDMI="" toMDMI="" mdmiDatatype="_XN6_U68UEeq5VZrEixdeVw" messageDatatype="_08k7d9DWEemgUJCBpnW2Jw"/>
   </mdmi:MessageGroup>
 </xmi:XMI>
