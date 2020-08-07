@@ -32,8 +32,8 @@
 -->
 
 
-	<property name="syntaxfocal" value="ORMO01CONTENT" />
-	<property name="syntaxRootLocation" value="ORM_O01" />
+	<property name="syntaxfocal" value="ADTA08CONTENT" />
+	<property name="syntaxRootLocation" value="ADT_A08" />
 
 
 		<qvto:transformation
