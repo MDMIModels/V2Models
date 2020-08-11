@@ -8,7 +8,7 @@
 	<xsd:complexType name="escapeType" mixed="true">
 		<xsd:sequence>
 			<xsd:element name="escape" minOccurs="0"
-				type="escapeType" />
+				type="xsd:string" />
 		</xsd:sequence>
 		<xsd:attribute name="V" type="xsd:string" />
 	</xsd:complexType><!-- COMPOSITE DATATYPE AD -->
