@@ -3,7 +3,7 @@
     xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/Users/seanmuir/git/V2Models/models/./src/." modelPluginID="emf.lib.example"
     modelName="Lib" importerID="org.eclipse.xsd.ecore.importer" complianceLevel="5.0"
     copyrightFields="false">
-  <foreignModel>../V28/xsd/ADT_A04.xsd</foreignModel>
+  <foreignModel>../V28/xsd/ADT_A08.xsd</foreignModel>
   <genPackages prefix="V2xml" basePackage="org.hl7" resource="XML" disposableProviderFactory="true"
       loadInitialization="true" literalsInterface="false" ecorePackage="v2xml.ecore#/">
     <genDataTypes ecoreDataType="v2xml.ecore#//DT"/>
@@ -417,50 +417,56 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADJCONTENT/aDJ15"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute v2xml.ecore#//ADJCONTENT/any"/>
     </genClasses>
-    <genClasses ecoreClass="v2xml.ecore#//ADTA04AUTHORIZATIONCONTENT">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04AUTHORIZATIONCONTENT/aUT"/>
+    <genClasses ecoreClass="v2xml.ecore#//ADTA08AUTHORIZATIONCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08AUTHORIZATIONCONTENT/aUT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08AUTHORIZATIONCONTENT/pRT"/>
     </genClasses>
-    <genClasses ecoreClass="v2xml.ecore#//ADTA04CONTENT">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/mSH"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/sFT"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/eVN"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/pID"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/pD1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/nEXTOFKIN"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/pV1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/pV2"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/rOL"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/dB1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/aDTA04OBSERVATION"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/aL1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/iAM"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/dG1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/dRG"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/aDTA04PROCEDURE"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/gT1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/aDTA04INSURANCE"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/aCC"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/uB1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/uB2"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04CONTENT/pDA"/>
+    <genClasses ecoreClass="v2xml.ecore#//ADTA08CONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/mSH"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/aRV"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/sFT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/uAC"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/eVN"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/pID"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/pD1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/nEXTOFKIN"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/pV1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/pV2"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/dB1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/aDTA08OBSERVATION"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/aL1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/iAM"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/dG1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/dRG"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/aDTA08PROCEDURE"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/gT1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/aDTA08INSURANCE"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/aCC"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/uB1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/uB2"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08CONTENT/pDA"/>
     </genClasses>
-    <genClasses ecoreClass="v2xml.ecore#//ADTA04INSURANCECONTENT">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04INSURANCECONTENT/iN1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04INSURANCECONTENT/iN2"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04INSURANCECONTENT/iN3"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04INSURANCECONTENT/rOL"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04INSURANCECONTENT/aDTA04AUTHORIZATION"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04INSURANCECONTENT/aDTA04REFERRAL"/>
+    <genClasses ecoreClass="v2xml.ecore#//ADTA08INSURANCECONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08INSURANCECONTENT/iN1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08INSURANCECONTENT/iN2"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08INSURANCECONTENT/iN3"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08INSURANCECONTENT/rOL"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08INSURANCECONTENT/pRT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08INSURANCECONTENT/aDTA08AUTHORIZATION"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08INSURANCECONTENT/aDTA08REFERRAL"/>
     </genClasses>
-    <genClasses ecoreClass="v2xml.ecore#//ADTA04OBSERVATIONCONTENT">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04OBSERVATIONCONTENT/oBX"/>
+    <genClasses ecoreClass="v2xml.ecore#//ADTA08OBSERVATIONCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08OBSERVATIONCONTENT/oBX"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08OBSERVATIONCONTENT/pRT"/>
     </genClasses>
-    <genClasses ecoreClass="v2xml.ecore#//ADTA04PROCEDURECONTENT">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04PROCEDURECONTENT/pR1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04PROCEDURECONTENT/rOL"/>
+    <genClasses ecoreClass="v2xml.ecore#//ADTA08PROCEDURECONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08PROCEDURECONTENT/pR1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08PROCEDURECONTENT/rOL"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08PROCEDURECONTENT/pRT"/>
     </genClasses>
-    <genClasses ecoreClass="v2xml.ecore#//ADTA04REFERRALCONTENT">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA04REFERRALCONTENT/rF1"/>
+    <genClasses ecoreClass="v2xml.ecore#//ADTA08REFERRALCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08REFERRALCONTENT/rF1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA08REFERRALCONTENT/pRT"/>
     </genClasses>
     <genClasses ecoreClass="v2xml.ecore#//AFF1CONTENT">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute v2xml.ecore#//AFF1CONTENT/value"/>
@@ -4625,12 +4631,12 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDJ7"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDJ8"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDJ9"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA04"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA04AUTHORIZATION"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA04INSURANCE"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA04OBSERVATION"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA04PROCEDURE"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA04REFERRAL"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA08"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA08AUTHORIZATION"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA08INSURANCE"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA08OBSERVATION"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA08PROCEDURE"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA08REFERRAL"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aFF"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aFF1"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aFF2"/>

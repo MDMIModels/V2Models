@@ -28,6 +28,7 @@
             <xsd:element ref="IN2" minOccurs="0" maxOccurs="1"/>
             <xsd:element ref="IN3" minOccurs="0" maxOccurs="1"/>
             <xsd:element ref="ROL" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element ref="PRT" minOccurs="0" maxOccurs="unbounded"/>
             <xsd:element ref="ADT_A04.AUTHORIZATION" minOccurs="0" maxOccurs="unbounded"/>
             <xsd:element ref="ADT_A04.REFERRAL" minOccurs="0" maxOccurs="unbounded"/>
         </xsd:sequence>
@@ -42,6 +43,7 @@
     <xsd:complexType name="ADT_A04.OBSERVATION.CONTENT">
         <xsd:sequence>
             <xsd:element ref="OBX" minOccurs="1" maxOccurs="1"/>
+            <xsd:element ref="PRT" minOccurs="0" maxOccurs="unbounded"/>
         </xsd:sequence>
     </xsd:complexType>
     <xsd:element name="ADT_A04.OBSERVATION" type="ADT_A04.OBSERVATION.CONTENT"/>
@@ -49,18 +51,21 @@
         <xsd:sequence>
             <xsd:element ref="PR1" minOccurs="1" maxOccurs="1"/>
             <xsd:element ref="ROL" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element ref="PRT" minOccurs="0" maxOccurs="unbounded"/>
         </xsd:sequence>
     </xsd:complexType>
     <xsd:element name="ADT_A04.PROCEDURE" type="ADT_A04.PROCEDURE.CONTENT"/>
     <xsd:complexType name="ADT_A04.AUTHORIZATION.CONTENT">
         <xsd:sequence>
             <xsd:element ref="AUT" minOccurs="1" maxOccurs="1"/>
+            <xsd:element ref="PRT" minOccurs="0" maxOccurs="unbounded"/>
         </xsd:sequence>
     </xsd:complexType>
     <xsd:element name="ADT_A04.AUTHORIZATION" type="ADT_A04.AUTHORIZATION.CONTENT"/>
     <xsd:complexType name="ADT_A04.REFERRAL.CONTENT">
         <xsd:sequence>
             <xsd:element ref="RF1" minOccurs="1" maxOccurs="1"/>
+            <xsd:element ref="PRT" minOccurs="0" maxOccurs="unbounded"/>
         </xsd:sequence>
     </xsd:complexType>
     <xsd:element name="ADT_A04.REFERRAL" type="ADT_A04.REFERRAL.CONTENT"/>
@@ -68,7 +73,9 @@
     <xsd:complexType name="ADT_A04.CONTENT">
         <xsd:sequence>
             <xsd:element ref="MSH" minOccurs="1" maxOccurs="1"/>
+            <xsd:element ref="ARV" minOccurs="0" maxOccurs="unbounded"/>
             <xsd:element ref="SFT" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element ref="UAC" minOccurs="0" maxOccurs="1"/>
             <xsd:element ref="EVN" minOccurs="1" maxOccurs="1"/>
             <xsd:element ref="PID" minOccurs="1" maxOccurs="1"/>
             <xsd:element ref="PD1" minOccurs="0" maxOccurs="1"/>
@@ -76,6 +83,7 @@
             <xsd:element ref="PV1" minOccurs="1" maxOccurs="1"/>
             <xsd:element ref="PV2" minOccurs="0" maxOccurs="1"/>
             <xsd:element ref="ROL" minOccurs="0" maxOccurs="unbounded"/>
+            <xsd:element ref="PRT" minOccurs="0" maxOccurs="unbounded"/>
             <xsd:element ref="DB1" minOccurs="0" maxOccurs="unbounded"/>
             <xsd:element ref="ADT_A04.OBSERVATION" minOccurs="0" maxOccurs="unbounded"/>
             <xsd:element ref="AL1" minOccurs="0" maxOccurs="unbounded"/>
