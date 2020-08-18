@@ -1,0 +1,58 @@
+<?xml version = "1.0" ?>
+<!-- v2.xml Message Definitions Version v25 - ADT_A01 Copyright (c) 1999-2004, 
+	Health Level Seven. All rights reserved. -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns="urn:hl7-org:v2xml" targetNamespace="urn:hl7-org:v2xml">
+
+
+  <!-- include segment definitions for version v25 -->
+  <xsd:include schemaLocation="segments.xsd"/>
+
+	<xsd:complexType name="MASTERSEGMENT.CONTENT">
+		<xsd:sequence>
+			<xsd:element ref="ACC" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="AL1" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="AUT" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="BLG" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="CTD" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="CTI" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="DB1" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="DG1" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="EVN" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="FT1" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="GT1" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="IAM" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="IN1" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="IN2" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="IN3" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="MSH" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="NK1" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="NTE" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="OBR" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="OBX" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="OBX" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="ORC" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="PD1" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="PDA" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="PID" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="PR1" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="PRT" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="PV1" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="PV2" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="ROL" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="RXA" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="RXR" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="SAC" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="SAC" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="SFT" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="SPM" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="TCD" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="TQ1" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="TQ2" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="UAC" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="UB1" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="UB2" minOccurs="1" maxOccurs="1" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:element name="MASTERSEGMENT" type="MASTERSEGMENT.CONTENT" />
+</xsd:schema>

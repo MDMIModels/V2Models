@@ -3,37 +3,10 @@
 	xmlns:qvto="http://www.eclipse.org/qvt/1.0.0/Operational">
 	<target name="default">
 
-		<!-- 
-		
-		ARV
-		OBR	OMLO21CONTENT,ORMO01CONTENT,ORUR01CONTENT
-		ORC	V2Master
-		PV2	V2Master
-		RXA	VXUV04CONTENT
-		SPM	OMLO21CONTENT,ORUR01CONTENT
-		-->
-		<!-- 
-		Configurations
-			 ADT_A01 : ADT_A01.xsd : ADTA01CONTENT
-			 ORM_O01 : ORM_O01.xsd : ORMO01CONTENT
-			 OML_O21 : OML_O21.xsd : OMLO21CONTENT
-			 ORU_R01 : ORU_R01.xsd : ORUR01CONTENT
-			 VXU_V04 : VXU_V04.xsd : VXUV04CONTENT 
-		-->
-
-		
-<!--  <emf.XSD2Java model="v25/xsd/BAR_P01.xsd" 
-                genModel="models/lib.genmodel" 
-                modelProject="models" 
-                modelProjectFragmentPath="src"
-                modelPluginID="emf.lib.example">
-        
- </emf.XSD2Java>
--->
 
 
-	<property name="syntaxfocal" value="ADTA08CONTENT" />
-	<property name="syntaxRootLocation" value="ADT_A08" />
+	<property name="syntaxfocal" value="MASTERSEGMENTCONTENT" />
+	<property name="syntaxRootLocation" value="MASTERSEGMENTCONTENT" />
 
 
 		<qvto:transformation
@@ -46,45 +19,14 @@
  			
 		</qvto:transformation>
 
-
-
-<!--  		<qvto:transformation
-			uri="platform:/plugin/org.mdmi.qvt.transforms/transforms/ECORE2MDMI.qvto">
-			<in uri="platform:/resource/V2Models/models/ref/v2xml.ecore" />
-			<out uri="platform:/resource/V2Models/maps/${syntaxfocal}.mdmi" />
-			<configProperty name="syntaxRoot" value="${syntaxfocal}" />
- 			
-		</qvto:transformation>
--->
-
 	<echo message="Start Merge" />
-	<mergeModel leftModel="platform:/resource/V2Models/V2Master/V2SegmentMaster6.mdmi" rightModel="platform:/resource/V2Models/maps/${syntaxfocal}.mdmi"/>
-	<mergeModel leftModel="platform:/resource/V2Models/V2Master/v2segOBRSPM.mdmi" rightModel="platform:/resource/V2Models/maps/${syntaxfocal}.mdmi"/>
+	<mergeModel leftModel="platform:/resource/V2Models/V2Master/MASTERSEGMENTCONTENT.mdmi" rightModel="platform:/resource/V2Models/maps/${syntaxfocal}.mdmi"/>
+
 	<echo message="End Merge" />
 
 		<echo message="Start Sort" />
 	 
 		<mdmiSortByLocation model="platform:/resource/V2Models/maps/${syntaxfocal}.mdmi" />
- 
- 
-		
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5CF" value="OBX.5[..\OBX.2='CF']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5CNE" value="OBX.5[..\OBX.2='CNE']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5CNN" value="OBX.5[..\OBX.2='CNN']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5CWE" value="OBX.5[..\OBX.2='CWE']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5DR" value="OBX.5[..\OBX.2='DR']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5DT" value="OBX.5[..\OBX.2='DT']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5DTM" value="OBX.5[..\OBX.2='DTM']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5FT" value="OBX.5[..\OBX.2='FT']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5IS" value="OBX.5[..\OBX.2='IS']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5NM" value="OBX.5[..\OBX.2='NM']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5NR" value="OBX.5[..\OBX.2='NR']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5SN" value="OBX.5[..\OBX.2='SN']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5ST" value="OBX.5[..\OBX.2='ST']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5TM" value="OBX.5[..\OBX.2='TM']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5TX" value="OBX.5[..\OBX.2='TX']"/>
-		<replace file='maps/${syntaxfocal}.mdmi' token="OBX.5VR" value="OBX.5[..\OBX.2='VR']"/>
-
 	</target>
 
 
