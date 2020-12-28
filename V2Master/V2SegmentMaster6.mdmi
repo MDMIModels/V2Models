@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdmi="http://schema.omg.org/spec/MDMI/1.0">
   <mdmi:MessageGroup xmi:id="_08eNgNDWEemgUJCBpnW2Jw" name="HL7V2" description="SKIPCONTAINMENT" defaultLocationExprLang="XPath" defaultConstraintExprLang="JavaScript" defaultRuleExprLang="JavaScript">
-    <models xmi:id="_08eNgdDWEemgUJCBpnW2Jw" messageModelName="ADTA01CONTENT" description="2020-12-23 12:35:27.073" source="ADTA01CONTENT">
+    <models xmi:id="_08eNgdDWEemgUJCBpnW2Jw" messageModelName="ADTA01CONTENT" description="2020-12-28 13:58:40.254" source="ADTA01CONTENT">
       <syntaxModel xmi:id="_08eNgtDWEemgUJCBpnW2Jw">
         <root xsi:type="mdmi:Bag" xmi:id="_08eNg9DWEemgUJCBpnW2Jw" name="ADTA01CONTENT" maxOccurs="1" location="ADT_A01">
           <nodes xsi:type="mdmi:Bag" xmi:id="_08eNhNDWEemgUJCBpnW2Jw" name="MSH" description="1" maxOccurs="1" location="MSH" semanticElement="_08hRntDWEemgUJCBpnW2Jw">
@@ -1234,7 +1234,7 @@
               </nodes>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1YdDWEemgUJCBpnW2Jw" name="Effective Date" description="99999999" location="CX.7" fieldName="CX7"/>
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1YtDWEemgUJCBpnW2Jw" name="Expiration Date" description="99999999" location="CX.8" fieldName="CX8"/>
-              <nodes xsi:type="mdmi:Bag" xmi:id="_08e1a9DWEemgUJCBpnW2Jw" name="Assigning Jurisdiction" description="99999999" location="CX.9">
+              <nodes xsi:type="mdmi:Bag" xmi:id="_08e1a9DWEemgUJCBpnW2Jw" name="Assigning Jurisdiction" description="99999999" location="CX.9" fieldName="CX9">
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1bNDWEemgUJCBpnW2Jw" name="Identifier" description="99999999" location="CWE.1" fieldName="CWE1"/>
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1bdDWEemgUJCBpnW2Jw" name="Text" description="99999999" location="CWE.2" fieldName="CWE2"/>
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1btDWEemgUJCBpnW2Jw" name="Name of Coding System" description="99999999" location="CWE.3" fieldName="CWE3"/>
@@ -1245,7 +1245,7 @@
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1c9DWEemgUJCBpnW2Jw" name="Alternate Coding System Version ID" description="99999999" location="CWE.8" fieldName="CWE8"/>
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1dNDWEemgUJCBpnW2Jw" name="Original Text" description="99999999" location="CWE.9" fieldName="CWE9"/>
               </nodes>
-              <nodes xsi:type="mdmi:Bag" xmi:id="_08e1ddDWEemgUJCBpnW2Jw" name="Assigning Agency or Department" description="99999999" location="CX.10">
+              <nodes xsi:type="mdmi:Bag" xmi:id="_08e1ddDWEemgUJCBpnW2Jw" name="Assigning Agency or Department" description="99999999" location="CX.10" fieldName="CX10">
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1dtDWEemgUJCBpnW2Jw" name="Identifier" description="99999999" location="CWE.1" fieldName="CWE1"/>
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1d9DWEemgUJCBpnW2Jw" name="Text" description="99999999" location="CWE.2" fieldName="CWE2"/>
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1eNDWEemgUJCBpnW2Jw" name="Name of Coding System" description="99999999" location="CWE.3" fieldName="CWE3"/>
@@ -1296,7 +1296,7 @@
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1m9DWEemgUJCBpnW2Jw" name="Name of Alternate Coding System" description="99999999" location="CWE.6" fieldName="CWE6"/>
             </nodes>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1DdDWEemgUJCBpnW2Jw" name="Servicing Facility" description="99999999" location="PV1.39" semanticElement="_08hS0tDWEemgUJCBpnW2Jw" fieldName="PV139"/>
-            <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1DNDWEemgUJCBpnW2Jw" name="Bed Status" description="99999999" location="PV1.40" semanticElement="_a-a3wJBPEeq-W7uegK8QxA" fieldName="PV140"/>
+            <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1DNDWEemgUJCBpnW2Jw" name="Bed Status" description="99999999" location="PV1.40" semanticElement="_08hSzdDWEemgUJCBpnW2Jw" fieldName="PV140"/>
             <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1A9DWEemgUJCBpnW2Jw" name="Account Status" description="99999999" location="PV1.41" semanticElement="_08hS2dDWEemgUJCBpnW2Jw" fieldName="PV141"/>
             <nodes xsi:type="mdmi:Bag" xmi:id="_08e1f9DWEemgUJCBpnW2Jw" name="Pending Location" description="99999999" location="PV1.42" semanticElement="_08hTIdDWEemgUJCBpnW2Jw">
               <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_08e1gNDWEemgUJCBpnW2Jw" name="Point of Care" description="99999999" location="PL.1" fieldName="PL1"/>
@@ -1544,6 +1544,46 @@
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_fi4CM0VAEeuUQJ2VlErM4A" name="Namespace ID" description="99999999" location="HD.1" fieldName="HD1"/>
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_fi4CNEVAEeuUQJ2VlErM4A" name="Universal ID" description="99999999" location="HD.2" fieldName="HD2"/>
                 <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_fi4CNUVAEeuUQJ2VlErM4A" name="Universal ID Type" description="99999999" location="HD.3" fieldName="HD3"/>
+              </nodes>
+            </nodes>
+            <nodes xsi:type="mdmi:Bag" xmi:id="_DkknQEk9EeutmvopYxmifQ" name="Service Episode Identifier" description="99999999" location="PV1.54" semanticElement="_DkmccEk9EeutmvopYxmifQ">
+              <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DkknQUk9EeutmvopYxmifQ" name="ID Number" description="99999999" location="CX.1" fieldName="CX1"/>
+              <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DkknQkk9EeutmvopYxmifQ" name="Check Digit" description="99999999" location="CX.2" fieldName="CX2"/>
+              <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOUEk9EeutmvopYxmifQ" name="Check Digit Scheme" description="99999999" location="CX.3" fieldName="CX3"/>
+              <nodes xsi:type="mdmi:Bag" xmi:id="_DklOUUk9EeutmvopYxmifQ" name="Assigning Authority" description="99999999" location="CX.4" fieldName="CX4">
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOUkk9EeutmvopYxmifQ" name="Namespace ID" description="99999999" location="HD.1" fieldName="HD1"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOU0k9EeutmvopYxmifQ" name="Universal ID" description="99999999" location="HD.2" fieldName="HD2"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOVEk9EeutmvopYxmifQ" name="Universal ID Type" description="99999999" location="HD.3" fieldName="HD3"/>
+              </nodes>
+              <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOVUk9EeutmvopYxmifQ" name="Identifier Type Code" description="99999999" location="CX.5" fieldName="CX5"/>
+              <nodes xsi:type="mdmi:Bag" xmi:id="_DklOVkk9EeutmvopYxmifQ" name="Assigning Facility" description="99999999" location="CX.6" fieldName="CX6">
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOV0k9EeutmvopYxmifQ" name="Namespace ID" description="99999999" location="HD.1" fieldName="HD1"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOWEk9EeutmvopYxmifQ" name="Universal ID" description="99999999" location="HD.2" fieldName="HD2"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOWUk9EeutmvopYxmifQ" name="Universal ID Type" description="99999999" location="HD.3" fieldName="HD3"/>
+              </nodes>
+              <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOWkk9EeutmvopYxmifQ" name="Effective Date" description="99999999" location="CX.7" fieldName="CX7"/>
+              <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOW0k9EeutmvopYxmifQ" name="Expiration Date" description="99999999" location="CX.8" fieldName="CX8"/>
+              <nodes xsi:type="mdmi:Bag" xmi:id="_DklOXEk9EeutmvopYxmifQ" name="Assigning Jurisdiction" description="99999999" location="CX.9" fieldName="CX9">
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOXUk9EeutmvopYxmifQ" name="Identifier" description="99999999" location="CWE.1" fieldName="CWE1"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOXkk9EeutmvopYxmifQ" name="Text" description="99999999" location="CWE.2" fieldName="CWE2"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOX0k9EeutmvopYxmifQ" name="Name of Coding System" description="99999999" location="CWE.3" fieldName="CWE3"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOYEk9EeutmvopYxmifQ" name="Alternate Identifier" description="99999999" location="CWE.4" fieldName="CWE4"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOYUk9EeutmvopYxmifQ" name="Alternate Text" description="99999999" location="CWE.5" fieldName="CWE5"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOYkk9EeutmvopYxmifQ" name="Name of Alternate Coding System" description="99999999" location="CWE.6" fieldName="CWE6"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOY0k9EeutmvopYxmifQ" name="Coding System Version ID" description="99999999" location="CWE.7" fieldName="CWE7"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOZEk9EeutmvopYxmifQ" name="Alternate Coding System Version ID" description="99999999" location="CWE.8" fieldName="CWE8"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOZUk9EeutmvopYxmifQ" name="Original Text" description="99999999" location="CWE.9" fieldName="CWE9"/>
+              </nodes>
+              <nodes xsi:type="mdmi:Bag" xmi:id="_DklOZkk9EeutmvopYxmifQ" name="Assigning Agency or Department" description="99999999" location="CX.10" fieldName="CX10">
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOZ0k9EeutmvopYxmifQ" name="Identifier" description="99999999" location="CWE.1" fieldName="CWE1"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOaEk9EeutmvopYxmifQ" name="Text" description="99999999" location="CWE.2" fieldName="CWE2"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOaUk9EeutmvopYxmifQ" name="Name of Coding System" description="99999999" location="CWE.3" fieldName="CWE3"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOakk9EeutmvopYxmifQ" name="Alternate Identifier" description="99999999" location="CWE.4" fieldName="CWE4"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOa0k9EeutmvopYxmifQ" name="Alternate Text" description="99999999" location="CWE.5" fieldName="CWE5"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklObEk9EeutmvopYxmifQ" name="Name of Alternate Coding System" description="99999999" location="CWE.6" fieldName="CWE6"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklObUk9EeutmvopYxmifQ" name="Coding System Version ID" description="99999999" location="CWE.7" fieldName="CWE7"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklObkk9EeutmvopYxmifQ" name="Alternate Coding System Version ID" description="99999999" location="CWE.8" fieldName="CWE8"/>
+                <nodes xsi:type="mdmi:LeafSyntaxTranslator" xmi:id="_DklOb0k9EeutmvopYxmifQ" name="Original Text" description="99999999" location="CWE.9" fieldName="CWE9"/>
               </nodes>
             </nodes>
           </nodes>
@@ -7719,7 +7759,7 @@
           <mapToMdmi xmi:id="_c8TL4NYiEemxD7cQhvk-Cg" name="Message2MDMI4Address" businessElement="__lDCQNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapXADToAddress"/>
           <mapToMdmi xmi:id="_Qr7BEDvhEeui19ohMk-EfQ" name="Message2MDMI4Address1" businessElement="__jp7LdVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapXADToAddress"/>
         </semanticElements>
-        <semanticElements xmi:id="_08hSxtDWEemgUJCBpnW2Jw" name="PV1" datatype="_08kZOtDWEemgUJCBpnW2Jw" children="_08hSx9DWEemgUJCBpnW2Jw _08hSyNDWEemgUJCBpnW2Jw _08hSydDWEemgUJCBpnW2Jw _08hSytDWEemgUJCBpnW2Jw _08hSy9DWEemgUJCBpnW2Jw _08hSzNDWEemgUJCBpnW2Jw _08hSzdDWEemgUJCBpnW2Jw _08hSztDWEemgUJCBpnW2Jw _08hSz9DWEemgUJCBpnW2Jw _08hS0NDWEemgUJCBpnW2Jw _08hS0dDWEemgUJCBpnW2Jw _08hS0tDWEemgUJCBpnW2Jw _08hS09DWEemgUJCBpnW2Jw _08hS1dDWEemgUJCBpnW2Jw _08hS1tDWEemgUJCBpnW2Jw _08hS19DWEemgUJCBpnW2Jw _08hS2NDWEemgUJCBpnW2Jw _08hS2dDWEemgUJCBpnW2Jw _08hS2tDWEemgUJCBpnW2Jw _08hS29DWEemgUJCBpnW2Jw _08hS3NDWEemgUJCBpnW2Jw _08hS3dDWEemgUJCBpnW2Jw _08hS3tDWEemgUJCBpnW2Jw _08hS39DWEemgUJCBpnW2Jw _08hS4NDWEemgUJCBpnW2Jw _08hS4dDWEemgUJCBpnW2Jw _08hS4tDWEemgUJCBpnW2Jw _08hS49DWEemgUJCBpnW2Jw _08hS5NDWEemgUJCBpnW2Jw _08hS5dDWEemgUJCBpnW2Jw _08hS5tDWEemgUJCBpnW2Jw _08hS59DWEemgUJCBpnW2Jw _08hS6NDWEemgUJCBpnW2Jw _08hS6dDWEemgUJCBpnW2Jw _08hS9dDWEemgUJCBpnW2Jw _08hS9tDWEemgUJCBpnW2Jw _08hS-tDWEemgUJCBpnW2Jw _08hS_9DWEemgUJCBpnW2Jw _08hTANDWEemgUJCBpnW2Jw _08hTAdDWEemgUJCBpnW2Jw _08hTDdDWEemgUJCBpnW2Jw _08hTGdDWEemgUJCBpnW2Jw _08hTG9DWEemgUJCBpnW2Jw _08hTHdDWEemgUJCBpnW2Jw _08hTIdDWEemgUJCBpnW2Jw _08hTJdDWEemgUJCBpnW2Jw _08hTKdDWEemgUJCBpnW2Jw _08hTLdDWEemgUJCBpnW2Jw _08hTOdDWEemgUJCBpnW2Jw _08hTPtDWEemgUJCBpnW2Jw _08hTStDWEemgUJCBpnW2Jw _8vibgEU-EeuUQJ2VlErM4A _Ut55J0U_EeuUQJ2VlErM4A _b-EetkVAEeuUQJ2VlErM4A _fi4pMUVAEeuUQJ2VlErM4A _i8zrAEVDEeuUQJ2VlErM4A">
+        <semanticElements xmi:id="_08hSxtDWEemgUJCBpnW2Jw" name="PV1" datatype="_08kZOtDWEemgUJCBpnW2Jw" children="_08hSx9DWEemgUJCBpnW2Jw _08hSyNDWEemgUJCBpnW2Jw _08hSydDWEemgUJCBpnW2Jw _08hSytDWEemgUJCBpnW2Jw _08hSy9DWEemgUJCBpnW2Jw _08hSzNDWEemgUJCBpnW2Jw _08hSzdDWEemgUJCBpnW2Jw _08hSztDWEemgUJCBpnW2Jw _08hSz9DWEemgUJCBpnW2Jw _08hS0NDWEemgUJCBpnW2Jw _08hS0dDWEemgUJCBpnW2Jw _08hS0tDWEemgUJCBpnW2Jw _08hS09DWEemgUJCBpnW2Jw _08hS1dDWEemgUJCBpnW2Jw _08hS1tDWEemgUJCBpnW2Jw _08hS19DWEemgUJCBpnW2Jw _08hS2NDWEemgUJCBpnW2Jw _08hS2dDWEemgUJCBpnW2Jw _08hS2tDWEemgUJCBpnW2Jw _08hS29DWEemgUJCBpnW2Jw _08hS3NDWEemgUJCBpnW2Jw _08hS3dDWEemgUJCBpnW2Jw _08hS3tDWEemgUJCBpnW2Jw _08hS39DWEemgUJCBpnW2Jw _08hS4NDWEemgUJCBpnW2Jw _08hS4dDWEemgUJCBpnW2Jw _08hS4tDWEemgUJCBpnW2Jw _08hS49DWEemgUJCBpnW2Jw _08hS5NDWEemgUJCBpnW2Jw _08hS5dDWEemgUJCBpnW2Jw _08hS5tDWEemgUJCBpnW2Jw _08hS59DWEemgUJCBpnW2Jw _08hS6NDWEemgUJCBpnW2Jw _08hS6dDWEemgUJCBpnW2Jw _08hS9dDWEemgUJCBpnW2Jw _08hS9tDWEemgUJCBpnW2Jw _08hS-tDWEemgUJCBpnW2Jw _08hS_9DWEemgUJCBpnW2Jw _08hTANDWEemgUJCBpnW2Jw _08hTAdDWEemgUJCBpnW2Jw _08hTDdDWEemgUJCBpnW2Jw _08hTGdDWEemgUJCBpnW2Jw _08hTG9DWEemgUJCBpnW2Jw _08hTHdDWEemgUJCBpnW2Jw _08hTIdDWEemgUJCBpnW2Jw _08hTJdDWEemgUJCBpnW2Jw _08hTKdDWEemgUJCBpnW2Jw _08hTLdDWEemgUJCBpnW2Jw _08hTOdDWEemgUJCBpnW2Jw _08hTPtDWEemgUJCBpnW2Jw _08hTStDWEemgUJCBpnW2Jw _8vibgEU-EeuUQJ2VlErM4A _Ut55J0U_EeuUQJ2VlErM4A _b-EetkVAEeuUQJ2VlErM4A _fi4pMUVAEeuUQJ2VlErM4A _i8zrAEVDEeuUQJ2VlErM4A _DkmccEk9EeutmvopYxmifQ _f3d_sEk-EeutmvopYxmifQ">
           <mapFromMdmi xmi:id="_4h7S4dfJEemapZvVfGsLNw" name="MDMI2Message4PV1" businessElement="__jmQ6NVWEemWHIQauk-MYg"/>
           <mapToMdmi xmi:id="_4h7S4NfJEemapZvVfGsLNw" name="Message2MDMI4PV1" businessElement="__jmQ6NVWEemWHIQauk-MYg"/>
         </semanticElements>
@@ -7735,7 +7775,7 @@
           <mapFromMdmi xmi:id="_h2HEYdYrEemjLb7lqV8Sfg" name="MDMI2Message4Hospital Service" businessElement="__o61oNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToString"/>
           <mapToMdmi xmi:id="_h2HEYNYrEemjLb7lqV8Sfg" name="Message2MDMI4Hospital Service" businessElement="__o61oNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapStringToCodedElement"/>
         </semanticElements>
-        <semanticElements xmi:id="_08hSzdDWEemgUJCBpnW2Jw" name="Bed Status" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" children="_a-a3wJBPEeq-W7uegK8QxA">
+        <semanticElements xmi:id="_08hSzdDWEemgUJCBpnW2Jw" name="Bed Status" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" children="_a-a3wJBPEeq-W7uegK8QxA" syntaxNode="_08e1DNDWEemgUJCBpnW2Jw">
           <mapFromMdmi xmi:id="_AIKtYZBXEeq-W7uegK8QxA" name="MDMI2Message4Bed Status" businessElement="__mZGENVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToString"/>
           <mapToMdmi xmi:id="_AIKtYJBXEeq-W7uegK8QxA" name="Message2MDMI4Bed Status" businessElement="__mZGENVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapStringToCodedElement"/>
         </semanticElements>
@@ -9125,7 +9165,7 @@
           <relationships xmi:id="_wTx9sJBNEeq-W7uegK8QxA" name="Family" rule="value.getXValue('FamilyName.FN1').addValue('family',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_Xci-YJBNEeq-W7uegK8QxA" relatedSemanticElement="_08hTLtDWEemgUJCBpnW2Jw"/>
           <computedValue xmi:id="_AmYpgJBOEeq-W7uegK8QxA" expression="SEMANTICROLLUP" language="JavaScript"/>
         </semanticElements>
-        <semanticElements xmi:id="_a-a3wJBPEeq-W7uegK8QxA" name="BedStatusRollup" datatype="_08k7WtDWEemgUJCBpnW2Jw" parent="_08hSzdDWEemgUJCBpnW2Jw" syntaxNode="_08e1DNDWEemgUJCBpnW2Jw">
+        <semanticElements xmi:id="_a-a3wJBPEeq-W7uegK8QxA" name="BedStatusRollup" datatype="_08k7WtDWEemgUJCBpnW2Jw" parent="_08hSzdDWEemgUJCBpnW2Jw">
           <relationships xmi:id="_is_F8JBPEeq-W7uegK8QxA" name="bed" rule="value.getXValue().addValue('code',  '&lt;&lt;LOCALSEMANTICVALUE>>>'  );" context="_a-a3wJBPEeq-W7uegK8QxA" relatedSemanticElement="_08hSzdDWEemgUJCBpnW2Jw"/>
           <computedValue xmi:id="_5aUZgJBPEeq-W7uegK8QxA" expression="SEMANTICROLLUP" language="JavaScript"/>
         </semanticElements>
@@ -9185,6 +9225,12 @@
           <mapFromMdmi xmi:id="_tpk6QUVEEeuUQJ2VlErM4A" name="MDMI2Message4Prior Patient Location130997" businessElement="__mkFNNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToPL"/>
           <computedInValue xmi:id="_yEGk0EVEEeuUQJ2VlErM4A" expression="value.getXValue().addValue('code', 'completed' );" language="JavaScript"/>
           <mapToMdmi xmi:id="_tpk6QEVEEeuUQJ2VlErM4A" name="Message2MDMI4Prior Patient Location130997" businessElement="__mkFNNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapPLToCodedElement"/>
+        </semanticElements>
+        <semanticElements xmi:id="_DkmccEk9EeutmvopYxmifQ" name="Service Episode Identifier" datatype="_08k7z9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" syntaxNode="_DkknQEk9EeutmvopYxmifQ"/>
+        <semanticElements xmi:id="_f3d_sEk-EeutmvopYxmifQ" name="Discharge Date/Time136634" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw">
+          <mapFromMdmi xmi:id="_lPvr8Uk-EeutmvopYxmifQ" name="MDMI2Message4Discharge Date/Time136634" businessElement="__joGD9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToString"/>
+          <computedInValue xmi:id="_opJ3wEk-EeutmvopYxmifQ" expression="value.getXValue().addValue('code', 'finished' );" language="JavaScript"/>
+          <mapToMdmi xmi:id="_lPvr8Ek-EeutmvopYxmifQ" name="Message2MDMI4Discharge Date/Time136634" businessElement="__joGD9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapStringToCodedElement"/>
         </semanticElements>
       </elementSet>
     </models>
