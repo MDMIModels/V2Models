@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdmi="http://schema.omg.org/spec/MDMI/1.0">
   <mdmi:MessageGroup xmi:id="_08eNgNDWEemgUJCBpnW2Jw" name="HL7V2" description="SKIPCONTAINMENT" defaultLocationExprLang="XPath" defaultConstraintExprLang="JavaScript" defaultRuleExprLang="JavaScript">
-    <models xmi:id="_08eNgdDWEemgUJCBpnW2Jw" messageModelName="ADTA01CONTENT" description="2020-12-28 22:53:36.708" source="ADTA01CONTENT">
+    <models xmi:id="_08eNgdDWEemgUJCBpnW2Jw" messageModelName="ADTA01CONTENT" description="2020-12-29 09:00:16.383" source="ADTA01CONTENT">
       <syntaxModel xmi:id="_08eNgtDWEemgUJCBpnW2Jw">
         <root xsi:type="mdmi:Bag" xmi:id="_08eNg9DWEemgUJCBpnW2Jw" name="ADTA01CONTENT" maxOccurs="1" location="ADT_A01">
           <nodes xsi:type="mdmi:Bag" xmi:id="_08eNhNDWEemgUJCBpnW2Jw" name="MSH" description="1" maxOccurs="1" location="MSH" semanticElement="_08hRntDWEemgUJCBpnW2Jw">
@@ -9252,7 +9252,10 @@
           <computedInValue xmi:id="_yEGk0EVEEeuUQJ2VlErM4A" expression="value.getXValue().addValue('code', 'completed' );" language="JavaScript"/>
           <mapToMdmi xmi:id="_tpk6QEVEEeuUQJ2VlErM4A" name="Message2MDMI4Prior Patient Location130997" businessElement="__mkFNNVWEemWHIQauk-MYg" rule="DATATYPEMAP:mapPLToCodedElement"/>
         </semanticElements>
-        <semanticElements xmi:id="_DkmccEk9EeutmvopYxmifQ" name="Service Episode Identifier" datatype="_08k7z9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" syntaxNode="_DkknQEk9EeutmvopYxmifQ"/>
+        <semanticElements xmi:id="_DkmccEk9EeutmvopYxmifQ" name="Service Episode Identifier" datatype="_08k7z9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" syntaxNode="_DkknQEk9EeutmvopYxmifQ">
+          <mapFromMdmi xmi:id="_LNGzwEneEeux7cw2RCJuag" name="MDMI2Message4Service Episode Identifier" businessElement="_1UKP4AesEeqIZt_-AUXKwQ" rule="DATATYPEMAP:mapInstanceIdentifierToCX"/>
+          <mapToMdmi xmi:id="_LNGMsEneEeux7cw2RCJuag" name="Message2MDMI4Service Episode Identifier" businessElement="_1UKP4AesEeqIZt_-AUXKwQ" rule="DATATYPEMAP:mapCXToInstanceIdentifier"/>
+        </semanticElements>
         <semanticElements xmi:id="_f3d_sEk-EeutmvopYxmifQ" name="Discharge Date/Time136634" datatype="_08k7d9DWEemgUJCBpnW2Jw" parent="_08hSxtDWEemgUJCBpnW2Jw" syntaxNode="_TL6eAEmJEeux7cw2RCJuag">
           <mapFromMdmi xmi:id="_lPvr8Uk-EeutmvopYxmifQ" name="MDMI2Message4Discharge Date/Time136634" businessElement="__joGD9VWEemWHIQauk-MYg" rule="DATATYPEMAP:mapCodedElementToString"/>
           <computedInValue xmi:id="_opJ3wEk-EeutmvopYxmifQ" expression="value.getXValue().addValue('code', 'finished' );" language="JavaScript"/>
