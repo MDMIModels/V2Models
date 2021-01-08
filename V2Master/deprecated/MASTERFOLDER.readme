@@ -1,0 +1,47 @@
+UPDATE MAPPINGS IN THIS FOLDER!
+
+Mapping Index
+
+Segment		Map
+MSH		V2SegmentMaster6.mdmi
+EVN		V2SegmentMaster6.mdmi
+PID		V2SegmentMaster6.mdmi
+PR1		V2SegmentMaster6.mdmi
+PV1		V2SegmentMaster6.mdmi
+PV2		V2SegmentMaster6.mdmi
+ACC		V2SegmentMaster6.mdmi
+AL1		V2SegmentMaster6.mdmi
+AUT		V2SegmentMaster6.mdmi
+DB1		V2SegmentMaster6.mdmi
+DG1		V2SegmentMaster6.mdmi
+GT1		V2SegmentMaster6.mdmi
+IN1		V2SegmentMaster6.mdmi
+IN2		V2SegmentMaster6.mdmi
+IN3		V2SegmentMaster6.mdmi
+NK1		V2SegmentMaster6.mdmi
+OBX		V2SegmentMaster6.mdmi
+PD1		V2SegmentMaster6.mdmi1
+PDA		V2SegmentMaster6.mdmi
+ROL		V2SegmentMaster6.mdmi
+SFT		V2SegmentMaster6.mdmi
+UAC		V2SegmentMaster6.mdmi
+IAM		V2SegmentMaster6.mdmi
+UB1		V2SegmentMaster6.mdmi
+UB2		V2SegmentMaster6.mdmi
+ORC		v2segOMGSPM.mdmi
+OBR		v2segOMGSPM.mdmi
+OBX		v2segOMGSPM.mdmi
+SPM		v2segOMGSPM.mdmi
+SAC		v2segOMGSPM.mdmi
+TQ1		v2segOMGSPM.mdmi
+BLG		v2segOMGSPM.mdmi
+CTI		v2segOMGSPM.mdmi
+CTD		v2segOMGSPM.mdmi
+FT1		v2segOMGSPM.mdmi
+NTE		v2segOMGSPM.mdmi
+PRT		v2segOMGSPM.mdmi
+SAC		v2segOMGSPM.mdmi
+TCD		v2segOMGSPM.mdmi
+TQ2		v2segOMGSPM.mdmi
+RXA		v2rxaseg.mdmi
+RXR		v2rxaseg.mdmi

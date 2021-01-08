@@ -30617,6 +30617,300 @@
 		</xsd:complexContent>
 	</xsd:complexType>
 	<xsd:element name="OBX.5" type="OBX.5.CONTENT" />
+	
+	
+	
+	
+	 
+   <xsd:complexType name="OBX.5.CONTENTDTM">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation DTM Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation DTM Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:extension base="DTM">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5DTM" type="OBX.5.CONTENTDTM"/>
+  
+  
+    <xsd:complexType name="OBX.5.CONTENTST">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation ST Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation ST Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:extension base="ST">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5ST" type="OBX.5.CONTENTST"/>
+  
+   <xsd:complexType name="OBX.5.CONTENTDT">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation DT Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation DT Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+    <xsd:simpleContent>
+      <xsd:extension base="DT">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5DT" type="OBX.5.CONTENTDT"/>
+  
+  
+  
+  
+   <xsd:complexType name="OBX.5.CONTENTCWE">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation CWE Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation CWE  Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+     <xsd:complexContent>
+      <xsd:extension base="CWE">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5CWE" type="OBX.5.CONTENTCWE"/>
+  
+  
+    <xsd:complexType name="OBX.5.CONTENTCNE">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation CNE Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation CNE Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+     <xsd:complexContent>
+      <xsd:extension base="CNE">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5CNE" type="OBX.5.CONTENTCNE"/>
+  
+    <xsd:complexType name="OBX.5.CONTENTCNN">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation CNN Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation CNN Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+     <xsd:complexContent>
+      <xsd:extension base="CNE">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5CNN" type="OBX.5.CONTENTCNN"/>
+  
+     <xsd:complexType name="OBX.5.CONTENTCF">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation CF Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation CF Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+     <xsd:complexContent>
+      <xsd:extension base="CNE">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5CF" type="OBX.5.CONTENTCF"/>
+  
+  
+    <xsd:complexType name="OBX.5.CONTENTDR">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation DR Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation DR Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+     <xsd:complexContent>
+      <xsd:extension base="DR">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5DR" type="OBX.5.CONTENTDR"/>
+  
+  
+   <xsd:complexType name="OBX.5.CONTENTFT">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation FT Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation FT Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+     <xsd:complexContent>
+      <xsd:extension base="FT">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5FT" type="OBX.5.CONTENTFT"/>
+  
+  
+  
+ 
+  <xsd:complexType name="OBX.5.CONTENTIS">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation IS Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation IS Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+     <xsd:simpleContent>
+      <xsd:extension base="IS">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5IS" type="OBX.5.CONTENTIS"/>
+  
+  
+  
+  
+  <xsd:complexType name="OBX.5.CONTENTNR">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation NR Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation NR Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+     <xsd:complexContent>
+      <xsd:extension base="NR">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5NR" type="OBX.5.CONTENTNR"/>
+  
+  <xsd:complexType name="OBX.5.CONTENTNM">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation NM Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation NM Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+     <xsd:simpleContent>
+      <xsd:extension base="NM">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5NM" type="OBX.5.CONTENTNM"/>
+  
+   <xsd:complexType name="OBX.5.CONTENTSN">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation SN Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation SN Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+     <xsd:complexContent>
+      <xsd:extension base="SN">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5SN" type="OBX.5.CONTENTSN"/>
+  
+   
+   <xsd:complexType name="OBX.5.CONTENTTM">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation TM Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation TM Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+     <xsd:simpleContent>
+      <xsd:extension base="TM">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5TM" type="OBX.5.CONTENTTM"/>
+  
+  
+    <xsd:complexType name="OBX.5.CONTENTTX">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation TX Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation TX Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+     <xsd:complexContent>
+      <xsd:extension base="TX">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5TX" type="OBX.5.CONTENTTX"/>
+  
+    <xsd:complexType name="OBX.5.CONTENTVR">
+    <xsd:annotation>
+      <xsd:documentation xml:lang="en">Observation VR Value</xsd:documentation>
+      <xsd:appinfo>
+        <hl7:Item>573</hl7:Item>
+        <hl7:Type>varies</hl7:Type>
+        <hl7:LongName>Observation VR Value</hl7:LongName>
+      </xsd:appinfo>
+    </xsd:annotation>
+     <xsd:complexContent>
+      <xsd:extension base="VR">
+        <xsd:attributeGroup ref="OBX.5.ATTRIBUTES"/>
+      </xsd:extension>
+    </xsd:complexContent>
+  </xsd:complexType>
+  <xsd:element name="OBX.5VR" type="OBX.5.CONTENTVR"/>
+  
+  
+  
 	<!-- FIELD OBX.6-->
 	<xsd:attributeGroup name="OBX.6.ATTRIBUTES">
 		<xsd:attribute name="Item" type="xsd:string" fixed="574" />

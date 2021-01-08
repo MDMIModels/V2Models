@@ -1940,7 +1940,26 @@
          <xsd:element ref="OBX.2" minOccurs="0" maxOccurs="1" />
          <xsd:element ref="OBX.3" minOccurs="1" maxOccurs="1" />
          <xsd:element ref="OBX.4" minOccurs="0" maxOccurs="1" />
-         <xsd:element ref="OBX.5" minOccurs="0" maxOccurs="unbounded" />
+         
+         
+              <xsd:element ref="OBX.5CF" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5CNE" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5CNN" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5CWE" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5DR" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5DT" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5DTM" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5FT" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5IS" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5NM" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5NR" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5SN" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5ST" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5TM" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5TX" minOccurs="0" maxOccurs="unbounded" />
+      <xsd:element ref="OBX.5VR" minOccurs="0" maxOccurs="unbounded" />
+         
+         
          <xsd:element ref="OBX.6" minOccurs="0" maxOccurs="1" />
          <xsd:element ref="OBX.7" minOccurs="0" maxOccurs="1" />
          <xsd:element ref="OBX.8" minOccurs="0" maxOccurs="unbounded" />
