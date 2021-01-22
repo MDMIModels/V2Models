@@ -35,6 +35,8 @@
 				maxOccurs="unbounded" />
 			<xsd:element ref="AL1" minOccurs="0"
 				maxOccurs="unbounded" />
+			<xsd:element ref="IAM" minOccurs="0"
+				maxOccurs="unbounded" />
 			<xsd:element ref="DG1" minOccurs="0"
 				maxOccurs="unbounded" />
 			<xsd:element ref="DRG" minOccurs="0" maxOccurs="1" />

@@ -5,8 +5,8 @@
 
 
 
-	<property name="syntaxfocal" value="MASTERSEGMENTCONTENT" />
-	<property name="syntaxRootLocation" value="MASTERSEGMENTCONTENT" />
+	<property name="syntaxfocal" value="ADTA01CONTENT" />
+	<property name="syntaxRootLocation" value="ADTA01CONTENT" />
 
 
 		<qvto:transformation
