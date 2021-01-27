@@ -752,6 +752,7 @@
 	</xsd:complexType><!-- COMPOSITE DATATYPE XTN -->
 	<xsd:complexType name="XTN">
 		<xsd:sequence>
+			<xsd:element ref="XTN.1" minOccurs="0" maxOccurs="1" />
 			<xsd:element ref="XTN.2" minOccurs="0" maxOccurs="1" />
 			<xsd:element ref="XTN.3" minOccurs="1" maxOccurs="1" />
 			<xsd:element ref="XTN.4" minOccurs="0" maxOccurs="1" />

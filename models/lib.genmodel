@@ -26511,6 +26511,7 @@
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute v2xml.ecore#//XPN9CONTENT/type"/>
     </genClasses>
     <genClasses ecoreClass="v2xml.ecore#//XTN">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//XTN/xTN1"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//XTN/xTN2"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//XTN/xTN3"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//XTN/xTN4"/>
