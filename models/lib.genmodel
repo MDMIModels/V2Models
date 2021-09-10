@@ -3,7 +3,7 @@
     xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/Users/seanmuir/git/V2Models/models/./src/." modelPluginID="emf.lib.example"
     modelName="Lib" importerID="org.eclipse.xsd.ecore.importer" complianceLevel="5.0"
     copyrightFields="false">
-  <foreignModel>../V28/xsd/ADT_A01.xsd</foreignModel>
+  <foreignModel>../V28/xsd/ORU_R01.xsd</foreignModel>
   <genPackages prefix="V2xml" basePackage="org.hl7" resource="XML" disposableProviderFactory="true"
       loadInitialization="true" literalsInterface="false" ecorePackage="v2xml.ecore#/">
     <genDataTypes ecoreDataType="v2xml.ecore#//DT"/>
@@ -416,46 +416,6 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADJCONTENT/aDJ14"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADJCONTENT/aDJ15"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute v2xml.ecore#//ADJCONTENT/any"/>
-    </genClasses>
-    <genClasses ecoreClass="v2xml.ecore#//ADTA01CONTENT">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/mSH"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/sFT"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/uAC"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/eVN"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/pID"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/pD1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/aRV"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/rOL"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/nK1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/pV1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/pV2"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/aRV1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/rOL1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/dB1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/oBX"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/aL1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/iAM"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/dG1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/dRG"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/aDTA01PROCEDURE"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/gT1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/aDTA01INSURANCE"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/aCC"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/uB1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/uB2"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01CONTENT/pDA"/>
-    </genClasses>
-    <genClasses ecoreClass="v2xml.ecore#//ADTA01INSURANCECONTENT">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01INSURANCECONTENT/iN1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01INSURANCECONTENT/iN2"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01INSURANCECONTENT/iN3"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01INSURANCECONTENT/rOL"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01INSURANCECONTENT/aUT"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01INSURANCECONTENT/rF1"/>
-    </genClasses>
-    <genClasses ecoreClass="v2xml.ecore#//ADTA01PROCEDURECONTENT">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01PROCEDURECONTENT/pR1"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ADTA01PROCEDURECONTENT/rOL"/>
     </genClasses>
     <genClasses ecoreClass="v2xml.ecore#//AFF1CONTENT">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute v2xml.ecore#//AFF1CONTENT/value"/>
@@ -4620,9 +4580,6 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDJ7"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDJ8"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDJ9"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA01"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA01INSURANCE"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aDTA01PROCEDURE"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aFF"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aFF1"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/aFF2"/>
@@ -6412,6 +6369,18 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRG7"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRG8"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRG9"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRUR01"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRUR01COMMONORDER"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRUR01OBSERVATION"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRUR01ORDERDOCUMENT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRUR01ORDEROBSERVATION"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRUR01PATIENT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRUR01PATIENTOBSERVATION"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRUR01PATIENTRESULT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRUR01SPECIMEN"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRUR01SPECIMENOBSERVATION"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRUR01TIMINGQTY"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oRUR01VISIT"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oSP1"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oSP2"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//DocumentRoot/oSP3"/>
@@ -16441,6 +16410,75 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORGCONTENT/oRG12"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORGCONTENT/oRG13"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EAttribute v2xml.ecore#//ORGCONTENT/any"/>
+    </genClasses>
+    <genClasses ecoreClass="v2xml.ecore#//ORUR01COMMONORDERCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01COMMONORDERCONTENT/oRC"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01COMMONORDERCONTENT/pRT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01COMMONORDERCONTENT/oRUR01ORDERDOCUMENT"/>
+    </genClasses>
+    <genClasses ecoreClass="v2xml.ecore#//ORUR01CONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01CONTENT/mSH"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01CONTENT/sFT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01CONTENT/uAC"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01CONTENT/oRUR01PATIENTRESULT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01CONTENT/dSC"/>
+    </genClasses>
+    <genClasses ecoreClass="v2xml.ecore#//ORUR01OBSERVATIONCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01OBSERVATIONCONTENT/oBX"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01OBSERVATIONCONTENT/pRT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01OBSERVATIONCONTENT/nTE"/>
+    </genClasses>
+    <genClasses ecoreClass="v2xml.ecore#//ORUR01ORDERDOCUMENTCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01ORDERDOCUMENTCONTENT/oBX"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01ORDERDOCUMENTCONTENT/pRT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01ORDERDOCUMENTCONTENT/tXA"/>
+    </genClasses>
+    <genClasses ecoreClass="v2xml.ecore#//ORUR01ORDEROBSERVATIONCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01ORDEROBSERVATIONCONTENT/oRUR01COMMONORDER"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01ORDEROBSERVATIONCONTENT/oBR"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01ORDEROBSERVATIONCONTENT/nTE"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01ORDEROBSERVATIONCONTENT/pRT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01ORDEROBSERVATIONCONTENT/oRUR01TIMINGQTY"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01ORDEROBSERVATIONCONTENT/cTD"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01ORDEROBSERVATIONCONTENT/oRUR01OBSERVATION"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01ORDEROBSERVATIONCONTENT/fT1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01ORDEROBSERVATIONCONTENT/cTI"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01ORDEROBSERVATIONCONTENT/oRUR01SPECIMEN"/>
+    </genClasses>
+    <genClasses ecoreClass="v2xml.ecore#//ORUR01PATIENTCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01PATIENTCONTENT/pID"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01PATIENTCONTENT/pD1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01PATIENTCONTENT/pRT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01PATIENTCONTENT/nTE"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01PATIENTCONTENT/nK1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01PATIENTCONTENT/aRV"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01PATIENTCONTENT/oRUR01PATIENTOBSERVATION"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01PATIENTCONTENT/oRUR01VISIT"/>
+    </genClasses>
+    <genClasses ecoreClass="v2xml.ecore#//ORUR01PATIENTOBSERVATIONCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01PATIENTOBSERVATIONCONTENT/oBX"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01PATIENTOBSERVATIONCONTENT/pRT"/>
+    </genClasses>
+    <genClasses ecoreClass="v2xml.ecore#//ORUR01PATIENTRESULTCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01PATIENTRESULTCONTENT/oRUR01PATIENT"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01PATIENTRESULTCONTENT/oRUR01ORDEROBSERVATION"/>
+    </genClasses>
+    <genClasses ecoreClass="v2xml.ecore#//ORUR01SPECIMENCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01SPECIMENCONTENT/sPM"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01SPECIMENCONTENT/oRUR01SPECIMENOBSERVATION"/>
+    </genClasses>
+    <genClasses ecoreClass="v2xml.ecore#//ORUR01SPECIMENOBSERVATIONCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01SPECIMENOBSERVATIONCONTENT/oBX"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01SPECIMENOBSERVATIONCONTENT/pRT"/>
+    </genClasses>
+    <genClasses ecoreClass="v2xml.ecore#//ORUR01TIMINGQTYCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01TIMINGQTYCONTENT/tQ1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01TIMINGQTYCONTENT/tQ2"/>
+    </genClasses>
+    <genClasses ecoreClass="v2xml.ecore#//ORUR01VISITCONTENT">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01VISITCONTENT/pV1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01VISITCONTENT/pV2"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//ORUR01VISITCONTENT/pRT"/>
     </genClasses>
     <genClasses ecoreClass="v2xml.ecore#//OSP">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference v2xml.ecore#//OSP/oSP1"/>
