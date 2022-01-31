@@ -11,8 +11,8 @@
 		<echo message="Start Merge" />
 
 		
-		<mergeModel leftModel="platform:/resource/V2Models/V2Master/MASTERSEGMENTCONTENT.mdmi"
-							rightModel="platform:/resource/V2Models/maps/ORUR01CONTENT.mdmi"
+		<mergeModel leftModel="platform:/resource/V2Models/maps/ADTA01CONTENT.mdmi"
+							rightModel="platform:/resource/V2Models/maps/ADTA08CONTENT.mdmi"
 						 />
 		<!--
 			<mergeModel leftModel="platform:/resource/V2Models/maps/ADTA01CONTENT.mdmi"

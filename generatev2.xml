@@ -5,8 +5,8 @@
 
 
 
-	<property name="syntaxfocal" value="ORUR01CONTENT" />
-	<property name="syntaxRootLocation" value="ORUR01CONTENT" />
+	<property name="syntaxfocal" value="ADTA03CONTENT" />
+	<property name="syntaxRootLocation" value="ADTA03CONTENT" />
 
 
 		<qvto:transformation
