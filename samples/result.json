@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="UTF-8"?><!--Generated using MDMI 2.5.0-SNAPSHOT  2021-07-19 12:15--><!--Source Group : HL7V2--><!--Source Message : ADTA01CONTENT--><!--Source Version : 2022-07-28 15:58:48.38--><!--Target Group : FHIRR4JSON--><!--Target Message : MasterBundle--><!--Target Version : 2022-07-28 14:33:29.477--><Bundle>
+    <entry>
+        <resource>
+            <Practitioner/>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Practitioner/>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="12"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="lvl"/>
+                        <display value="Level"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Level"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="1211"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="ro"/>
+                        <display value="Room"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Room"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="A"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="bd"/>
+                        <display value="Bed"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Bed"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="GOOD HEALTH HOSPITAL"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="si"/>
+                        <display value="Site"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Site"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="12NORTH"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="poc"/>
+                        <display value="Point of Care"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Point of Care"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="1956 ADDITION"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="bu"/>
+                        <display value="Building"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Building"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="12"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="lvl"/>
+                        <display value="Level"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Level"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="1211"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="ro"/>
+                        <display value="Room"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Room"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="A"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="bd"/>
+                        <display value="Bed"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Bed"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="GOOD HEALTH HOSPITAL"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="si"/>
+                        <display value="Site"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Site"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="12NORTH"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="poc"/>
+                        <display value="Point of Care"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Point of Care"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="1956 ADDITION"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="bu"/>
+                        <display value="Building"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Building"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="12"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="lvl"/>
+                        <display value="Level"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Level"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="1211"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="ro"/>
+                        <display value="Room"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Room"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="A"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="bd"/>
+                        <display value="Bed"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Bed"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="GOOD HEALTH HOSPITAL"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="si"/>
+                        <display value="Site"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Site"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="12NORTH"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="poc"/>
+                        <display value="Point of Care"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Point of Care"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="1956 ADDITION"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="bu"/>
+                        <display value="Building"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Building"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="12"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="lvl"/>
+                        <display value="Level"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Level"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="1211"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="ro"/>
+                        <display value="Room"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Room"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="A"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="bd"/>
+                        <display value="Bed"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Bed"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="GOOD HEALTH HOSPITAL"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="si"/>
+                        <display value="Site"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Site"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="12NORTH"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="poc"/>
+                        <display value="Point of Care"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Point of Care"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Location>
+                <id/>
+                <identifier>
+                    <value value="1956 ADDITION"/>
+                </identifier>
+                <meta/>
+                <status value="active"/>
+                <physicalType>
+                    <coding>
+                        <code value="bu"/>
+                        <display value="Building"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                    </coding>
+                    <text value="Building"/>
+                </physicalType>
+            </Location>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Practitioner>
+                <id value="PV1-8-004778"/>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-8-004778"/>
+                </identifier>
+                <name>
+                    <family value="REFER"/>
+                    <given value="RALPH"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="II"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+            </Practitioner>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Practitioner>
+                <id value="PV1-8-004778"/>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-8-004778"/>
+                </identifier>
+                <name>
+                    <family value="REFER"/>
+                    <given value="RALPH"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="II"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+            </Practitioner>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Practitioner>
+                <id value="PV1-9-004799"/>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-9-004799"/>
+                </identifier>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-9-004799"/>
+                </identifier>
+                <name>
+                    <family value="CONSULT"/>
+                    <given value="CHRISTINA"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="JR"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+                <name>
+                    <family value="CONSULT"/>
+                    <given value="CHRISTINA"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="JR"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+            </Practitioner>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Practitioner>
+                <id value="PV1-9-004799"/>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-9-004799"/>
+                </identifier>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-9-004799"/>
+                </identifier>
+                <name>
+                    <family value="CONSULT"/>
+                    <given value="CHRISTINA"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="JR"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+                <name>
+                    <family value="CONSULT"/>
+                    <given value="CHRISTINA"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="JR"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+            </Practitioner>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Practitioner>
+                <id value="PV1-7-004777"/>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-7-004777"/>
+                </identifier>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-7-004777"/>
+                </identifier>
+                <name>
+                    <family value="ATTEND"/>
+                    <given value="AARON"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="JR"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+                <name>
+                    <family value="ATTEND"/>
+                    <given value="AARON"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="JR"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+            </Practitioner>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Practitioner>
+                <id value="PV1-7-004777"/>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-7-004777"/>
+                </identifier>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-7-004777"/>
+                </identifier>
+                <name>
+                    <family value="ATTEND"/>
+                    <given value="AARON"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="JR"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+                <name>
+                    <family value="ATTEND"/>
+                    <given value="AARON"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="JR"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+            </Practitioner>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Practitioner>
+                <id value="PV1-17-004744"/>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-17-004744"/>
+                </identifier>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-17-004744"/>
+                </identifier>
+                <name>
+                    <family value="ADMIT"/>
+                    <given value="ABIGAIL"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="III"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+                <name>
+                    <family value="ADMIT"/>
+                    <given value="ABIGAIL"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="III"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+            </Practitioner>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Practitioner>
+                <id value="PV1-17-004744"/>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-17-004744"/>
+                </identifier>
+                <identifier>
+                    <assigner>
+                        <display value="NPIAA"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="NPI"/>
+                            <display value="National provider identifier"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="National provider identifier"/>
+                    </type>
+                    <value value="PV1-17-004744"/>
+                </identifier>
+                <name>
+                    <family value="ADMIT"/>
+                    <given value="ABIGAIL"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="III"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+                <name>
+                    <family value="ADMIT"/>
+                    <given value="ABIGAIL"/>
+                    <given value="A"/>
+                    <period>
+                        <end value="1999-12-31"/>
+                        <start value="1990-01-01"/>
+                    </period>
+                    <prefix value="DR"/>
+                    <suffix value="III"/>
+                    <suffix value="MD"/>
+                    <use value="official"/>
+                </name>
+            </Practitioner>
+        </resource>
+    </entry>
+    <type value="transaction"/>
+    <entry>
+        <resource>
+            <MessageHeader>
+                <eventCoding>
+                    <code value="ADT"/>
+                    <display value="ADT^A01^ADT_A01"/>
+                    <system value="http://terminology.hl7.org/CodeSystem/v2-0003"/>
+                </eventCoding>
+                <destination>
+                    <name value="GHH LAB, INC."/>
+                    <endpoint value="unknown"/>
+                    <receiver>
+                        <display value="GHH LAB, INC."/>
+                    </receiver>
+                </destination>
+                <meta/>
+                <sender>
+                    <display value="GOOD HEALTH HOSPITAL"/>
+                </sender>
+                <source>
+                    <name value="ADT1"/>
+                    <endpoint value="unknown"/>
+                </source>
+                <response>
+                    <identifier/>
+                </response>
+            </MessageHeader>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Organization>
+                <id/>
+                <identifier>
+                    <value value="GHH LAB, INC."/>
+                </identifier>
+                <name value="GHH LAB, INC."/>
+            </Organization>
+        </resource>
+    </entry>
+    <entry>
+        <resource>
+            <Encounter>
+                <id value="P1231"/>
+                <identifier>
+                    <assigner>
+                        <display value="GHH"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="VN"/>
+                            <display value="visit number"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="visit number"/>
+                    </type>
+                    <value value="P1231"/>
+                </identifier>
+                <identifier>
+                    <assigner>
+                        <display value="GHS"/>
+                    </assigner>
+                    <type>
+                        <coding>
+                            <code value="VN"/>
+                            <display value="visit number"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                        </coding>
+                        <text value="visit number"/>
+                    </type>
+                    <value value="9942"/>
+                </identifier>
+                <status value="in-progress"/>
+                <class>
+                    <code value="IMP"/>
+                    <display value="inpatient encounter"/>
+                    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+                </class>
+                <type>
+                    <coding>
+                        <code value="U"/>
+                        <display value="Urgent"/>
+                        <system value="http://terminology.hl7.org/CodeSystem/v2-0007"/>
+                    </coding>
+                    <text value="URGENT"/>
+                </type>
+                <serviceType>
+                    <coding>
+                        <code value="SUR"/>
+                        <display value="SURGICAL SERVICE"/>
+                        <system value="HL70069"/>
+                    </coding>
+                    <text value="SURGICAL SERVICE"/>
+                </serviceType>
+                <episodeOfCare>
+                    <reference value="EpisodeOfCare/IDPV154"/>
+                </episodeOfCare>
+                <participant>
+                    <type>
+                        <coding>
+                            <code value="PART"/>
+                            <display value="Participation"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+                        </coding>
+                        <text value="Participation"/>
+                    </type>
+                </participant>
+                <participant>
+                    <type>
+                        <coding>
+                            <code value="REF"/>
+                            <display value="referrer"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+                        </coding>
+                        <text value="referrer"/>
+                    </type>
+                    <individual>
+                        <display value=" DR RALPH A REFER"/>
+                        <id value="PV1-8-004778"/>
+                    </individual>
+                </participant>
+                <participant>
+                    <type>
+                        <coding>
+                            <code value="CON"/>
+                            <display value="consultant"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+                        </coding>
+                        <text value="consultant"/>
+                    </type>
+                    <individual>
+                        <display value=" DR CHRISTINA A CONSULT"/>
+                        <id value="PV1-9-004799"/>
+                    </individual>
+                </participant>
+                <participant>
+                    <type>
+                        <coding>
+                            <code value="ATND"/>
+                            <display value="attender"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+                        </coding>
+                        <text value="attender"/>
+                    </type>
+                    <individual>
+                        <display value=" DR AARON A ATTEND"/>
+                        <id value="PV1-7-004777"/>
+                    </individual>
+                </participant>
+                <participant>
+                    <type>
+                        <coding>
+                            <code value="ADM"/>
+                            <display value="admitter"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+                        </coding>
+                        <text value="admitter"/>
+                    </type>
+                    <individual>
+                        <display value=" DR ABIGAIL A ADMIT"/>
+                        <id value="PV1-17-004744"/>
+                    </individual>
+                </participant>
+                <hospitalization>
+                    <preAdmissionIdentifier>
+                        <system value="GHH"/>
+                        <value value="pa5543"/>
+                    </preAdmissionIdentifier>
+                    <admitSource>
+                        <coding>
+                            <code value="ADM"/>
+                            <system value="HL70023"/>
+                        </coding>
+                    </admitSource>
+                    <reAdmission>
+                        <coding>
+                            <code value="R"/>
+                            <display value="READMISSION"/>
+                            <system value="HL70093"/>
+                        </coding>
+                        <text value="READMISSION"/>
+                    </reAdmission>
+                    <dietPreference>
+                        <coding>
+                            <code value="VEG"/>
+                            <display value="VEGETARIAN"/>
+                            <system value="HL701114"/>
+                        </coding>
+                        <text value="VEGETARIAN"/>
+                    </dietPreference>
+                    <specialCourtesy>
+                        <coding>
+                            <code value="VIP"/>
+                            <display value="VIP"/>
+                            <system value="HL70099"/>
+                        </coding>
+                        <text value="VIP"/>
+                    </specialCourtesy>
+                    <destination/>
+                    <dischargeDisposition>
+                        <coding>
+                            <code value="DEC"/>
+                            <display value="DECEASED"/>
+                            <system value="HL70112"/>
+                        </coding>
+                        <text value="DECEASED"/>
+                    </dischargeDisposition>
+                </hospitalization>
+                <location>
+                    <location>
+                        <display value="12"/>
+                    </location>
+                    <physicalType>
+                        <coding>
+                            <code value="lvl"/>
+                            <display value="Level"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Level"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="1211"/>
+                    </location>
+                    <physicalType>
+                        <coding>
+                            <code value="ro"/>
+                            <display value="Room"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Room"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="A"/>
+                    </location>
+                    <physicalType>
+                        <coding>
+                            <code value="bd"/>
+                            <display value="Bed"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Bed"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="GOOD HEALTH HOSPITAL"/>
+                    </location>
+                    <physicalType>
+                        <coding>
+                            <code value="si"/>
+                            <display value="Site"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Site"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="12NORTH"/>
+                    </location>
+                    <physicalType>
+                        <coding>
+                            <code value="poc"/>
+                            <display value="Point of Care"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Point of Care"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="1956 ADDITION"/>
+                    </location>
+                    <physicalType>
+                        <coding>
+                            <code value="bu"/>
+                            <display value="Building"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Building"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="12"/>
+                    </location>
+                    <status value="completed"/>
+                    <physicalType>
+                        <coding>
+                            <code value="lvl"/>
+                            <display value="Level"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Level"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="1211"/>
+                    </location>
+                    <status value="completed"/>
+                    <physicalType>
+                        <coding>
+                            <code value="ro"/>
+                            <display value="Room"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Room"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="A"/>
+                    </location>
+                    <status value="completed"/>
+                    <physicalType>
+                        <coding>
+                            <code value="bd"/>
+                            <display value="Bed"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Bed"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="GOOD HEALTH HOSPITAL"/>
+                    </location>
+                    <status value="completed"/>
+                    <physicalType>
+                        <coding>
+                            <code value="si"/>
+                            <display value="Site"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Site"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="12NORTH"/>
+                    </location>
+                    <status value="completed"/>
+                    <physicalType>
+                        <coding>
+                            <code value="poc"/>
+                            <display value="Point of Care"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Point of Care"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="1956 ADDITION"/>
+                    </location>
+                    <status value="completed"/>
+                    <physicalType>
+                        <coding>
+                            <code value="bu"/>
+                            <display value="Building"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Building"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="12"/>
+                    </location>
+                    <status value="planned"/>
+                    <physicalType>
+                        <coding>
+                            <code value="lvl"/>
+                            <display value="Level"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Level"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="1211"/>
+                    </location>
+                    <status value="planned"/>
+                    <physicalType>
+                        <coding>
+                            <code value="ro"/>
+                            <display value="Room"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Room"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="A"/>
+                    </location>
+                    <status value="planned"/>
+                    <physicalType>
+                        <coding>
+                            <code value="bd"/>
+                            <display value="Bed"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Bed"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="GOOD HEALTH HOSPITAL"/>
+                    </location>
+                    <status value="planned"/>
+                    <physicalType>
+                        <coding>
+                            <code value="si"/>
+                            <display value="Site"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Site"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="12NORTH"/>
+                    </location>
+                    <status value="planned"/>
+                    <physicalType>
+                        <coding>
+                            <code value="poc"/>
+                            <display value="Point of Care"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Point of Care"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="1956 ADDITION"/>
+                    </location>
+                    <status value="planned"/>
+                    <physicalType>
+                        <coding>
+                            <code value="bu"/>
+                            <display value="Building"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Building"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="12"/>
+                    </location>
+                    <status value="completed"/>
+                    <physicalType>
+                        <coding>
+                            <code value="lvl"/>
+                            <display value="Level"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Level"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="1211"/>
+                    </location>
+                    <status value="completed"/>
+                    <physicalType>
+                        <coding>
+                            <code value="ro"/>
+                            <display value="Room"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Room"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="A"/>
+                    </location>
+                    <status value="completed"/>
+                    <physicalType>
+                        <coding>
+                            <code value="bd"/>
+                            <display value="Bed"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Bed"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="GOOD HEALTH HOSPITAL"/>
+                    </location>
+                    <status value="completed"/>
+                    <physicalType>
+                        <coding>
+                            <code value="si"/>
+                            <display value="Site"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Site"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="12NORTH"/>
+                    </location>
+                    <status value="completed"/>
+                    <physicalType>
+                        <coding>
+                            <code value="poc"/>
+                            <display value="Point of Care"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Point of Care"/>
+                    </physicalType>
+                </location>
+                <location>
+                    <location>
+                        <display value="1956 ADDITION"/>
+                    </location>
+                    <status value="completed"/>
+                    <physicalType>
+                        <coding>
+                            <code value="bu"/>
+                            <display value="Building"/>
+                            <system value="http://terminology.hl7.org/CodeSystem/location-physical-type"/>
+                        </coding>
+                        <text value="Building"/>
+                    </physicalType>
+                </location>
+                <period>
+                    <start value="1988-08-16"/>
+                    <end value="1988-08-18"/>
+                </period>
+            </Encounter>
+        </resource>
+    </entry>
+</Bundle>

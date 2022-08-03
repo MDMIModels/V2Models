@@ -1,0 +1,17 @@
+V2	http://v2/ObservationStatus		Condition (IF True)	http://v2/Observation-Status		HL7 FHIR	http://hl7.org/fhir/ValueSet/observation-status				Comments
+Code	Text	Code System	Computable ANTLR	Computable FHIRPath	Narrative	Code		Display	Code System		
+A	Amended 	HL70085				amended		Amended	http://hl7.org/fhir/observation-status		
+C	Correction 	HL70085				corrected		Corrected	http://hl7.org/fhir/observation-status		
+D	Deleted	HL70085				entered-in-error		Entered in Error	http://hl7.org/fhir/observation-status		
+F	Final	HL70085				final		Final	http://hl7.org/fhir/observation-status		
+P	Preliminary	HL70085				preliminary		Preliminary	http://hl7.org/fhir/observation-status		
+X	Cannot be Obtained	HL70085				cancelled			http://hl7.org/fhir/observation-status		
+W	Original Posted as Wrong	HL70085				entered-in-error		Entered in Error	http://hl7.org/fhir/observation-status		
+B	Appended 	HL70085									
+I	Specimen in Lab; results pending	HL70085				 		Registered	http://hl7.org/fhir/observation-status		
+N	Not Asked	HL70085									
+O	Order Detail	HL70085									
+R	Entered - Not Verified	HL70085									
+S	Partial	HL70085									
+V	Verified	HL70085									
+U	Status Change to Final Without Retransmission	HL70085									
