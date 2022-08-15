@@ -6738,11 +6738,11 @@
 				<hl7:LongName>Point of Care</hl7:LongName>
 			</xsd:appinfo>
 		</xsd:annotation>
-		<xsd:simpleContent>
-			<xsd:extension base="IS">
+		<xsd:complexContent>
+			<xsd:extension base="HD">
 				<xsd:attributeGroup ref="PL.1.ATTRIBUTES" />
 			</xsd:extension>
-		</xsd:simpleContent>
+		</xsd:complexContent>
 	</xsd:complexType>
 	<xsd:attributeGroup name="PL.1.ATTRIBUTES">
 		<xsd:attribute name="Type" type="xsd:string" fixed="PL" />
@@ -6761,11 +6761,11 @@
 				<hl7:LongName>Room</hl7:LongName>
 			</xsd:appinfo>
 		</xsd:annotation>
-		<xsd:simpleContent>
-			<xsd:extension base="IS">
+		<xsd:complexContent>
+			<xsd:extension base="HD">
 				<xsd:attributeGroup ref="PL.2.ATTRIBUTES" />
 			</xsd:extension>
-		</xsd:simpleContent>
+		</xsd:complexContent>
 	</xsd:complexType>
 	<xsd:attributeGroup name="PL.2.ATTRIBUTES">
 		<xsd:attribute name="Type" type="xsd:string" fixed="PL" />
@@ -6783,11 +6783,11 @@
 				<hl7:LongName>Bed</hl7:LongName>
 			</xsd:appinfo>
 		</xsd:annotation>
-		<xsd:simpleContent>
-			<xsd:extension base="IS">
+		<xsd:complexContent>
+			<xsd:extension base="HD">
 				<xsd:attributeGroup ref="PL.3.ATTRIBUTES" />
 			</xsd:extension>
-		</xsd:simpleContent>
+		</xsd:complexContent>
 	</xsd:complexType>
 	<xsd:attributeGroup name="PL.3.ATTRIBUTES">
 		<xsd:attribute name="Type" type="xsd:string" fixed="PL" />
@@ -6883,11 +6883,11 @@
 				<hl7:LongName>Building</hl7:LongName>
 			</xsd:appinfo>
 		</xsd:annotation>
-		<xsd:simpleContent>
-			<xsd:extension base="IS">
+		<xsd:complexContent>
+			<xsd:extension base="HD">
 				<xsd:attributeGroup ref="PL.7.ATTRIBUTES" />
 			</xsd:extension>
-		</xsd:simpleContent>
+		</xsd:complexContent>
 	</xsd:complexType>
 	<xsd:attributeGroup name="PL.7.ATTRIBUTES">
 		<xsd:attribute name="Type" type="xsd:string" fixed="PL" />
@@ -6906,11 +6906,11 @@
 				<hl7:LongName>Floor</hl7:LongName>
 			</xsd:appinfo>
 		</xsd:annotation>
-		<xsd:simpleContent>
-			<xsd:extension base="IS">
+		<xsd:complexContent>
+			<xsd:extension base="HD">
 				<xsd:attributeGroup ref="PL.8.ATTRIBUTES" />
 			</xsd:extension>
-		</xsd:simpleContent>
+		</xsd:complexContent>
 	</xsd:complexType>
 	<xsd:attributeGroup name="PL.8.ATTRIBUTES">
 		<xsd:attribute name="Type" type="xsd:string" fixed="PL" />

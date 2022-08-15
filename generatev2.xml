@@ -5,8 +5,8 @@
 
 
 
-	<property name="syntaxfocal" value="ADTA03CONTENT" />
-	<property name="syntaxRootLocation" value="ADTA03CONTENT" />
+	<property name="syntaxfocal" value="ADTA01CONTENT" />
+	<property name="syntaxRootLocation" value="ADTA01CONTENT" />
 
 
 		<qvto:transformation
@@ -16,7 +16,7 @@
 			<configProperty name="syntaxRoot" value="${syntaxfocal}" />
 			<configProperty name="syntaxRootLocation" value="${syntaxRootLocation}" />
 			 
- 			
+			
 		</qvto:transformation>
 
 	<echo message="Start Merge" />
